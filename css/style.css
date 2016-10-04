@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Pathway+Gothic+One";
 @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 html {
@@ -9,7 +10,7 @@ html {
   font-weight: 100; }
 
 header {
-  background-image: url(../images/title_pc/header_pc.jpg);
+  background-image: url(../images/title_pc/pc_header.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -88,6 +89,7 @@ header {
     .introduction p.tsubasa img {
       padding: 10px; }
   .introduction .menu {
+    z-index: 10;
     background-color: #fafafa;
     position: absolute;
     top: 87vh;
@@ -129,9 +131,9 @@ header {
   margin-top: -80px; }
   .spring .spring-wrapper {
     padding: 70px;
-    padding-bottom: 0; }
+    padding-bottom: 40px; }
     .spring .spring-wrapper h1 {
-      margin-top: -55px;
+      margin-top: -50px;
       margin-bottom: 50px;
       text-align: center;
       font-size: 8.3rem;
@@ -140,8 +142,6 @@ header {
       .spring .spring-wrapper h1 span {
         color: #e9acdf; }
     .spring .spring-wrapper .gallery .photos {
-      text-align: center;
-      width: 100%;
       display: -webkit-flex;
       display: -moz-flex;
       display: -ms-flex;
@@ -151,12 +151,88 @@ header {
       justify-content: space-between;
       flex-direction: row; }
       .spring .spring-wrapper .gallery .photos .photo {
-        width: 33.33333%;
         box-sizing: border-box;
-        margin-bottom: 100px; }
+        width: 33.33333%;
+        margin-bottom: 80px;
+        position: relative;
+        padding: 5px 45px 5px 45px; }
+        .spring .spring-wrapper .gallery .photos .photo img {
+          width: 100%; }
+        .spring .spring-wrapper .gallery .photos .photo .mask {
+          position: absolute;
+          /* 絶対位置指定 */
+          top: 0;
+          left: 0px;
+          opacity: 0;
+          /* マスクを表示しない */
+          background-color: rgba(0, 0, 0, 0.4);
+          /* マスクは半透明 */
+          -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease; }
+          .spring .spring-wrapper .gallery .photos .photo .mask .caption {
+            color: #fff; }
+      .spring .spring-wrapper .gallery .photos .photo:hover .mask {
+        opacity: 1; }
+    .spring .spring-wrapper a {
+      color: black;
+      display: block;
+      text-align: center;
+      font-size: 3.5rem;
+      font-weight: lighter; }
 
 .summer {
-  background-color: skyblue; }
+  padding-top: 80px;
+  margin-top: -80px; }
+  .summer .summer-wrapper {
+    padding: 70px;
+    padding-bottom: 40; }
+    .summer .summer-wrapper h1 {
+      margin-top: -50px;
+      margin-bottom: 50px;
+      text-align: center;
+      font-size: 8.3rem;
+      letter-spacing: 7px;
+      font-weight: lighter; }
+      .summer .summer-wrapper h1 span {
+        color: #efad6f; }
+    .summer .summer-wrapper .gallery .photos {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row; }
+      .summer .summer-wrapper .gallery .photos .photo {
+        box-sizing: border-box;
+        width: 33.33333%;
+        margin-bottom: 80px;
+        position: relative;
+        padding: 5px 45px 5px 45px; }
+        .summer .summer-wrapper .gallery .photos .photo img {
+          width: 100%; }
+        .summer .summer-wrapper .gallery .photos .photo .mask {
+          position: absolute;
+          /* 絶対位置指定 */
+          top: 0;
+          left: 0px;
+          opacity: 0;
+          /* マスクを表示しない */
+          background-color: rgba(0, 0, 0, 0.4);
+          /* マスクは半透明 */
+          -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease; }
+          .summer .summer-wrapper .gallery .photos .photo .mask .caption {
+            color: #fff; }
+      .summer .summer-wrapper .gallery .photos .photo:hover .mask {
+        opacity: 1; }
+    .summer .summer-wrapper a {
+      color: black;
+      display: block;
+      text-align: center;
+      font-size: 3.5rem;
+      font-weight: lighter; }
 
 .autumn {
   background: orange; }
