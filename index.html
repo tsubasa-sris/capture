@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>CAPTURE</title>
+        <meta name="description" content="四季を通して見える様々な場面を写真に収め展示しています。">
+        <meta name="author" content="">
+        <meta name="kewwords" content="picture, photgraphy, seasons, capture, 写真, 四季, 季節">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+        <link rel="icon" type="image/png" href="images/capture_logo.png">
+        
+    </head>
+    <body>
+        <header>
+            <div class="title" id="to_title">
+                <img src="./images/title_pc/title.png" srcset="./images/title_pc/title.png, ./images/title_pc/title@2x.png 2x" alt="title">
+            </div>
+            <a href="#to_intro">
+                <img src="./images/title_pc/scroll.png">
+            </a>
+        </header>
+        
+        <div class="introduction wow fadeIn" id="to_intro" data-wow-offset="500" data-wow-duration="1.8s">
+            <h1>Introduction</h1>
+            <p class="concept noto">私たちが過ごしているその何気ない瞬間も<br>
+            カメラによって一生色褪せない瞬間となる。<br>
+            季節とともに移りゆく景色、人々。変わりゆく時代、変わらない日常。<br>
+            そんな日々の瞬間を、レンズを通して見えた私の世界を、<br>
+            写真の中にある四季を通して皆様に感じていただけたら幸いです。<br>
+            </p>
+            <p class="capture">Capture the moments worth living</p>
+            <p class="tsubasa"><img src="./images/intro/tsubasa.svg" width="30%" height="120%"></p>
+            
+            <div class="menu" id="box">
+                <ul>
+                    <li>
+                        <a href="#to_title">TOP</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_intro">INTRODUCTION</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_spring">SPRING</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_summer">SUMMER</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_autumn">AUTUMN</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_winter">WINTER</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_about_me">ABOUT ME</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <!-- intro -->
+        
+        <div class="spring" id="to_spring">
+            <div class="spring-wrapper">
+                <h1><span>S</span>PRING</h1>
+                <div class="gallery">
+                    <div class="photos">
+                        
+                        <div class="photo">
+                            <img data-original="./images/spring/photo1.jpg" alt="photo1" class="lazy">
+                        </div>
+                        
+                        <div class="photo">
+                            <img data-original="./images/spring/photo2.jpg" alt="photo2" class="lazy">
+                        </div>
+                        
+                        <div class="photo">
+                            <img data-original="./images/spring/photo3.jpg" alt="photo3" class="lazy">
+                        </div>
+                        
+                        <div class="photo">
+                            <img data-original="./images/spring/photo4.jpg" alt="photo4" class="lazy">
+                        </div>
+                        
+                        <div class="photo">
+                            <img data-original="./images/spring/photo5.jpg" alt="photo5" class="lazy">
+                        </div>
+                        
+                        <div class="photo">
+                            <img data-original="./images/spring/photo6.jpg" alt="photo6" class="lazy">
+                        </div>
+                        
+                        <div class="photo">
+                            <img data-original="./images/spring/photo7.jpg" alt="photo7" class="lazy">
+                        </div>
+                        
+                        <div class="photo">
+                            <img data-original="./images/spring/photo8.jpg" alt="photo8" class="lazy">
+                        </div>
+                        
+                        <div class="photo">
+                            <img data-original="./images/spring/photo9.jpg" alt="photo9" class="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- spring -->
+        
+        <div class="summer" id="to_summer">
+            summer
+        </div>
+        <!-- summer -->
+        
+        <div class="autumn" id="to_autumn">
+            autumn
+        </div>
+        <!-- autumn -->
+        
+        <div class="winter" id="to_winter">
+            winter
+        </div>
+        <!-- winter -->
+        
+        <div class="about_me" id="to_about_me">
+            about me
+        </div>
+        <!-- about me -->
+        
+        <footer>
+            <small><i class="fa fa-copyright" aria-hidden="true"></i> 2016 Produced by Tsubasa Shirishi</small>
+        </footer>
+        
+        
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript">
+        
+            
+            $(function(){
+                $('a[href^=#]').click(function(){ 
+                    var speed = 400; //移動完了までの時間(sec)を指定
+                    var href= $(this).attr("href"); 
+                    var target = $(href == "#" || href == "" ? 'html' : href);
+                    var position = target.offset().top;
+                    $("html, body").animate({scrollTop:position}, speed, "swing");
+                    return false;
+                });
+            });
+            
+            var bt = $("#box").offset().top; // boxのページ上からの距離を取得
+            var ds = 0;
+            
+            $(document).scroll(function(){ // スクロール発生時の処理の記述を開始
+                ds = $(this).scrollTop(); // ユーザのスクロールした距離を取得
+            
+                if (bt <= ds) {  // スクロール距離がboxの位置を超えたら、
+                    $("#box").addClass('follow'); // 「follow」というclassを追加する
+                } else if (bt >= ds) { // スクロールがページ上まで戻ったら、
+                    $("#box").removeClass('follow'); // classを削除
+                }
+            });
+        </script>
+        
+         <script src="js/wow.min.js"></script>
+         <script>
+            new WOW().init();
+         </script>
+         
+         <script src="js/jquery.lazyload.min.js"></script>
+         <script>
+             $( function()
+            {
+            	$( 'img.lazy' ).lazyload({
+            	    effect: "fadeIn",
+            	    effect_speed: 3000,
+            	    threshold: 200,
+            	}) ;
+            } ) ;
+         </script>
+         
+    </body>
+</html>

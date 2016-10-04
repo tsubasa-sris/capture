@@ -1,0 +1,176 @@
+@import "https://fonts.googleapis.com/css?family=Pathway+Gothic+One";
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+html {
+  font-size: 62.5%;
+  font-family: 'Pathway Gothic One', sans-serif; }
+
+.noto {
+  font-family: 'Noto Sans Japanese', serif;
+  font-weight: 100; }
+
+header {
+  background-image: url(../images/title_pc/header_pc.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative; }
+  header .title {
+    height: 54vh;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw; }
+    header .title img {
+      bottom: 0;
+      position: absolute;
+      width: 60vw; }
+  header a {
+    display: block;
+    position: absolute;
+    margin-top: calc(100vh - 100px);
+    margin-left: calc(50% - 32px);
+    animation: moveY 2s infinite alternate linear;
+    -ms-animation: moveY 2s infinite alternate linear;
+    -webkit-animation: moveY 2s infinite alternate linear;
+    -moz-animation: moveY 2s infinite alternate linear; }
+
+@keyframes moveY {
+  0% {
+    top: 0px; }
+  50% {
+    top: 20px; }
+  100% {
+    top: 0px; } }
+@-ms-keyframes moveY {
+  0% {
+    top: 0px; }
+  50% {
+    top: 15px; }
+  100% {
+    top: 0px; } }
+@-webkit-keyframes moveY /* Safari and Chrome */ {
+  0% {
+    top: 0px; }
+  50% {
+    top: 10px; }
+  100% {
+    top: 0px; } }
+@-moz-keyframes moveY /* Firefox */ {
+  0% {
+    top: 0px; }
+  50% {
+    top: 15px; }
+  100% {
+    top: 0px; } }
+.introduction {
+  background-color: #fafafa;
+  height: 100vh;
+  display: block;
+  position: relative; }
+  .introduction h1 {
+    font-size: 6.8rem;
+    padding: 35px;
+    text-align: center;
+    letter-spacing: 5px; }
+  .introduction p.concept {
+    font-size: 2.2rem;
+    line-height: 2.8;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 28px; }
+  .introduction p.capture {
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 4px; }
+  .introduction p.tsubasa {
+    margin-top: 10px;
+    margin-left: calc(50% + 250px); }
+    .introduction p.tsubasa img {
+      padding: 10px; }
+  .introduction .menu {
+    background-color: #fafafa;
+    position: absolute;
+    top: 87vh;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px; }
+    .introduction .menu ul {
+      text-align: center; }
+      .introduction .menu ul li {
+        letter-spacing: 4px;
+        display: inline-block;
+        font-size: 4rem;
+        border-right: 1px solid black; }
+        .introduction .menu ul li a {
+          text-decoration: none;
+          color: black;
+          padding-right: 20px;
+          padding-left: 20px;
+          display: inline-block; }
+        .introduction .menu ul li a:hover {
+          color: #847b66;
+          -webkit-animation: zoom .3s;
+          animation: zoom .3s; }
+@-webkit-keyframes zoom {
+  50% {
+    -webkit-transform: scale(1.05); } }
+@keyframes zoom {
+  50% {
+    transform: scale(1.05); } }
+      .introduction .menu ul li:last-child {
+        border-right: none; }
+
+.introduction .follow {
+  position: fixed;
+  top: 0; }
+
+.spring {
+  padding-top: 80px;
+  margin-top: -80px; }
+  .spring .spring-wrapper {
+    padding: 70px;
+    padding-bottom: 0; }
+    .spring .spring-wrapper h1 {
+      margin-top: -55px;
+      margin-bottom: 50px;
+      text-align: center;
+      font-size: 8.3rem;
+      letter-spacing: 7px;
+      font-weight: lighter; }
+      .spring .spring-wrapper h1 span {
+        color: #e9acdf; }
+    .spring .spring-wrapper .gallery .photos {
+      text-align: center;
+      width: 100%;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row; }
+      .spring .spring-wrapper .gallery .photos .photo {
+        width: 33.33333%;
+        box-sizing: border-box;
+        margin-bottom: 100px; }
+
+.summer {
+  background-color: skyblue; }
+
+.autumn {
+  background: orange; }
+
+.winter {
+  background-color: gray; }
+
+.about_me {
+  background-color: red; }
+
+footer {
+  padding: 10px;
+  text-align: center; }
+  footer small {
+    font-size: 1.3rem; }
+
+/*# sourceMappingURL=style.css.map */
