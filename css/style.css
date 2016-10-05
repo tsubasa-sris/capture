@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Pathway+Gothic+One";
 @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 html {
@@ -154,38 +153,51 @@ header {
         box-sizing: border-box;
         width: 33.33333%;
         margin-bottom: 80px;
-        position: relative;
         padding: 5px 45px 5px 45px; }
-        .spring .spring-wrapper .gallery .photos .photo img {
-          width: 100%; }
-        .spring .spring-wrapper .gallery .photos .photo .mask {
-          position: absolute;
-          /* 絶対位置指定 */
-          top: 0;
-          left: 0px;
-          opacity: 0;
-          /* マスクを表示しない */
-          background-color: rgba(0, 0, 0, 0.4);
-          /* マスクは半透明 */
-          -webkit-transition: all 0.2s ease;
-          transition: all 0.2s ease; }
-          .spring .spring-wrapper .gallery .photos .photo .mask .caption {
-            color: #fff; }
-      .spring .spring-wrapper .gallery .photos .photo:hover .mask {
-        opacity: 1; }
+        .spring .spring-wrapper .gallery .photos .photo .pic {
+          position: relative; }
+          .spring .spring-wrapper .gallery .photos .photo .pic img {
+            width: 100%; }
+          .spring .spring-wrapper .gallery .photos .photo .pic .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+            opacity: 0;
+            padding: 40px 40px;
+            box-sizing: border-box; }
+            .spring .spring-wrapper .gallery .photos .photo .pic .caption h2 {
+              font-size: 5.5rem;
+              letter-spacing: 2.5px; }
+            .spring .spring-wrapper .gallery .photos .photo .pic .caption h3 {
+              font-size: 2rem;
+              letter-spacing: 2px; }
+            .spring .spring-wrapper .gallery .photos .photo .pic .caption p {
+              font-size: 1.7rem;
+              padding-top: 10px;
+              line-height: 1.4; }
+        .spring .spring-wrapper .gallery .photos .photo .pic:hover .caption {
+          opacity: 1; }
     .spring .spring-wrapper a {
       color: black;
       display: block;
       text-align: center;
       font-size: 3.5rem;
       font-weight: lighter; }
+    .spring .spring-wrapper a:hover {
+      color: #847b66; }
 
 .summer {
   padding-top: 80px;
   margin-top: -80px; }
   .summer .summer-wrapper {
     padding: 70px;
-    padding-bottom: 40; }
+    padding-bottom: 40px; }
     .summer .summer-wrapper h1 {
       margin-top: -50px;
       margin-bottom: 50px;
@@ -194,7 +206,7 @@ header {
       letter-spacing: 7px;
       font-weight: lighter; }
       .summer .summer-wrapper h1 span {
-        color: #efad6f; }
+        color: #e9acdf; }
     .summer .summer-wrapper .gallery .photos {
       display: -webkit-flex;
       display: -moz-flex;
@@ -208,31 +220,44 @@ header {
         box-sizing: border-box;
         width: 33.33333%;
         margin-bottom: 80px;
-        position: relative;
         padding: 5px 45px 5px 45px; }
-        .summer .summer-wrapper .gallery .photos .photo img {
-          width: 100%; }
-        .summer .summer-wrapper .gallery .photos .photo .mask {
-          position: absolute;
-          /* 絶対位置指定 */
-          top: 0;
-          left: 0px;
-          opacity: 0;
-          /* マスクを表示しない */
-          background-color: rgba(0, 0, 0, 0.4);
-          /* マスクは半透明 */
-          -webkit-transition: all 0.2s ease;
-          transition: all 0.2s ease; }
-          .summer .summer-wrapper .gallery .photos .photo .mask .caption {
-            color: #fff; }
-      .summer .summer-wrapper .gallery .photos .photo:hover .mask {
-        opacity: 1; }
+        .summer .summer-wrapper .gallery .photos .photo .pic {
+          position: relative; }
+          .summer .summer-wrapper .gallery .photos .photo .pic img {
+            width: 100%; }
+          .summer .summer-wrapper .gallery .photos .photo .pic .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+            opacity: 0;
+            padding: 5%;
+            box-sizing: border-box; }
+            .summer .summer-wrapper .gallery .photos .photo .pic .caption h2 {
+              font-size: 5.5rem;
+              letter-spacing: 2.5px; }
+            .summer .summer-wrapper .gallery .photos .photo .pic .caption h3 {
+              font-size: 2rem;
+              letter-spacing: 2px; }
+            .summer .summer-wrapper .gallery .photos .photo .pic .caption p {
+              font-size: 1.7rem;
+              padding-top: 10px;
+              line-height: 1.4; }
+        .summer .summer-wrapper .gallery .photos .photo .pic:hover .caption {
+          opacity: 1; }
     .summer .summer-wrapper a {
       color: black;
       display: block;
       text-align: center;
       font-size: 3.5rem;
       font-weight: lighter; }
+    .summer .summer-wrapper a:hover {
+      color: #847b66; }
 
 .autumn {
   background: orange; }
@@ -241,7 +266,52 @@ header {
   background-color: gray; }
 
 .about_me {
-  background-color: red; }
+  padding-top: 180px;
+  margin-top: -100px;
+  margin-bottom: 40px; }
+  .about_me .about_me_wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 40px; }
+    .about_me .about_me_wrapper h1 {
+      margin-top: -50px;
+      margin-bottom: 70px;
+      text-align: center;
+      font-size: 8.3rem;
+      letter-spacing: 7px;
+      font-weight: lighter; }
+    .about_me .about_me_wrapper .flex {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row; }
+      .about_me .about_me_wrapper .flex img {
+        margin-right: 50px; }
+      .about_me .about_me_wrapper .flex .content h2 {
+        font-size: 3.5rem;
+        padding-bottom: 20px; }
+      .about_me .about_me_wrapper .flex .content p {
+        word-wrap: break-word;
+        font-size: 1.8rem;
+        line-height: 1.8; }
+  .about_me .social {
+    margin-top: 20px; }
+    .about_me .social ul {
+      text-align: center; }
+      .about_me .social ul li {
+        margin-right: 50px;
+        display: inline-block; }
+        .about_me .social ul li a {
+          text-decoration: none;
+          color: black;
+          font-size: 4rem; }
+        .about_me .social ul li a:hover {
+          color: #847b66; }
+      .about_me .social ul li:last-child {
+        margin-right: 0; }
 
 footer {
   padding: 10px;
