@@ -166,17 +166,18 @@ header {
             background-color: rgba(0, 0, 0, 0.4);
             width: 100%;
             height: 100%;
-            -webkit-transition: all 0.2s ease;
-            transition: all 0.2s ease;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
             opacity: 0;
-            padding: 40px 40px;
+            padding: 40px;
             box-sizing: border-box; }
             .spring .spring-wrapper .gallery .photos .photo .pic .caption h2 {
               font-size: 5.5rem;
               letter-spacing: 2.5px; }
             .spring .spring-wrapper .gallery .photos .photo .pic .caption h3 {
               font-size: 2rem;
-              letter-spacing: 2px; }
+              letter-spacing: 2px;
+              margin-top: 5px; }
             .spring .spring-wrapper .gallery .photos .photo .pic .caption p {
               font-size: 1.7rem;
               padding-top: 10px;
@@ -206,7 +207,7 @@ header {
       letter-spacing: 7px;
       font-weight: lighter; }
       .summer .summer-wrapper h1 span {
-        color: #e9acdf; }
+        color: #efad6f; }
     .summer .summer-wrapper .gallery .photos {
       display: -webkit-flex;
       display: -moz-flex;
@@ -233,17 +234,18 @@ header {
             background-color: rgba(0, 0, 0, 0.4);
             width: 100%;
             height: 100%;
-            -webkit-transition: all 0.2s ease;
-            transition: all 0.2s ease;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
             opacity: 0;
-            padding: 5%;
+            padding: 40px;
             box-sizing: border-box; }
             .summer .summer-wrapper .gallery .photos .photo .pic .caption h2 {
               font-size: 5.5rem;
               letter-spacing: 2.5px; }
             .summer .summer-wrapper .gallery .photos .photo .pic .caption h3 {
               font-size: 2rem;
-              letter-spacing: 2px; }
+              letter-spacing: 2px;
+              margin-top: 5px; }
             .summer .summer-wrapper .gallery .photos .photo .pic .caption p {
               font-size: 1.7rem;
               padding-top: 10px;
@@ -260,10 +262,140 @@ header {
       color: #847b66; }
 
 .autumn {
-  background: orange; }
+  padding-top: 80px;
+  margin-top: -80px; }
+  .autumn .autumn-wrapper {
+    padding: 70px;
+    padding-bottom: 40px; }
+    .autumn .autumn-wrapper h1 {
+      margin-top: -50px;
+      margin-bottom: 50px;
+      text-align: center;
+      font-size: 8.3rem;
+      letter-spacing: 7px;
+      font-weight: lighter; }
+      .autumn .autumn-wrapper h1 span {
+        color: #d78383; }
+    .autumn .autumn-wrapper .gallery .photos {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row; }
+      .autumn .autumn-wrapper .gallery .photos .photo {
+        box-sizing: border-box;
+        width: 33.33333%;
+        margin-bottom: 80px;
+        padding: 5px 45px 5px 45px; }
+        .autumn .autumn-wrapper .gallery .photos .photo .pic {
+          position: relative; }
+          .autumn .autumn-wrapper .gallery .photos .photo .pic img {
+            width: 100%; }
+          .autumn .autumn-wrapper .gallery .photos .photo .pic .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            opacity: 0;
+            padding: 40px;
+            box-sizing: border-box; }
+            .autumn .autumn-wrapper .gallery .photos .photo .pic .caption h2 {
+              font-size: 5.5rem;
+              letter-spacing: 2.5px; }
+            .autumn .autumn-wrapper .gallery .photos .photo .pic .caption h3 {
+              font-size: 2rem;
+              letter-spacing: 2px;
+              margin-top: 5px; }
+            .autumn .autumn-wrapper .gallery .photos .photo .pic .caption p {
+              font-size: 1.7rem;
+              padding-top: 10px;
+              line-height: 1.4; }
+        .autumn .autumn-wrapper .gallery .photos .photo .pic:hover .caption {
+          opacity: 1; }
+    .autumn .autumn-wrapper a {
+      color: black;
+      display: block;
+      text-align: center;
+      font-size: 3.5rem;
+      font-weight: lighter; }
+    .autumn .autumn-wrapper a:hover {
+      color: #847b66; }
 
 .winter {
-  background-color: gray; }
+  padding-top: 80px;
+  margin-top: -80px; }
+  .winter .winter-wrapper {
+    padding: 70px;
+    padding-bottom: 40px; }
+    .winter .winter-wrapper h1 {
+      margin-top: -50px;
+      margin-bottom: 50px;
+      text-align: center;
+      font-size: 8.3rem;
+      letter-spacing: 7px;
+      font-weight: lighter; }
+      .winter .winter-wrapper h1 span {
+        color: #8cb8dd; }
+    .winter .winter-wrapper .gallery .photos {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row; }
+      .winter .winter-wrapper .gallery .photos .photo {
+        box-sizing: border-box;
+        width: 33.33333%;
+        margin-bottom: 80px;
+        padding: 5px 45px 5px 45px; }
+        .winter .winter-wrapper .gallery .photos .photo .pic {
+          position: relative; }
+          .winter .winter-wrapper .gallery .photos .photo .pic img {
+            width: 100%; }
+          .winter .winter-wrapper .gallery .photos .photo .pic .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            opacity: 0;
+            padding: 40px;
+            box-sizing: border-box; }
+            .winter .winter-wrapper .gallery .photos .photo .pic .caption h2 {
+              font-size: 5.5rem;
+              letter-spacing: 2.5px; }
+            .winter .winter-wrapper .gallery .photos .photo .pic .caption h3 {
+              font-size: 2rem;
+              letter-spacing: 2px;
+              margin-top: 5px; }
+            .winter .winter-wrapper .gallery .photos .photo .pic .caption p {
+              font-size: 1.7rem;
+              padding-top: 10px;
+              line-height: 1.4; }
+        .winter .winter-wrapper .gallery .photos .photo .pic:hover .caption {
+          opacity: 1; }
+    .winter .winter-wrapper a {
+      color: black;
+      display: block;
+      text-align: center;
+      font-size: 3.5rem;
+      font-weight: lighter; }
+    .winter .winter-wrapper a:hover {
+      color: #847b66; }
 
 .about_me {
   padding-top: 180px;

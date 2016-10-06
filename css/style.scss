@@ -196,10 +196,11 @@ header{
                             background-color: rgba(0,0,0,0.4);
                             width: 100%;
                             height: 100%;
-                            -webkit-transition: all 0.2s ease;
-                            transition: all 0.2s ease;
+                            -webkit-transition: all 0.5s ease;
+                            transition: all 0.5s ease;
                             opacity: 0;
-                            padding: 40px 40px;
+                            padding: 40px;
+                            
                             box-sizing: border-box;
                             h2{
                                 font-size: 5.5rem;
@@ -208,6 +209,7 @@ header{
                             h3{
                                 font-size: 2rem;
                                 letter-spacing: 2px;
+                                margin-top: 5px;
                             }
                             p{
                                 font-size: 1.7rem;
@@ -250,7 +252,7 @@ header{
             letter-spacing: 7px;
             font-weight: lighter;
             span{
-                color: #e9acdf;
+                color: #efad6f;
             }
         }
         .gallery{
@@ -282,10 +284,11 @@ header{
                             background-color: rgba(0,0,0,0.4);
                             width: 100%;
                             height: 100%;
-                            -webkit-transition: all 0.2s ease;
-                            transition: all 0.2s ease;
+                            -webkit-transition: all 0.5s ease;
+                            transition: all 0.5s ease;
                             opacity: 0;
-                            padding: 5%;
+                            padding: 40px;
+                            
                             box-sizing: border-box;
                             h2{
                                 font-size: 5.5rem;
@@ -294,6 +297,7 @@ header{
                             h3{
                                 font-size: 2rem;
                                 letter-spacing: 2px;
+                                margin-top: 5px;
                             }
                             p{
                                 font-size: 1.7rem;
@@ -323,12 +327,178 @@ header{
 //summer
 
 .autumn{
-    background: orange;
+    padding-top: 80px;
+    margin-top: -80px;
+    .autumn-wrapper{
+        padding: 70px;
+        padding-bottom: 40px;
+        h1{
+            margin-top: -50px;
+            margin-bottom: 50px;
+            text-align: center;
+            font-size: 8.3rem;
+            letter-spacing: 7px;
+            font-weight: lighter;
+            span{
+                color: #d78383;
+            }
+        }
+        .gallery{
+            
+            .photos{
+                display: -webkit-flex;
+                display: -moz-flex;
+                display: -ms-flex;
+                display: -o-flex;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                flex-direction: row;
+                .photo{
+                    box-sizing: border-box;
+                    width: (100% / 3);
+                    margin-bottom: 80px;
+                    padding: 5px 45px 5px 45px;
+                    .pic{
+                        position: relative;
+                        img{
+                            width: 100%;
+                        }
+                        .caption{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            color: #fff;
+                            background-color: rgba(0,0,0,0.4);
+                            width: 100%;
+                            height: 100%;
+                            -webkit-transition: all 0.5s ease;
+                            transition: all 0.5s ease;
+                            opacity: 0;
+                            padding: 40px;
+                            
+                            box-sizing: border-box;
+                            h2{
+                                font-size: 5.5rem;
+                                letter-spacing: 2.5px;
+                            }
+                            h3{
+                                font-size: 2rem;
+                                letter-spacing: 2px;
+                                margin-top: 5px;
+                            }
+                            p{
+                                font-size: 1.7rem;
+                                padding-top: 10px;
+                                line-height: 1.4;
+                            }
+                        }
+                    }
+                    .pic:hover .caption{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        a{
+            color: black;
+            display: block;
+            text-align: center;
+            font-size: 3.5rem;
+            font-weight: lighter;
+        }
+        a:hover{
+            color: #847b66;
+        }
+    }
 }
 // autumn
 
 .winter{
-    background-color: gray;
+    padding-top: 80px;
+    margin-top: -80px;
+    .winter-wrapper{
+        padding: 70px;
+        padding-bottom: 40px;
+        h1{
+            margin-top: -50px;
+            margin-bottom: 50px;
+            text-align: center;
+            font-size: 8.3rem;
+            letter-spacing: 7px;
+            font-weight: lighter;
+            span{
+                color: #8cb8dd;
+            }
+        }
+        .gallery{
+            
+            .photos{
+                display: -webkit-flex;
+                display: -moz-flex;
+                display: -ms-flex;
+                display: -o-flex;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                flex-direction: row;
+                .photo{
+                    box-sizing: border-box;
+                    width: (100% / 3);
+                    margin-bottom: 80px;
+                    padding: 5px 45px 5px 45px;
+                    .pic{
+                        position: relative;
+                        img{
+                            width: 100%;
+                        }
+                        .caption{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            color: #fff;
+                            background-color: rgba(0,0,0,0.4);
+                            width: 100%;
+                            height: 100%;
+                            -webkit-transition: all 0.5s ease;
+                            transition: all 0.5s ease;
+                            opacity: 0;
+                            padding: 40px;
+                            
+                            box-sizing: border-box;
+                            h2{
+                                font-size: 5.5rem;
+                                letter-spacing: 2.5px;
+                            }
+                            h3{
+                                font-size: 2rem;
+                                letter-spacing: 2px;
+                                margin-top: 5px;
+                            }
+                            p{
+                                font-size: 1.7rem;
+                                padding-top: 10px;
+                                line-height: 1.4;
+                            }
+                        }
+                    }
+                    .pic:hover .caption{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        a{
+            color: black;
+            display: block;
+            text-align: center;
+            font-size: 3.5rem;
+            font-weight: lighter;
+        }
+        a:hover{
+            color: #847b66;
+        }
+    }
 }
 // winter
 
