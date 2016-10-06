@@ -154,36 +154,39 @@ header {
         width: 33.33333%;
         margin-bottom: 80px;
         padding: 5px 45px 5px 45px; }
-        .spring .spring-wrapper .gallery .photos .photo .pic {
-          position: relative; }
-          .spring .spring-wrapper .gallery .photos .photo .pic img {
-            width: 100%; }
-          .spring .spring-wrapper .gallery .photos .photo .pic .caption {
-            position: absolute;
-            top: 0;
-            left: 0;
-            color: #fff;
-            background-color: rgba(0, 0, 0, 0.4);
-            width: 100%;
-            height: 100%;
-            -webkit-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-            opacity: 0;
-            padding: 40px;
-            box-sizing: border-box; }
-            .spring .spring-wrapper .gallery .photos .photo .pic .caption h2 {
-              font-size: 5.5rem;
-              letter-spacing: 2.5px; }
-            .spring .spring-wrapper .gallery .photos .photo .pic .caption h3 {
-              font-size: 2rem;
-              letter-spacing: 2px;
-              margin-top: 5px; }
-            .spring .spring-wrapper .gallery .photos .photo .pic .caption p {
-              font-size: 1.7rem;
-              padding-top: 10px;
-              line-height: 1.4; }
-        .spring .spring-wrapper .gallery .photos .photo .pic:hover .caption {
-          opacity: 1; }
+        .spring .spring-wrapper .gallery .photos .photo a {
+          outline: none; }
+          .spring .spring-wrapper .gallery .photos .photo a .pic {
+            position: relative; }
+            .spring .spring-wrapper .gallery .photos .photo a .pic img {
+              width: 100%; }
+            .spring .spring-wrapper .gallery .photos .photo a .pic .caption {
+              position: absolute;
+              top: 0;
+              left: 0;
+              color: #fff;
+              background-color: rgba(0, 0, 0, 0.4);
+              width: 100%;
+              height: 98%;
+              -webkit-transition: all 0.5s ease;
+              transition: all 0.5s ease;
+              opacity: 0;
+              padding: 40px;
+              text-align: left;
+              box-sizing: border-box; }
+              .spring .spring-wrapper .gallery .photos .photo a .pic .caption h2 {
+                font-size: 5.5rem;
+                letter-spacing: 2.5px; }
+              .spring .spring-wrapper .gallery .photos .photo a .pic .caption h3 {
+                font-size: 2rem;
+                letter-spacing: 2px;
+                margin-top: 5px; }
+              .spring .spring-wrapper .gallery .photos .photo a .pic .caption p {
+                font-size: 1.7rem;
+                padding-top: 10px;
+                line-height: 1.4; }
+          .spring .spring-wrapper .gallery .photos .photo a .pic:hover .caption {
+            opacity: 1; }
     .spring .spring-wrapper a {
       color: black;
       display: block;
@@ -217,41 +220,44 @@ header {
       flex-wrap: wrap;
       justify-content: space-between;
       flex-direction: row; }
-      .summer .summer-wrapper .gallery .photos .photo {
+      .summer .summer-wrapper .gallery .photos .photo2 {
         box-sizing: border-box;
         width: 33.33333%;
         margin-bottom: 80px;
         padding: 5px 45px 5px 45px; }
-        .summer .summer-wrapper .gallery .photos .photo .pic {
-          position: relative; }
-          .summer .summer-wrapper .gallery .photos .photo .pic img {
-            width: 100%; }
-          .summer .summer-wrapper .gallery .photos .photo .pic .caption {
-            position: absolute;
-            top: 0;
-            left: 0;
-            color: #fff;
-            background-color: rgba(0, 0, 0, 0.4);
-            width: 100%;
-            height: 100%;
-            -webkit-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-            opacity: 0;
-            padding: 40px;
-            box-sizing: border-box; }
-            .summer .summer-wrapper .gallery .photos .photo .pic .caption h2 {
-              font-size: 5.5rem;
-              letter-spacing: 2.5px; }
-            .summer .summer-wrapper .gallery .photos .photo .pic .caption h3 {
-              font-size: 2rem;
-              letter-spacing: 2px;
-              margin-top: 5px; }
-            .summer .summer-wrapper .gallery .photos .photo .pic .caption p {
-              font-size: 1.7rem;
-              padding-top: 10px;
-              line-height: 1.4; }
-        .summer .summer-wrapper .gallery .photos .photo .pic:hover .caption {
-          opacity: 1; }
+        .summer .summer-wrapper .gallery .photos .photo2 a {
+          outline: none; }
+          .summer .summer-wrapper .gallery .photos .photo2 a .pic {
+            position: relative; }
+            .summer .summer-wrapper .gallery .photos .photo2 a .pic img {
+              width: 100%; }
+            .summer .summer-wrapper .gallery .photos .photo2 a .pic .caption {
+              position: absolute;
+              top: 0;
+              left: 0;
+              color: #fff;
+              background-color: rgba(0, 0, 0, 0.4);
+              width: 100%;
+              height: 98%;
+              -webkit-transition: all 0.5s ease;
+              transition: all 0.5s ease;
+              opacity: 0;
+              padding: 40px;
+              text-align: left;
+              box-sizing: border-box; }
+              .summer .summer-wrapper .gallery .photos .photo2 a .pic .caption h2 {
+                font-size: 5.5rem;
+                letter-spacing: 2.5px; }
+              .summer .summer-wrapper .gallery .photos .photo2 a .pic .caption h3 {
+                font-size: 2rem;
+                letter-spacing: 2px;
+                margin-top: 5px; }
+              .summer .summer-wrapper .gallery .photos .photo2 a .pic .caption p {
+                font-size: 1.7rem;
+                padding-top: 10px;
+                line-height: 1.4; }
+          .summer .summer-wrapper .gallery .photos .photo2 a .pic:hover .caption {
+            opacity: 1; }
     .summer .summer-wrapper a {
       color: black;
       display: block;
@@ -285,41 +291,44 @@ header {
       flex-wrap: wrap;
       justify-content: space-between;
       flex-direction: row; }
-      .autumn .autumn-wrapper .gallery .photos .photo {
+      .autumn .autumn-wrapper .gallery .photos .photo3 {
         box-sizing: border-box;
         width: 33.33333%;
         margin-bottom: 80px;
         padding: 5px 45px 5px 45px; }
-        .autumn .autumn-wrapper .gallery .photos .photo .pic {
-          position: relative; }
-          .autumn .autumn-wrapper .gallery .photos .photo .pic img {
-            width: 100%; }
-          .autumn .autumn-wrapper .gallery .photos .photo .pic .caption {
-            position: absolute;
-            top: 0;
-            left: 0;
-            color: #fff;
-            background-color: rgba(0, 0, 0, 0.4);
-            width: 100%;
-            height: 100%;
-            -webkit-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-            opacity: 0;
-            padding: 40px;
-            box-sizing: border-box; }
-            .autumn .autumn-wrapper .gallery .photos .photo .pic .caption h2 {
-              font-size: 5.5rem;
-              letter-spacing: 2.5px; }
-            .autumn .autumn-wrapper .gallery .photos .photo .pic .caption h3 {
-              font-size: 2rem;
-              letter-spacing: 2px;
-              margin-top: 5px; }
-            .autumn .autumn-wrapper .gallery .photos .photo .pic .caption p {
-              font-size: 1.7rem;
-              padding-top: 10px;
-              line-height: 1.4; }
-        .autumn .autumn-wrapper .gallery .photos .photo .pic:hover .caption {
-          opacity: 1; }
+        .autumn .autumn-wrapper .gallery .photos .photo3 a {
+          outline: none; }
+          .autumn .autumn-wrapper .gallery .photos .photo3 a .pic {
+            position: relative; }
+            .autumn .autumn-wrapper .gallery .photos .photo3 a .pic img {
+              width: 100%; }
+            .autumn .autumn-wrapper .gallery .photos .photo3 a .pic .caption {
+              position: absolute;
+              top: 0;
+              left: 0;
+              color: #fff;
+              background-color: rgba(0, 0, 0, 0.4);
+              width: 100%;
+              height: 98%;
+              -webkit-transition: all 0.5s ease;
+              transition: all 0.5s ease;
+              opacity: 0;
+              padding: 40px;
+              text-align: left;
+              box-sizing: border-box; }
+              .autumn .autumn-wrapper .gallery .photos .photo3 a .pic .caption h2 {
+                font-size: 5.5rem;
+                letter-spacing: 2.5px; }
+              .autumn .autumn-wrapper .gallery .photos .photo3 a .pic .caption h3 {
+                font-size: 2rem;
+                letter-spacing: 2px;
+                margin-top: 5px; }
+              .autumn .autumn-wrapper .gallery .photos .photo3 a .pic .caption p {
+                font-size: 1.7rem;
+                padding-top: 10px;
+                line-height: 1.4; }
+          .autumn .autumn-wrapper .gallery .photos .photo3 a .pic:hover .caption {
+            opacity: 1; }
     .autumn .autumn-wrapper a {
       color: black;
       display: block;
@@ -353,41 +362,44 @@ header {
       flex-wrap: wrap;
       justify-content: space-between;
       flex-direction: row; }
-      .winter .winter-wrapper .gallery .photos .photo {
+      .winter .winter-wrapper .gallery .photos .photo4 {
         box-sizing: border-box;
         width: 33.33333%;
         margin-bottom: 80px;
         padding: 5px 45px 5px 45px; }
-        .winter .winter-wrapper .gallery .photos .photo .pic {
-          position: relative; }
-          .winter .winter-wrapper .gallery .photos .photo .pic img {
-            width: 100%; }
-          .winter .winter-wrapper .gallery .photos .photo .pic .caption {
-            position: absolute;
-            top: 0;
-            left: 0;
-            color: #fff;
-            background-color: rgba(0, 0, 0, 0.4);
-            width: 100%;
-            height: 100%;
-            -webkit-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-            opacity: 0;
-            padding: 40px;
-            box-sizing: border-box; }
-            .winter .winter-wrapper .gallery .photos .photo .pic .caption h2 {
-              font-size: 5.5rem;
-              letter-spacing: 2.5px; }
-            .winter .winter-wrapper .gallery .photos .photo .pic .caption h3 {
-              font-size: 2rem;
-              letter-spacing: 2px;
-              margin-top: 5px; }
-            .winter .winter-wrapper .gallery .photos .photo .pic .caption p {
-              font-size: 1.7rem;
-              padding-top: 10px;
-              line-height: 1.4; }
-        .winter .winter-wrapper .gallery .photos .photo .pic:hover .caption {
-          opacity: 1; }
+        .winter .winter-wrapper .gallery .photos .photo4 a {
+          outline: none; }
+          .winter .winter-wrapper .gallery .photos .photo4 a .pic {
+            position: relative; }
+            .winter .winter-wrapper .gallery .photos .photo4 a .pic img {
+              width: 100%; }
+            .winter .winter-wrapper .gallery .photos .photo4 a .pic .caption {
+              position: absolute;
+              top: 0;
+              left: 0;
+              color: #fff;
+              background-color: rgba(0, 0, 0, 0.4);
+              width: 100%;
+              height: 98%;
+              -webkit-transition: all 0.5s ease;
+              transition: all 0.5s ease;
+              opacity: 0;
+              padding: 40px;
+              text-align: left;
+              box-sizing: border-box; }
+              .winter .winter-wrapper .gallery .photos .photo4 a .pic .caption h2 {
+                font-size: 5.5rem;
+                letter-spacing: 2.5px; }
+              .winter .winter-wrapper .gallery .photos .photo4 a .pic .caption h3 {
+                font-size: 2rem;
+                letter-spacing: 2px;
+                margin-top: 5px; }
+              .winter .winter-wrapper .gallery .photos .photo4 a .pic .caption p {
+                font-size: 1.7rem;
+                padding-top: 10px;
+                line-height: 1.4; }
+          .winter .winter-wrapper .gallery .photos .photo4 a .pic:hover .caption {
+            opacity: 1; }
     .winter .winter-wrapper a {
       color: black;
       display: block;
@@ -421,7 +433,8 @@ header {
       flex-wrap: nowrap;
       flex-direction: row; }
       .about_me .about_me_wrapper .flex img {
-        margin-right: 50px; }
+        margin-right: 50px;
+        border-radius: 3px; }
       .about_me .about_me_wrapper .flex .content h2 {
         font-size: 3.5rem;
         padding-bottom: 20px; }
@@ -439,9 +452,18 @@ header {
         .about_me .social ul li a {
           text-decoration: none;
           color: black;
-          font-size: 4rem; }
+          font-size: 4rem;
+          display: inline-block; }
         .about_me .social ul li a:hover {
-          color: #847b66; }
+          color: #847b66;
+          -webkit-animation: zoom .3s;
+          animation: zoom .3s; }
+@-webkit-keyframes zoom {
+  50% {
+    -webkit-transform: scale(1.05); } }
+@keyframes zoom {
+  50% {
+    transform: scale(1.05); } }
       .about_me .social ul li:last-child {
         margin-right: 0; }
 

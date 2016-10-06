@@ -183,43 +183,46 @@ header{
                     width: (100% / 3);
                     margin-bottom: 80px;
                     padding: 5px 45px 5px 45px;
-                    .pic{
-                        position: relative;
-                        img{
-                            width: 100%;
+                    a{
+                        outline: none;
+                        .pic{
+                            position: relative;
+                            img{
+                                width: 100%;
+                            }
+                            .caption{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                color: #fff;
+                                background-color: rgba(0,0,0,0.4);
+                                width: 100%;
+                                height: 98%;
+                                -webkit-transition: all 0.5s ease;
+                                transition: all 0.5s ease;
+                                opacity: 0;
+                                padding: 40px;
+                                text-align: left;
+                                box-sizing: border-box;
+                                h2{
+                                    font-size: 5.5rem;
+                                    letter-spacing: 2.5px;
+                                }
+                                h3{
+                                    font-size: 2rem;
+                                    letter-spacing: 2px;
+                                    margin-top: 5px;
+                                }
+                                p{
+                                    font-size: 1.7rem;
+                                    padding-top: 10px;
+                                    line-height: 1.4;
+                                }
+                            }
                         }
-                        .caption{
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            color: #fff;
-                            background-color: rgba(0,0,0,0.4);
-                            width: 100%;
-                            height: 100%;
-                            -webkit-transition: all 0.5s ease;
-                            transition: all 0.5s ease;
-                            opacity: 0;
-                            padding: 40px;
-                            
-                            box-sizing: border-box;
-                            h2{
-                                font-size: 5.5rem;
-                                letter-spacing: 2.5px;
-                            }
-                            h3{
-                                font-size: 2rem;
-                                letter-spacing: 2px;
-                                margin-top: 5px;
-                            }
-                            p{
-                                font-size: 1.7rem;
-                                padding-top: 10px;
-                                line-height: 1.4;
-                            }
+                        .pic:hover .caption{
+                            opacity: 1;
                         }
-                    }
-                    .pic:hover .caption{
-                        opacity: 1;
                     }
                 }
             }
@@ -266,48 +269,51 @@ header{
                 flex-wrap: wrap;
                 justify-content: space-between;
                 flex-direction: row;
-                .photo{
+                .photo2{
                     box-sizing: border-box;
                     width: (100% / 3);
                     margin-bottom: 80px;
                     padding: 5px 45px 5px 45px;
-                    .pic{
-                        position: relative;
-                        img{
-                            width: 100%;
+                    a{
+                        outline: none;
+                        .pic{
+                            position: relative;
+                            img{
+                                width: 100%;
+                            }
+                            .caption{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                color: #fff;
+                                background-color: rgba(0,0,0,0.4);
+                                width: 100%;
+                                height: 98%;
+                                -webkit-transition: all 0.5s ease;
+                                transition: all 0.5s ease;
+                                opacity: 0;
+                                padding: 40px;
+                                text-align: left;
+                                box-sizing: border-box;
+                                h2{
+                                    font-size: 5.5rem;
+                                    letter-spacing: 2.5px;
+                                }
+                                h3{
+                                    font-size: 2rem;
+                                    letter-spacing: 2px;
+                                    margin-top: 5px;
+                                }
+                                p{
+                                    font-size: 1.7rem;
+                                    padding-top: 10px;
+                                    line-height: 1.4;
+                                }
+                            }
                         }
-                        .caption{
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            color: #fff;
-                            background-color: rgba(0,0,0,0.4);
-                            width: 100%;
-                            height: 100%;
-                            -webkit-transition: all 0.5s ease;
-                            transition: all 0.5s ease;
-                            opacity: 0;
-                            padding: 40px;
-                            
-                            box-sizing: border-box;
-                            h2{
-                                font-size: 5.5rem;
-                                letter-spacing: 2.5px;
-                            }
-                            h3{
-                                font-size: 2rem;
-                                letter-spacing: 2px;
-                                margin-top: 5px;
-                            }
-                            p{
-                                font-size: 1.7rem;
-                                padding-top: 10px;
-                                line-height: 1.4;
-                            }
+                        .pic:hover .caption{
+                            opacity: 1;
                         }
-                    }
-                    .pic:hover .caption{
-                        opacity: 1;
                     }
                 }
             }
@@ -354,48 +360,51 @@ header{
                 flex-wrap: wrap;
                 justify-content: space-between;
                 flex-direction: row;
-                .photo{
+                .photo3{
                     box-sizing: border-box;
                     width: (100% / 3);
                     margin-bottom: 80px;
                     padding: 5px 45px 5px 45px;
-                    .pic{
-                        position: relative;
-                        img{
-                            width: 100%;
+                    a{
+                        outline: none;
+                        .pic{
+                            position: relative;
+                            img{
+                                width: 100%;
+                            }
+                            .caption{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                color: #fff;
+                                background-color: rgba(0,0,0,0.4);
+                                width: 100%;
+                                height: 98%;
+                                -webkit-transition: all 0.5s ease;
+                                transition: all 0.5s ease;
+                                opacity: 0;
+                                padding: 40px;
+                                text-align: left;
+                                box-sizing: border-box;
+                                h2{
+                                    font-size: 5.5rem;
+                                    letter-spacing: 2.5px;
+                                }
+                                h3{
+                                    font-size: 2rem;
+                                    letter-spacing: 2px;
+                                    margin-top: 5px;
+                                }
+                                p{
+                                    font-size: 1.7rem;
+                                    padding-top: 10px;
+                                    line-height: 1.4;
+                                }
+                            }
                         }
-                        .caption{
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            color: #fff;
-                            background-color: rgba(0,0,0,0.4);
-                            width: 100%;
-                            height: 100%;
-                            -webkit-transition: all 0.5s ease;
-                            transition: all 0.5s ease;
-                            opacity: 0;
-                            padding: 40px;
-                            
-                            box-sizing: border-box;
-                            h2{
-                                font-size: 5.5rem;
-                                letter-spacing: 2.5px;
-                            }
-                            h3{
-                                font-size: 2rem;
-                                letter-spacing: 2px;
-                                margin-top: 5px;
-                            }
-                            p{
-                                font-size: 1.7rem;
-                                padding-top: 10px;
-                                line-height: 1.4;
-                            }
+                        .pic:hover .caption{
+                            opacity: 1;
                         }
-                    }
-                    .pic:hover .caption{
-                        opacity: 1;
                     }
                 }
             }
@@ -442,48 +451,51 @@ header{
                 flex-wrap: wrap;
                 justify-content: space-between;
                 flex-direction: row;
-                .photo{
+                .photo4{
                     box-sizing: border-box;
                     width: (100% / 3);
                     margin-bottom: 80px;
                     padding: 5px 45px 5px 45px;
-                    .pic{
-                        position: relative;
-                        img{
-                            width: 100%;
+                    a{
+                        outline: none;
+                        .pic{
+                            position: relative;
+                            img{
+                                width: 100%;
+                            }
+                            .caption{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                color: #fff;
+                                background-color: rgba(0,0,0,0.4);
+                                width: 100%;
+                                height: 98%;
+                                -webkit-transition: all 0.5s ease;
+                                transition: all 0.5s ease;
+                                opacity: 0;
+                                padding: 40px;
+                                text-align: left;
+                                box-sizing: border-box;
+                                h2{
+                                    font-size: 5.5rem;
+                                    letter-spacing: 2.5px;
+                                }
+                                h3{
+                                    font-size: 2rem;
+                                    letter-spacing: 2px;
+                                    margin-top: 5px;
+                                }
+                                p{
+                                    font-size: 1.7rem;
+                                    padding-top: 10px;
+                                    line-height: 1.4;
+                                }
+                            }
                         }
-                        .caption{
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            color: #fff;
-                            background-color: rgba(0,0,0,0.4);
-                            width: 100%;
-                            height: 100%;
-                            -webkit-transition: all 0.5s ease;
-                            transition: all 0.5s ease;
-                            opacity: 0;
-                            padding: 40px;
-                            
-                            box-sizing: border-box;
-                            h2{
-                                font-size: 5.5rem;
-                                letter-spacing: 2.5px;
-                            }
-                            h3{
-                                font-size: 2rem;
-                                letter-spacing: 2px;
-                                margin-top: 5px;
-                            }
-                            p{
-                                font-size: 1.7rem;
-                                padding-top: 10px;
-                                line-height: 1.4;
-                            }
+                        .pic:hover .caption{
+                            opacity: 1;
                         }
-                    }
-                    .pic:hover .caption{
-                        opacity: 1;
                     }
                 }
             }
@@ -528,6 +540,7 @@ header{
             flex-direction: row;
             img{
                 margin-right: 50px;
+                border-radius: 3px;
             }
             .content{
                 h2{
@@ -553,10 +566,22 @@ header{
                     text-decoration: none;
                     color: black;
                     font-size: 4rem;
-                    
+                    display: inline-block;
                 }
-                a:hover{
+                a:hover {
                     color: #847b66;
+                    -webkit-animation: zoom .3s;
+                    animation: zoom .3s;
+                }
+                @-webkit-keyframes zoom {
+                    50% {
+                        -webkit-transform: scale(1.05);
+                    }
+                }
+                @keyframes zoom {
+                    50% {
+                        transform: scale(1.05);
+                    }
                 }
             }
             li:last-child{
@@ -564,6 +589,7 @@ header{
             }
         }
     }
+    
 }
 //about_me
 
