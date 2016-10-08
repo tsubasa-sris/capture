@@ -83,16 +83,343 @@ header {
     text-align: center;
     letter-spacing: 4px; }
   .introduction p.tsubasa {
-    margin-top: 25px;
-    margin-left: calc(50% + 290px); }
-    .introduction p.tsubasa svg .path {
+    margin-top: 30px;
+    margin-left: calc(50% + 250px); }
+    .introduction p.tsubasa svg .path1 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 1s linear forwards;
+      animation: dash 1s linear forwards; }
+    .introduction p.tsubasa svg .path2 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
       stroke-dasharray: 200;
       stroke-dashoffset: 200;
       -webkit-animation: dash 7s linear forwards;
-      animation: dash 7s linear forwards; }
+      animation: dash 7s linear forwards;
+      animation-delay: 0.2s;
+      -webkit-animation-delay: 0.2s;
+      -moz-animation-delay: 0.2s; }
+    .introduction p.tsubasa svg .path3 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 0.5s;
+      -webkit-animation-delay: 0.5s;
+      -moz-animation-delay: 0.5s; }
+    .introduction p.tsubasa svg .path4 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 0.8s;
+      -webkit-animation-delay: 0.8s;
+      -moz-animation-delay: 0.8s; }
+    .introduction p.tsubasa svg .path5 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 1.2s;
+      -webkit-animation-delay: 1.2s;
+      -moz-animation-delay: 1.2s; }
+    .introduction p.tsubasa svg .path6 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 1.3s;
+      -webkit-animation-delay: 1.3s;
+      -moz-animation-delay: 1.3s; }
+    .introduction p.tsubasa svg .path7 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 1.9s;
+      -webkit-animation-delay: 1.9s;
+      -moz-animation-delay: 1.9s; }
+    .introduction p.tsubasa svg .path8 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 2.2s;
+      -webkit-animation-delay: 2.2s;
+      -moz-animation-delay: 2.2s; }
+    .introduction p.tsubasa svg .path9 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 2.5s;
+      -webkit-animation-delay: 2.5s;
+      -moz-animation-delay: 2.5s; }
+    .introduction p.tsubasa svg .path10 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 2.8s;
+      -webkit-animation-delay: 2.8s;
+      -moz-animation-delay: 2.8s; }
+    .introduction p.tsubasa svg .path11 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 3s;
+      -webkit-animation-delay: 3s;
+      -moz-animation-delay: 3s; }
+    .introduction p.tsubasa svg .path12 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 5s linear forwards;
+      animation: dash 5s linear forwards;
+      animation-delay: 3.3s;
+      -webkit-animation-delay: 3.3s;
+      -moz-animation-delay: 3.3s; }
+    .introduction p.tsubasa svg .path13 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 3.7s;
+      -webkit-animation-delay: 3.7s;
+      -moz-animation-delay: 3.7s; }
+    .introduction p.tsubasa svg .path14 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 3.9s;
+      -webkit-animation-delay: 3.9s;
+      -moz-animation-delay: 3.9s; }
+    .introduction p.tsubasa svg .path15 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 4s;
+      -webkit-animation-delay: 4s;
+      -moz-animation-delay: 4s; }
+    .introduction p.tsubasa svg .path16 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 4.2s;
+      -webkit-animation-delay: 4.2s;
+      -moz-animation-delay: 4.2s; }
+    .introduction p.tsubasa svg .path17 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 4.5s;
+      -webkit-animation-delay: 4.5s;
+      -moz-animation-delay: 4.5s; }
+    .introduction p.tsubasa svg .path18 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 5s linear forwards;
+      animation: dash 5s linear forwards;
+      animation-delay: 4.7s;
+      -webkit-animation-delay: 4.7s;
+      -moz-animation-delay: 4.7s; }
+    .introduction p.tsubasa svg .path19 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 5s;
+      -webkit-animation-delay: 5s;
+      -moz-animation-delay: 5s; }
+    .introduction p.tsubasa svg .path20 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 5.3s;
+      -webkit-animation-delay: 5.3s;
+      -moz-animation-delay: 5.3s; }
+    .introduction p.tsubasa svg .path21 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 5.6s;
+      -webkit-animation-delay: 5.6s;
+      -moz-animation-delay: 5.6s; }
+    .introduction p.tsubasa svg .path22 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 5.8s;
+      -webkit-animation-delay: 5.8s;
+      -moz-animation-delay: 5.8s; }
+    .introduction p.tsubasa svg .path23 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 6s;
+      -webkit-animation-delay: 6s;
+      -moz-animation-delay: 6s; }
+    .introduction p.tsubasa svg .path24 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 6.3s;
+      -webkit-animation-delay: 6.3s;
+      -moz-animation-delay: 6.3s; }
+    .introduction p.tsubasa svg .path25 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 6.5s;
+      -webkit-animation-delay: 6.5s;
+      -moz-animation-delay: 6.5s; }
+    .introduction p.tsubasa svg .path26 {
+      stroke: #000;
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      -webkit-animation: dash 7s linear forwards;
+      animation: dash 7s linear forwards;
+      animation-delay: 6.8s;
+      -webkit-animation-delay: 6.8s;
+      -moz-animation-delay: 6.8s; }
 @-webkit-keyframes dash {
   to {
     stroke-dashoffset: 0; } }
