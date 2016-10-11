@@ -67,25 +67,25 @@ header {
   height: 100vh;
   display: block;
   position: relative; }
-  .introduction h1 {
+  .introduction .container h1 {
     font-size: 6.8rem;
     padding: 35px;
     text-align: center;
     letter-spacing: 5px; }
-  .introduction p.concept {
-    font-size: 2.2rem;
-    line-height: 2.8;
+  .introduction .container p.concept {
+    font-size: 3.5vh;
+    line-height: 8vh;
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 28px; }
-  .introduction p.capture {
+  .introduction .container p.capture {
     font-size: 4rem;
     text-align: center;
     letter-spacing: 4px; }
-  .introduction p.tsubasa {
-    margin-top: 30px;
+  .introduction .container p.tsubasa {
+    margin-top: 35px;
     margin-left: calc(50% + 250px); }
-    .introduction p.tsubasa svg .path1 {
+    .introduction .container p.tsubasa svg .path1 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -95,7 +95,7 @@ header {
       stroke-dashoffset: 200;
       -webkit-animation: dash 1s linear forwards;
       animation: dash 1s linear forwards; }
-    .introduction p.tsubasa svg .path2 {
+    .introduction .container p.tsubasa svg .path2 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -108,7 +108,7 @@ header {
       animation-delay: 0.2s;
       -webkit-animation-delay: 0.2s;
       -moz-animation-delay: 0.2s; }
-    .introduction p.tsubasa svg .path3 {
+    .introduction .container p.tsubasa svg .path3 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -121,7 +121,7 @@ header {
       animation-delay: 0.5s;
       -webkit-animation-delay: 0.5s;
       -moz-animation-delay: 0.5s; }
-    .introduction p.tsubasa svg .path4 {
+    .introduction .container p.tsubasa svg .path4 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -134,7 +134,7 @@ header {
       animation-delay: 0.8s;
       -webkit-animation-delay: 0.8s;
       -moz-animation-delay: 0.8s; }
-    .introduction p.tsubasa svg .path5 {
+    .introduction .container p.tsubasa svg .path5 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -147,7 +147,7 @@ header {
       animation-delay: 1.2s;
       -webkit-animation-delay: 1.2s;
       -moz-animation-delay: 1.2s; }
-    .introduction p.tsubasa svg .path6 {
+    .introduction .container p.tsubasa svg .path6 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -160,7 +160,7 @@ header {
       animation-delay: 1.3s;
       -webkit-animation-delay: 1.3s;
       -moz-animation-delay: 1.3s; }
-    .introduction p.tsubasa svg .path7 {
+    .introduction .container p.tsubasa svg .path7 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -173,7 +173,7 @@ header {
       animation-delay: 1.9s;
       -webkit-animation-delay: 1.9s;
       -moz-animation-delay: 1.9s; }
-    .introduction p.tsubasa svg .path8 {
+    .introduction .container p.tsubasa svg .path8 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -186,7 +186,7 @@ header {
       animation-delay: 2.2s;
       -webkit-animation-delay: 2.2s;
       -moz-animation-delay: 2.2s; }
-    .introduction p.tsubasa svg .path9 {
+    .introduction .container p.tsubasa svg .path9 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -199,7 +199,7 @@ header {
       animation-delay: 2.5s;
       -webkit-animation-delay: 2.5s;
       -moz-animation-delay: 2.5s; }
-    .introduction p.tsubasa svg .path10 {
+    .introduction .container p.tsubasa svg .path10 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -212,7 +212,7 @@ header {
       animation-delay: 2.8s;
       -webkit-animation-delay: 2.8s;
       -moz-animation-delay: 2.8s; }
-    .introduction p.tsubasa svg .path11 {
+    .introduction .container p.tsubasa svg .path11 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -225,7 +225,7 @@ header {
       animation-delay: 3s;
       -webkit-animation-delay: 3s;
       -moz-animation-delay: 3s; }
-    .introduction p.tsubasa svg .path12 {
+    .introduction .container p.tsubasa svg .path12 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -238,7 +238,7 @@ header {
       animation-delay: 3.3s;
       -webkit-animation-delay: 3.3s;
       -moz-animation-delay: 3.3s; }
-    .introduction p.tsubasa svg .path13 {
+    .introduction .container p.tsubasa svg .path13 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -251,7 +251,7 @@ header {
       animation-delay: 3.7s;
       -webkit-animation-delay: 3.7s;
       -moz-animation-delay: 3.7s; }
-    .introduction p.tsubasa svg .path14 {
+    .introduction .container p.tsubasa svg .path14 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -264,7 +264,7 @@ header {
       animation-delay: 3.9s;
       -webkit-animation-delay: 3.9s;
       -moz-animation-delay: 3.9s; }
-    .introduction p.tsubasa svg .path15 {
+    .introduction .container p.tsubasa svg .path15 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -277,7 +277,7 @@ header {
       animation-delay: 4s;
       -webkit-animation-delay: 4s;
       -moz-animation-delay: 4s; }
-    .introduction p.tsubasa svg .path16 {
+    .introduction .container p.tsubasa svg .path16 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -290,7 +290,7 @@ header {
       animation-delay: 4.2s;
       -webkit-animation-delay: 4.2s;
       -moz-animation-delay: 4.2s; }
-    .introduction p.tsubasa svg .path17 {
+    .introduction .container p.tsubasa svg .path17 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -303,7 +303,7 @@ header {
       animation-delay: 4.5s;
       -webkit-animation-delay: 4.5s;
       -moz-animation-delay: 4.5s; }
-    .introduction p.tsubasa svg .path18 {
+    .introduction .container p.tsubasa svg .path18 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -316,7 +316,7 @@ header {
       animation-delay: 4.7s;
       -webkit-animation-delay: 4.7s;
       -moz-animation-delay: 4.7s; }
-    .introduction p.tsubasa svg .path19 {
+    .introduction .container p.tsubasa svg .path19 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -329,7 +329,7 @@ header {
       animation-delay: 5s;
       -webkit-animation-delay: 5s;
       -moz-animation-delay: 5s; }
-    .introduction p.tsubasa svg .path20 {
+    .introduction .container p.tsubasa svg .path20 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -342,7 +342,7 @@ header {
       animation-delay: 5.3s;
       -webkit-animation-delay: 5.3s;
       -moz-animation-delay: 5.3s; }
-    .introduction p.tsubasa svg .path21 {
+    .introduction .container p.tsubasa svg .path21 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -355,7 +355,7 @@ header {
       animation-delay: 5.6s;
       -webkit-animation-delay: 5.6s;
       -moz-animation-delay: 5.6s; }
-    .introduction p.tsubasa svg .path22 {
+    .introduction .container p.tsubasa svg .path22 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -368,7 +368,7 @@ header {
       animation-delay: 5.8s;
       -webkit-animation-delay: 5.8s;
       -moz-animation-delay: 5.8s; }
-    .introduction p.tsubasa svg .path23 {
+    .introduction .container p.tsubasa svg .path23 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -381,7 +381,7 @@ header {
       animation-delay: 6s;
       -webkit-animation-delay: 6s;
       -moz-animation-delay: 6s; }
-    .introduction p.tsubasa svg .path24 {
+    .introduction .container p.tsubasa svg .path24 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -394,7 +394,7 @@ header {
       animation-delay: 6.3s;
       -webkit-animation-delay: 6.3s;
       -moz-animation-delay: 6.3s; }
-    .introduction p.tsubasa svg .path25 {
+    .introduction .container p.tsubasa svg .path25 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -407,7 +407,7 @@ header {
       animation-delay: 6.5s;
       -webkit-animation-delay: 6.5s;
       -moz-animation-delay: 6.5s; }
-    .introduction p.tsubasa svg .path26 {
+    .introduction .container p.tsubasa svg .path26 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -426,7 +426,7 @@ header {
 @keyframes dash {
   to {
     stroke-dashoffset: 0; } }
-  .introduction .menu {
+  .introduction .container .menu {
     z-index: 10;
     background-color: #fafafa;
     position: absolute;
@@ -434,20 +434,20 @@ header {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 15px; }
-    .introduction .menu ul {
+    .introduction .container .menu ul {
       text-align: center; }
-      .introduction .menu ul li {
+      .introduction .container .menu ul li {
         letter-spacing: 4px;
         display: inline-block;
-        font-size: 4rem;
+        font-size: 2.3vw;
         border-right: 1px solid black; }
-        .introduction .menu ul li a {
+        .introduction .container .menu ul li a {
           text-decoration: none;
           color: black;
-          padding-right: 20px;
-          padding-left: 20px;
+          padding-right: 2vw;
+          padding-left: 2vw;
           display: inline-block; }
-        .introduction .menu ul li a:hover {
+        .introduction .container .menu ul li a:hover {
           color: #847b66;
           -webkit-animation: zoom .3s;
           animation: zoom .3s; }
@@ -457,354 +457,392 @@ header {
 @keyframes zoom {
   50% {
     transform: scale(1.05); } }
-      .introduction .menu ul li:last-child {
+      .introduction .container .menu ul li:last-child {
         border-right: none; }
 
-.introduction .follow {
+.introduction .container .menu.follow {
   position: fixed;
   top: 0; }
 
-.spring {
-  padding-top: 80px;
-  margin-top: -80px; }
-  .spring .spring-wrapper {
-    padding: 70px;
-    padding-bottom: 40px; }
-    .spring .spring-wrapper h1 {
-      margin-top: -50px;
-      margin-bottom: 50px;
+.spring_background {
+  padding-top: 56px;
+  margin-top: -56px; }
+  .spring_background .spring_title {
+    background-image: url(../images/background/spring_background1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 45vh;
+    background-attachment: fixed; }
+    .spring_background .spring_title h1 {
+      padding-top: 16vh;
       text-align: center;
-      font-size: 8.3rem;
-      letter-spacing: 7px;
-      font-weight: lighter; }
-      .spring .spring-wrapper h1 span {
-        color: #e9acdf; }
-    .spring .spring-wrapper .gallery .photos {
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flex;
-      display: -o-flex;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      flex-direction: row; }
-      .spring .spring-wrapper .gallery .photos .photo {
-        box-sizing: border-box;
-        width: 33.33333%;
-        margin-bottom: 80px;
-        padding: 5px 45px 5px 45px; }
-        .spring .spring-wrapper .gallery .photos .photo a {
-          outline: none; }
-          .spring .spring-wrapper .gallery .photos .photo a .pic {
-            position: relative; }
-            .spring .spring-wrapper .gallery .photos .photo a .pic img {
-              width: 100%; }
-            .spring .spring-wrapper .gallery .photos .photo a .pic .caption {
-              position: absolute;
-              top: 0;
-              left: 0;
-              color: #fff;
-              background-color: rgba(0, 0, 0, 0.4);
-              width: 100%;
-              height: 98%;
-              -webkit-transition: all 0.5s ease;
-              transition: all 0.5s ease;
-              opacity: 0;
-              padding: 40px;
-              text-align: left;
-              box-sizing: border-box; }
-              .spring .spring-wrapper .gallery .photos .photo a .pic .caption h2 {
-                font-size: 5.5rem;
-                letter-spacing: 2.5px; }
-              .spring .spring-wrapper .gallery .photos .photo a .pic .caption h3 {
-                font-size: 2rem;
-                letter-spacing: 2px;
-                margin-top: 5px; }
-              .spring .spring-wrapper .gallery .photos .photo a .pic .caption p {
-                font-size: 1.7rem;
-                padding-top: 10px;
-                line-height: 1.4; }
-          .spring .spring-wrapper .gallery .photos .photo a .pic:hover .caption {
-            opacity: 1; }
-    .spring .spring-wrapper a {
+      font-size: 9.3rem;
+      letter-spacing: 15px;
+      font-weight: lighter;
+      opacity: 0.9; }
+
+.spring .spring-wrapper {
+  padding: 70px;
+  padding-bottom: 100px;
+  box-sizing: border-box; }
+  .spring .spring-wrapper .photos {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row; }
+    .spring .spring-wrapper .photos .photo {
+      box-sizing: border-box;
+      width: 33.33333%;
+      margin-bottom: 58px;
+      padding: 0px 43px 5px 43px; }
+      .spring .spring-wrapper .photos .photo a {
+        outline: none; }
+        .spring .spring-wrapper .photos .photo a .pic {
+          position: relative; }
+          .spring .spring-wrapper .photos .photo a .pic img {
+            width: 100%;
+            height: 100%; }
+          .spring .spring-wrapper .photos .photo a .pic .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            opacity: 0;
+            padding: 1.3vw;
+            text-align: left;
+            box-sizing: border-box; }
+            .spring .spring-wrapper .photos .photo a .pic .caption h2 {
+              font-size: 4.5vw;
+              letter-spacing: 2.5px; }
+            .spring .spring-wrapper .photos .photo a .pic .caption h3 {
+              font-size: 1.8vw;
+              letter-spacing: 2px;
+              margin-top: 5px; }
+              .spring .spring-wrapper .photos .photo a .pic .caption h3 span {
+                font-size: 1.5vw; }
+            .spring .spring-wrapper .photos .photo a .pic .caption p {
+              font-size: 1.2vw;
+              padding-top: 0.7vw;
+              line-height: 1.5; }
+        .spring .spring-wrapper .photos .photo a .pic:hover .caption {
+          opacity: 1; }
+  .spring .spring-wrapper .show_more {
+    text-align: center; }
+    .spring .spring-wrapper .show_more a {
       color: black;
-      display: block;
-      text-align: center;
       font-size: 3.5rem;
       font-weight: lighter; }
-    .spring .spring-wrapper a:hover {
+    .spring .spring-wrapper .show_more a:hover {
       color: #847b66; }
 
-.summer {
-  padding-top: 80px;
-  margin-top: -80px; }
-  .summer .summer-wrapper {
-    padding: 70px;
-    padding-bottom: 40px; }
-    .summer .summer-wrapper h1 {
-      margin-top: -50px;
-      margin-bottom: 50px;
+.summer_background {
+  padding-top: 48px;
+  margin-top: -48px; }
+  .summer_background .summer_title {
+    background-image: url(../images/background/summer_background2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 45vh;
+    background-attachment: fixed; }
+    .summer_background .summer_title h1 {
+      padding-top: 17vh;
       text-align: center;
-      font-size: 8.3rem;
-      letter-spacing: 7px;
-      font-weight: lighter; }
-      .summer .summer-wrapper h1 span {
-        color: #efad6f; }
-    .summer .summer-wrapper .gallery .photos {
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flex;
-      display: -o-flex;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      flex-direction: row; }
-      .summer .summer-wrapper .gallery .photos .photo2 {
-        box-sizing: border-box;
-        width: 33.33333%;
-        margin-bottom: 80px;
-        padding: 5px 45px 5px 45px; }
-        .summer .summer-wrapper .gallery .photos .photo2 a {
-          outline: none; }
-          .summer .summer-wrapper .gallery .photos .photo2 a .pic {
-            position: relative; }
-            .summer .summer-wrapper .gallery .photos .photo2 a .pic img {
-              width: 100%; }
-            .summer .summer-wrapper .gallery .photos .photo2 a .pic .caption {
-              position: absolute;
-              top: 0;
-              left: 0;
-              color: #fff;
-              background-color: rgba(0, 0, 0, 0.4);
-              width: 100%;
-              height: 98%;
-              -webkit-transition: all 0.5s ease;
-              transition: all 0.5s ease;
-              opacity: 0;
-              padding: 40px;
-              text-align: left;
-              box-sizing: border-box; }
-              .summer .summer-wrapper .gallery .photos .photo2 a .pic .caption h2 {
-                font-size: 5.5rem;
-                letter-spacing: 2.5px; }
-              .summer .summer-wrapper .gallery .photos .photo2 a .pic .caption h3 {
-                font-size: 2rem;
-                letter-spacing: 2px;
-                margin-top: 5px; }
-              .summer .summer-wrapper .gallery .photos .photo2 a .pic .caption p {
-                font-size: 1.7rem;
-                padding-top: 10px;
-                line-height: 1.4; }
-          .summer .summer-wrapper .gallery .photos .photo2 a .pic:hover .caption {
-            opacity: 1; }
-    .summer .summer-wrapper a {
+      font-size: 9.3rem;
+      letter-spacing: 15px;
+      font-weight: lighter;
+      opacity: 0.9; }
+
+.summer .summer-wrapper {
+  padding: 70px;
+  padding-bottom: 100px;
+  box-sizing: border-box; }
+  .summer .summer-wrapper .photos {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row; }
+    .summer .summer-wrapper .photos .photo2 {
+      box-sizing: border-box;
+      width: 33.33333%;
+      margin-bottom: 58px;
+      padding: 0px 43px 5px 43px; }
+      .summer .summer-wrapper .photos .photo2 a {
+        outline: none; }
+        .summer .summer-wrapper .photos .photo2 a .pic {
+          position: relative; }
+          .summer .summer-wrapper .photos .photo2 a .pic img {
+            width: 100%;
+            height: 100%; }
+          .summer .summer-wrapper .photos .photo2 a .pic .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            opacity: 0;
+            padding: 1.3vw;
+            text-align: left;
+            box-sizing: border-box; }
+            .summer .summer-wrapper .photos .photo2 a .pic .caption h2 {
+              font-size: 4.5vw;
+              letter-spacing: 2.5px; }
+              .summer .summer-wrapper .photos .photo2 a .pic .caption h2 span {
+                font-size: 3.8vw; }
+            .summer .summer-wrapper .photos .photo2 a .pic .caption h3 {
+              font-size: 1.8vw;
+              letter-spacing: 2px;
+              margin-top: 5px; }
+              .summer .summer-wrapper .photos .photo2 a .pic .caption h3 span {
+                font-size: 1.5vw; }
+            .summer .summer-wrapper .photos .photo2 a .pic .caption p {
+              font-size: 1.2vw;
+              padding-top: 0.7vw;
+              line-height: 1.5; }
+        .summer .summer-wrapper .photos .photo2 a .pic:hover .caption {
+          opacity: 1; }
+  .summer .summer-wrapper .show_more {
+    text-align: center; }
+    .summer .summer-wrapper .show_more a {
       color: black;
-      display: block;
-      text-align: center;
       font-size: 3.5rem;
       font-weight: lighter; }
-    .summer .summer-wrapper a:hover {
+    .summer .summer-wrapper .show_more a:hover {
       color: #847b66; }
 
-.autumn {
-  padding-top: 80px;
-  margin-top: -80px; }
-  .autumn .autumn-wrapper {
-    padding: 70px;
-    padding-bottom: 40px; }
-    .autumn .autumn-wrapper h1 {
-      margin-top: -50px;
-      margin-bottom: 50px;
+.autumn_background {
+  padding-top: 48px;
+  margin-top: -48px; }
+  .autumn_background .autumn_title {
+    background-image: url(../images/background/autumn_background3.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 45vh;
+    background-attachment: fixed; }
+    .autumn_background .autumn_title h1 {
+      padding-top: 17vh;
       text-align: center;
-      font-size: 8.3rem;
-      letter-spacing: 7px;
-      font-weight: lighter; }
-      .autumn .autumn-wrapper h1 span {
-        color: #d78383; }
-    .autumn .autumn-wrapper .gallery .photos {
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flex;
-      display: -o-flex;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      flex-direction: row; }
-      .autumn .autumn-wrapper .gallery .photos .photo3 {
-        box-sizing: border-box;
-        width: 33.33333%;
-        margin-bottom: 80px;
-        padding: 5px 45px 5px 45px; }
-        .autumn .autumn-wrapper .gallery .photos .photo3 a {
-          outline: none; }
-          .autumn .autumn-wrapper .gallery .photos .photo3 a .pic {
-            position: relative; }
-            .autumn .autumn-wrapper .gallery .photos .photo3 a .pic img {
-              width: 100%; }
-            .autumn .autumn-wrapper .gallery .photos .photo3 a .pic .caption {
-              position: absolute;
-              top: 0;
-              left: 0;
-              color: #fff;
-              background-color: rgba(0, 0, 0, 0.4);
-              width: 100%;
-              height: 98%;
-              -webkit-transition: all 0.5s ease;
-              transition: all 0.5s ease;
-              opacity: 0;
-              padding: 40px;
-              text-align: left;
-              box-sizing: border-box; }
-              .autumn .autumn-wrapper .gallery .photos .photo3 a .pic .caption h2 {
-                font-size: 5.5rem;
-                letter-spacing: 2.5px; }
-              .autumn .autumn-wrapper .gallery .photos .photo3 a .pic .caption h3 {
-                font-size: 2rem;
-                letter-spacing: 2px;
-                margin-top: 5px; }
-              .autumn .autumn-wrapper .gallery .photos .photo3 a .pic .caption p {
-                font-size: 1.7rem;
-                padding-top: 10px;
-                line-height: 1.4; }
-          .autumn .autumn-wrapper .gallery .photos .photo3 a .pic:hover .caption {
-            opacity: 1; }
-    .autumn .autumn-wrapper a {
+      font-size: 9.3rem;
+      letter-spacing: 15px;
+      font-weight: lighter;
+      opacity: 0.9; }
+
+.autumn .autumn-wrapper {
+  padding: 70px;
+  padding-bottom: 100px;
+  box-sizing: border-box; }
+  .autumn .autumn-wrapper .photos {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row; }
+    .autumn .autumn-wrapper .photos .photo3 {
+      box-sizing: border-box;
+      width: 33.33333%;
+      margin-bottom: 58px;
+      padding: 0px 43px 5px 43px; }
+      .autumn .autumn-wrapper .photos .photo3 a {
+        outline: none; }
+        .autumn .autumn-wrapper .photos .photo3 a .pic {
+          position: relative; }
+          .autumn .autumn-wrapper .photos .photo3 a .pic img {
+            width: 100%;
+            height: 100%; }
+          .autumn .autumn-wrapper .photos .photo3 a .pic .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            opacity: 0;
+            padding: 1.3vw;
+            text-align: left;
+            box-sizing: border-box; }
+            .autumn .autumn-wrapper .photos .photo3 a .pic .caption h2 {
+              font-size: 4.5vw;
+              letter-spacing: 2.5px; }
+              .autumn .autumn-wrapper .photos .photo3 a .pic .caption h2 span {
+                font-size: 3.8vw; }
+            .autumn .autumn-wrapper .photos .photo3 a .pic .caption h3 {
+              font-size: 1.8vw;
+              letter-spacing: 2px;
+              margin-top: 5px; }
+              .autumn .autumn-wrapper .photos .photo3 a .pic .caption h3 span {
+                font-size: 1.5vw; }
+            .autumn .autumn-wrapper .photos .photo3 a .pic .caption p {
+              font-size: 1.2vw;
+              padding-top: 0.7vw;
+              line-height: 1.5; }
+        .autumn .autumn-wrapper .photos .photo3 a .pic:hover .caption {
+          opacity: 1; }
+  .autumn .autumn-wrapper .show_more {
+    text-align: center; }
+    .autumn .autumn-wrapper .show_more a {
       color: black;
-      display: block;
-      text-align: center;
       font-size: 3.5rem;
       font-weight: lighter; }
-    .autumn .autumn-wrapper a:hover {
+    .autumn .autumn-wrapper .show_more a:hover {
       color: #847b66; }
 
-.winter {
-  padding-top: 80px;
-  margin-top: -80px; }
-  .winter .winter-wrapper {
-    padding: 70px;
-    padding-bottom: 40px; }
-    .winter .winter-wrapper h1 {
-      margin-top: -50px;
-      margin-bottom: 50px;
+.winter_background {
+  padding-top: 48px;
+  margin-top: -48px; }
+  .winter_background .winter_title {
+    background-image: url(../images/background/winter_background4.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 45vh;
+    background-attachment: fixed; }
+    .winter_background .winter_title h1 {
+      padding-top: 17vh;
       text-align: center;
-      font-size: 8.3rem;
-      letter-spacing: 7px;
-      font-weight: lighter; }
-      .winter .winter-wrapper h1 span {
-        color: #8cb8dd; }
-    .winter .winter-wrapper .gallery .photos {
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flex;
-      display: -o-flex;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      flex-direction: row; }
-      .winter .winter-wrapper .gallery .photos .photo4 {
-        box-sizing: border-box;
-        width: 33.33333%;
-        margin-bottom: 80px;
-        padding: 5px 45px 5px 45px; }
-        .winter .winter-wrapper .gallery .photos .photo4 a {
-          outline: none; }
-          .winter .winter-wrapper .gallery .photos .photo4 a .pic {
-            position: relative; }
-            .winter .winter-wrapper .gallery .photos .photo4 a .pic img {
-              width: 100%; }
-            .winter .winter-wrapper .gallery .photos .photo4 a .pic .caption {
-              position: absolute;
-              top: 0;
-              left: 0;
-              color: #fff;
-              background-color: rgba(0, 0, 0, 0.4);
-              width: 100%;
-              height: 98%;
-              -webkit-transition: all 0.5s ease;
-              transition: all 0.5s ease;
-              opacity: 0;
-              padding: 40px;
-              text-align: left;
-              box-sizing: border-box; }
-              .winter .winter-wrapper .gallery .photos .photo4 a .pic .caption h2 {
-                font-size: 5.5rem;
-                letter-spacing: 2.5px; }
-              .winter .winter-wrapper .gallery .photos .photo4 a .pic .caption h3 {
-                font-size: 2rem;
-                letter-spacing: 2px;
-                margin-top: 5px; }
-              .winter .winter-wrapper .gallery .photos .photo4 a .pic .caption p {
-                font-size: 1.7rem;
-                padding-top: 10px;
-                line-height: 1.4; }
-          .winter .winter-wrapper .gallery .photos .photo4 a .pic:hover .caption {
-            opacity: 1; }
-    .winter .winter-wrapper a {
+      font-size: 9.3rem;
+      letter-spacing: 15px;
+      font-weight: lighter;
+      opacity: 0.9; }
+
+.winter .winter-wrapper {
+  padding: 70px;
+  padding-bottom: 100px;
+  box-sizing: border-box; }
+  .winter .winter-wrapper .photos {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row; }
+    .winter .winter-wrapper .photos .photo4 {
+      box-sizing: border-box;
+      width: 33.33333%;
+      margin-bottom: 58px;
+      padding: 0px 43px 5px 43px; }
+      .winter .winter-wrapper .photos .photo4 a {
+        outline: none; }
+        .winter .winter-wrapper .photos .photo4 a .pic {
+          position: relative; }
+          .winter .winter-wrapper .photos .photo4 a .pic img {
+            width: 100%;
+            height: 100%; }
+          .winter .winter-wrapper .photos .photo4 a .pic .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            opacity: 0;
+            padding: 1.3vw;
+            text-align: left;
+            box-sizing: border-box; }
+            .winter .winter-wrapper .photos .photo4 a .pic .caption h2 {
+              font-size: 4.5vw;
+              letter-spacing: 2.5px; }
+              .winter .winter-wrapper .photos .photo4 a .pic .caption h2 span {
+                font-size: 3.8vw; }
+            .winter .winter-wrapper .photos .photo4 a .pic .caption h3 {
+              font-size: 1.8vw;
+              letter-spacing: 2px;
+              margin-top: 5px; }
+              .winter .winter-wrapper .photos .photo4 a .pic .caption h3 span {
+                font-size: 1.5vw; }
+            .winter .winter-wrapper .photos .photo4 a .pic .caption p {
+              font-size: 1.2vw;
+              padding-top: 0.7vw;
+              line-height: 1.5; }
+        .winter .winter-wrapper .photos .photo4 a .pic:hover .caption {
+          opacity: 1; }
+  .winter .winter-wrapper .show_more {
+    text-align: center; }
+    .winter .winter-wrapper .show_more a {
       color: black;
-      display: block;
-      text-align: center;
       font-size: 3.5rem;
       font-weight: lighter; }
-    .winter .winter-wrapper a:hover {
+    .winter .winter-wrapper .show_more a:hover {
       color: #847b66; }
+
+.about_me_background {
+  margin-top: -48px;
+  padding-top: 48px;
+  margin-bottom: 30px; }
+  .about_me_background .about_me_title {
+    background-image: url(../images/background/about_me_background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 45vh;
+    background-attachment: fixed; }
+    .about_me_background .about_me_title h1 {
+      padding-top: 17vh;
+      text-align: center;
+      font-size: 9.3rem;
+      letter-spacing: 15px;
+      font-weight: lighter; }
 
 .about_me {
-  padding-top: 180px;
-  margin-top: -100px;
   margin-bottom: 40px; }
   .about_me .about_me_wrapper {
     width: 70%;
     margin: 0 auto;
-    padding-bottom: 40px; }
-    .about_me .about_me_wrapper h1 {
-      margin-top: -50px;
-      margin-bottom: 70px;
-      text-align: center;
-      font-size: 8.3rem;
-      letter-spacing: 7px;
-      font-weight: lighter; }
-    .about_me .about_me_wrapper .flex {
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flex;
-      display: -o-flex;
-      display: flex;
-      flex-wrap: nowrap;
-      flex-direction: row; }
-      .about_me .about_me_wrapper .flex img {
-        margin-right: 50px;
-        border-radius: 3px; }
-      .about_me .about_me_wrapper .flex .content h2 {
-        font-size: 3.5rem;
-        padding-bottom: 20px; }
-      .about_me .about_me_wrapper .flex .content p {
-        word-wrap: break-word;
-        font-size: 1.8rem;
-        line-height: 1.8; }
-  .about_me .social {
-    margin-top: 20px; }
-    .about_me .social ul {
-      text-align: center; }
-      .about_me .social ul li {
-        margin-right: 50px;
+    padding-bottom: 30px;
+    text-align: center; }
+    .about_me .about_me_wrapper .content h2 {
+      font-size: 2.7rem;
+      padding-bottom: 20px; }
+    .about_me .about_me_wrapper .content p {
+      word-wrap: break-word;
+      font-size: 1.6rem;
+      line-height: 2; }
+  .about_me .social ul {
+    text-align: center; }
+    .about_me .social ul li {
+      margin-right: 50px;
+      display: inline-block; }
+      .about_me .social ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 3.2rem;
         display: inline-block; }
-        .about_me .social ul li a {
-          text-decoration: none;
-          color: black;
-          font-size: 4rem;
-          display: inline-block; }
-        .about_me .social ul li a:hover {
-          color: #847b66;
-          -webkit-animation: zoom .3s;
-          animation: zoom .3s; }
+      .about_me .social ul li a:hover {
+        color: #847b66;
+        -webkit-animation: zoom .3s;
+        animation: zoom .3s; }
 @-webkit-keyframes zoom {
   50% {
     -webkit-transform: scale(1.05); } }
 @keyframes zoom {
   50% {
     transform: scale(1.05); } }
-      .about_me .social ul li:last-child {
-        margin-right: 0; }
+    .about_me .social ul li:last-child {
+      margin-right: 0; }
 
 footer {
   padding: 10px;

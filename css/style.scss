@@ -74,860 +74,909 @@ header{
     height: 100vh;
     display: block;
     position: relative;
-    h1{
-        font-size: 6.8rem;
-        padding: 35px;
-        text-align: center;
-        letter-spacing: 5px;
-    }
-    p.concept{
-        font-size: 2.2rem;
-        line-height: 2.8;
-        letter-spacing: 3px;
-        text-align: center;
-        margin-bottom: 28px;
-    }
-    p.capture{
-        font-size: 4rem;
-        text-align: center;
-        letter-spacing: 4px;
-    }
-    p.tsubasa{
-        margin-top: 30px;
-        
-        margin-left: calc(50% + 250px);
-        svg{
-            .path1{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 1s linear forwards;
-                  animation: dash 1s linear forwards;
-            }
-            .path2{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 0.2s;
-            	-webkit-animation-delay: 0.2s;
-            	-moz-animation-delay: 0.2s;
-            }
-            .path3{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 0.5s;
-            	-webkit-animation-delay: 0.5s;
-            	-moz-animation-delay: 0.5s;
-            }
-            .path4{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 0.8s;
-            	-webkit-animation-delay: 0.8s;
-            	-moz-animation-delay: 0.8s;
-            }
-            .path5{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 1.2s;
-            	-webkit-animation-delay: 1.2s;
-            	-moz-animation-delay: 1.2s;
-            }
-            .path6{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 1.3s;
-            	-webkit-animation-delay: 1.3s;
-            	-moz-animation-delay: 1.3s;
-            }
-            .path7{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 1.9s;
-            	-webkit-animation-delay: 1.9s;
-            	-moz-animation-delay: 1.9s;
-            }
-            .path8{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 2.2s;
-            	-webkit-animation-delay: 2.2s;
-            	-moz-animation-delay: 2.2s;
-            }
-            .path9{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 2.5s;
-            	-webkit-animation-delay: 2.5s;
-            	-moz-animation-delay: 2.5s;
-            }
-            .path10{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 2.8s;
-            	-webkit-animation-delay: 2.8s;
-            	-moz-animation-delay: 2.8s;
-            	
-            }
-            .path11{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 3s;
-            	-webkit-animation-delay: 3s;
-            	-moz-animation-delay: 3s;
-            }
-            .path12{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 5s linear forwards;
-                  animation: dash 5s linear forwards;
-                  animation-delay: 3.3s;
-            	-webkit-animation-delay: 3.3s;
-            	-moz-animation-delay: 3.3s;
-            }
-            .path13{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 3.7s;
-            	-webkit-animation-delay: 3.7s;
-            	-moz-animation-delay: 3.7s;
-            }
-            .path14{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 3.9s;
-            	-webkit-animation-delay: 3.9s;
-            	-moz-animation-delay: 3.9s;
-            }
-            .path15{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 4s;
-            	-webkit-animation-delay: 4s;
-            	-moz-animation-delay: 4s;
-            }
-            .path16{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 4.2s;
-            	-webkit-animation-delay: 4.2s;
-            	-moz-animation-delay: 4.2s;
-            }
-            .path17{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 4.5s;
-            	-webkit-animation-delay: 4.5s;
-            	-moz-animation-delay: 4.5s;
-            }
-            .path18{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 5s linear forwards;
-                  animation: dash 5s linear forwards;
-                  animation-delay: 4.7s;
-            	-webkit-animation-delay: 4.7s;
-            	-moz-animation-delay: 4.7s;
-            }
-            .path19{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 5s;
-            	-webkit-animation-delay: 5s;
-            	-moz-animation-delay: 5s;
-            }
-            .path20{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 5.3s;
-            	-webkit-animation-delay: 5.3s;
-            	-moz-animation-delay: 5.3s;
-            }
-            .path21{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 5.6s;
-            	-webkit-animation-delay: 5.6s;
-            	-moz-animation-delay: 5.6s;
-            }
-            .path22{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 5.8s;
-            	-webkit-animation-delay: 5.8s;
-            	-moz-animation-delay: 5.8s;
-            }.path23{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 6s;
-            	-webkit-animation-delay: 6s;
-            	-moz-animation-delay: 6s;
-            }
-            .path24{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 6.3s;
-            	-webkit-animation-delay: 6.3s;
-            	-moz-animation-delay: 6.3s;
-            }
-            .path25{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 6.5s;
-            	-webkit-animation-delay: 6.5s;
-            	-moz-animation-delay: 6.5s;
-            }
-            .path26{
-            	stroke: #000;
-            	fill: none;
-            	stroke-width: 1;
-            	stroke-linecap: round;
-                stroke-linejoin: round;
-            	stroke-dasharray: 200;
-                  stroke-dashoffset: 200;
-                  -webkit-animation: dash 7s linear forwards;
-                  animation: dash 7s linear forwards;
-                  animation-delay: 6.8s;
-            	-webkit-animation-delay: 6.8s;
-            	-moz-animation-delay: 6.8s;
-            }
-                @-webkit-keyframes dash {
-                  to {
-                    stroke-dashoffset: 0;
-                  }
-                }
-                @keyframes dash {
-                  to {
-                    stroke-dashoffset: 0;
-                  }
-                }
-        }
-    }
-    .menu{
-        z-index: 10;
-        background-color: #fafafa;
-        position: absolute;
-        top: 87vh;
-        width: 100%;
-        padding-top: 10px;
-        padding-bottom: 15px;
-        ul{
+    .container{
+        h1{
+            font-size: 6.8rem;
+            padding: 35px;
             text-align: center;
-            li{
-                letter-spacing: 4px;
-                display: inline-block;
-                font-size: 4rem;
-                border-right: 1px solid black;
-                a{
-                    text-decoration: none;
-                    color: black;
-                    padding-right: 20px;
-                    padding-left: 20px;
-                    display: inline-block;
+            letter-spacing: 5px;
+        }
+        p.concept{
+            font-size: 3.5vh;
+            
+            line-height: 8vh;
+            letter-spacing: 3px;
+            text-align: center;
+            margin-bottom: 28px;
+        }
+        p.capture{
+            font-size: 4rem;
+            text-align: center;
+            letter-spacing: 4px;
+        }
+        p.tsubasa{
+            margin-top: 35px;
+            margin-left: calc(50% + 250px);
+            svg{
+                .path1{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 1s linear forwards;
+                      animation: dash 1s linear forwards;
                 }
-                a:hover {
-                    color: #847b66;
-                    -webkit-animation: zoom .3s;
-                    animation: zoom .3s;
+                .path2{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 0.2s;
+                	-webkit-animation-delay: 0.2s;
+                	-moz-animation-delay: 0.2s;
                 }
-                @-webkit-keyframes zoom {
-                    50% {
-                        -webkit-transform: scale(1.05);
+                .path3{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 0.5s;
+                	-webkit-animation-delay: 0.5s;
+                	-moz-animation-delay: 0.5s;
+                }
+                .path4{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 0.8s;
+                	-webkit-animation-delay: 0.8s;
+                	-moz-animation-delay: 0.8s;
+                }
+                .path5{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 1.2s;
+                	-webkit-animation-delay: 1.2s;
+                	-moz-animation-delay: 1.2s;
+                }
+                .path6{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 1.3s;
+                	-webkit-animation-delay: 1.3s;
+                	-moz-animation-delay: 1.3s;
+                }
+                .path7{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 1.9s;
+                	-webkit-animation-delay: 1.9s;
+                	-moz-animation-delay: 1.9s;
+                }
+                .path8{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 2.2s;
+                	-webkit-animation-delay: 2.2s;
+                	-moz-animation-delay: 2.2s;
+                }
+                .path9{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 2.5s;
+                	-webkit-animation-delay: 2.5s;
+                	-moz-animation-delay: 2.5s;
+                }
+                .path10{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 2.8s;
+                	-webkit-animation-delay: 2.8s;
+                	-moz-animation-delay: 2.8s;
+                	
+                }
+                .path11{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 3s;
+                	-webkit-animation-delay: 3s;
+                	-moz-animation-delay: 3s;
+                }
+                .path12{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 5s linear forwards;
+                      animation: dash 5s linear forwards;
+                      animation-delay: 3.3s;
+                	-webkit-animation-delay: 3.3s;
+                	-moz-animation-delay: 3.3s;
+                }
+                .path13{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 3.7s;
+                	-webkit-animation-delay: 3.7s;
+                	-moz-animation-delay: 3.7s;
+                }
+                .path14{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 3.9s;
+                	-webkit-animation-delay: 3.9s;
+                	-moz-animation-delay: 3.9s;
+                }
+                .path15{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 4s;
+                	-webkit-animation-delay: 4s;
+                	-moz-animation-delay: 4s;
+                }
+                .path16{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 4.2s;
+                	-webkit-animation-delay: 4.2s;
+                	-moz-animation-delay: 4.2s;
+                }
+                .path17{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 4.5s;
+                	-webkit-animation-delay: 4.5s;
+                	-moz-animation-delay: 4.5s;
+                }
+                .path18{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 5s linear forwards;
+                      animation: dash 5s linear forwards;
+                      animation-delay: 4.7s;
+                	-webkit-animation-delay: 4.7s;
+                	-moz-animation-delay: 4.7s;
+                }
+                .path19{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 5s;
+                	-webkit-animation-delay: 5s;
+                	-moz-animation-delay: 5s;
+                }
+                .path20{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 5.3s;
+                	-webkit-animation-delay: 5.3s;
+                	-moz-animation-delay: 5.3s;
+                }
+                .path21{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 5.6s;
+                	-webkit-animation-delay: 5.6s;
+                	-moz-animation-delay: 5.6s;
+                }
+                .path22{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 5.8s;
+                	-webkit-animation-delay: 5.8s;
+                	-moz-animation-delay: 5.8s;
+                }.path23{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 6s;
+                	-webkit-animation-delay: 6s;
+                	-moz-animation-delay: 6s;
+                }
+                .path24{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 6.3s;
+                	-webkit-animation-delay: 6.3s;
+                	-moz-animation-delay: 6.3s;
+                }
+                .path25{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 6.5s;
+                	-webkit-animation-delay: 6.5s;
+                	-moz-animation-delay: 6.5s;
+                }
+                .path26{
+                	stroke: #000;
+                	fill: none;
+                	stroke-width: 1;
+                	stroke-linecap: round;
+                    stroke-linejoin: round;
+                	stroke-dasharray: 200;
+                      stroke-dashoffset: 200;
+                      -webkit-animation: dash 7s linear forwards;
+                      animation: dash 7s linear forwards;
+                      animation-delay: 6.8s;
+                	-webkit-animation-delay: 6.8s;
+                	-moz-animation-delay: 6.8s;
+                }
+                    @-webkit-keyframes dash {
+                      to {
+                        stroke-dashoffset: 0;
+                      }
                     }
-                }
-                @keyframes zoom {
-                    50% {
-                        transform: scale(1.05);
+                    @keyframes dash {
+                      to {
+                        stroke-dashoffset: 0;
+                      }
                     }
-                }
             }
-            li:last-child{
-                border-right: none;
+        }
+        .menu{
+            z-index: 10;
+            background-color: #fafafa;
+            position: absolute;
+            top: 87vh;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            ul{
+                text-align: center;
+                li{
+                    letter-spacing: 4px;
+                    display: inline-block;
+                    font-size: 2.3vw;
+                    border-right: 1px solid black;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        padding-right: 2vw;
+                        padding-left: 2vw;
+                        
+                        display: inline-block;
+                    }
+                    a:hover {
+                        color: #847b66;
+                        -webkit-animation: zoom .3s;
+                        animation: zoom .3s;
+                    }
+                    @-webkit-keyframes zoom {
+                        50% {
+                            -webkit-transform: scale(1.05);
+                        }
+                    }
+                    @keyframes zoom {
+                        50% {
+                            transform: scale(1.05);
+                        }
+                    }
+                }
+                li:last-child{
+                    border-right: none;
+                }
             }
         }
     }
 }
 
-.introduction .follow {
+.introduction .container .menu.follow {
     position: fixed;
     top: 0;
 }
 // introduction
 
+.spring_background{
+    padding-top: 56px;
+    margin-top: -56px;
+    .spring_title{
+        background-image: url(../images/background/spring_background1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 45vh;
+        background-attachment: fixed;
+        h1{
+            padding-top: 16vh;
+            text-align: center;
+            font-size: 9.3rem;
+            letter-spacing:15px;
+            font-weight: lighter;
+            opacity: 0.9;
+        }
+    }
+}
+
 .spring{
-    padding-top: 80px;
-    margin-top: -80px;
     .spring-wrapper{
         padding: 70px;
-        padding-bottom: 40px;
-        h1{
-            margin-top: -50px;
-            margin-bottom: 50px;
-            text-align: center;
-            font-size: 8.3rem;
-            letter-spacing: 7px;
-            font-weight: lighter;
-            span{
-                color: #e9acdf;
-            }
-        }
-        .gallery{
-            
-            .photos{
-                display: -webkit-flex;
-                display: -moz-flex;
-                display: -ms-flex;
-                display: -o-flex;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                flex-direction: row;
-                .photo{
-                    box-sizing: border-box;
-                    width: (100% / 3);
-                    margin-bottom: 80px;
-                    padding: 5px 45px 5px 45px;
-                    a{
-                        outline: none;
-                        .pic{
-                            position: relative;
-                            img{
-                                width: 100%;
-                            }
-                            .caption{
-                                position: absolute;
-                                top: 0;
-                                left: 0;
-                                color: #fff;
-                                background-color: rgba(0,0,0,0.4);
-                                width: 100%;
-                                height: 98%;
-                                -webkit-transition: all 0.5s ease;
-                                transition: all 0.5s ease;
-                                opacity: 0;
-                                padding: 40px;
-                                text-align: left;
-                                box-sizing: border-box;
-                                h2{
-                                    font-size: 5.5rem;
-                                    letter-spacing: 2.5px;
-                                }
-                                h3{
-                                    font-size: 2rem;
-                                    letter-spacing: 2px;
-                                    margin-top: 5px;
-                                }
-                                p{
-                                    font-size: 1.7rem;
-                                    padding-top: 10px;
-                                    line-height: 1.4;
-                                }
-                            }
-                        }
-                        .pic:hover .caption{
-                            opacity: 1;
-                        }
-                    }
-                }
-            }
-        }
-        a{
-            color: black;
-            display: block;
-            text-align: center;
-            font-size: 3.5rem;
-            font-weight: lighter;
-        }
-        a:hover{
-            color: #847b66;
-        }
-    }
-}
-// spring
-
-.summer{
-    padding-top: 80px;
-    margin-top: -80px;
-    .summer-wrapper{
-        padding: 70px;
-        padding-bottom: 40px;
-        h1{
-            margin-top: -50px;
-            margin-bottom: 50px;
-            text-align: center;
-            font-size: 8.3rem;
-            letter-spacing: 7px;
-            font-weight: lighter;
-            span{
-                color: #efad6f;
-            }
-        }
-        .gallery{
-            
-            .photos{
-                display: -webkit-flex;
-                display: -moz-flex;
-                display: -ms-flex;
-                display: -o-flex;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                flex-direction: row;
-                .photo2{
-                    box-sizing: border-box;
-                    width: (100% / 3);
-                    margin-bottom: 80px;
-                    padding: 5px 45px 5px 45px;
-                    a{
-                        outline: none;
-                        .pic{
-                            position: relative;
-                            img{
-                                width: 100%;
-                            }
-                            .caption{
-                                position: absolute;
-                                top: 0;
-                                left: 0;
-                                color: #fff;
-                                background-color: rgba(0,0,0,0.4);
-                                width: 100%;
-                                height: 98%;
-                                -webkit-transition: all 0.5s ease;
-                                transition: all 0.5s ease;
-                                opacity: 0;
-                                padding: 40px;
-                                text-align: left;
-                                box-sizing: border-box;
-                                h2{
-                                    font-size: 5.5rem;
-                                    letter-spacing: 2.5px;
-                                }
-                                h3{
-                                    font-size: 2rem;
-                                    letter-spacing: 2px;
-                                    margin-top: 5px;
-                                }
-                                p{
-                                    font-size: 1.7rem;
-                                    padding-top: 10px;
-                                    line-height: 1.4;
-                                }
-                            }
-                        }
-                        .pic:hover .caption{
-                            opacity: 1;
-                        }
-                    }
-                }
-            }
-        }
-        a{
-            color: black;
-            display: block;
-            text-align: center;
-            font-size: 3.5rem;
-            font-weight: lighter;
-        }
-        a:hover{
-            color: #847b66;
-        }
-    }
-}
-//summer
-
-.autumn{
-    padding-top: 80px;
-    margin-top: -80px;
-    .autumn-wrapper{
-        padding: 70px;
-        padding-bottom: 40px;
-        h1{
-            margin-top: -50px;
-            margin-bottom: 50px;
-            text-align: center;
-            font-size: 8.3rem;
-            letter-spacing: 7px;
-            font-weight: lighter;
-            span{
-                color: #d78383;
-            }
-        }
-        .gallery{
-            
-            .photos{
-                display: -webkit-flex;
-                display: -moz-flex;
-                display: -ms-flex;
-                display: -o-flex;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                flex-direction: row;
-                .photo3{
-                    box-sizing: border-box;
-                    width: (100% / 3);
-                    margin-bottom: 80px;
-                    padding: 5px 45px 5px 45px;
-                    a{
-                        outline: none;
-                        .pic{
-                            position: relative;
-                            img{
-                                width: 100%;
-                            }
-                            .caption{
-                                position: absolute;
-                                top: 0;
-                                left: 0;
-                                color: #fff;
-                                background-color: rgba(0,0,0,0.4);
-                                width: 100%;
-                                height: 98%;
-                                -webkit-transition: all 0.5s ease;
-                                transition: all 0.5s ease;
-                                opacity: 0;
-                                padding: 40px;
-                                text-align: left;
-                                box-sizing: border-box;
-                                h2{
-                                    font-size: 5.5rem;
-                                    letter-spacing: 2.5px;
-                                }
-                                h3{
-                                    font-size: 2rem;
-                                    letter-spacing: 2px;
-                                    margin-top: 5px;
-                                }
-                                p{
-                                    font-size: 1.7rem;
-                                    padding-top: 10px;
-                                    line-height: 1.4;
-                                }
-                            }
-                        }
-                        .pic:hover .caption{
-                            opacity: 1;
-                        }
-                    }
-                }
-            }
-        }
-        a{
-            color: black;
-            display: block;
-            text-align: center;
-            font-size: 3.5rem;
-            font-weight: lighter;
-        }
-        a:hover{
-            color: #847b66;
-        }
-    }
-}
-// autumn
-
-.winter{
-    padding-top: 80px;
-    margin-top: -80px;
-    .winter-wrapper{
-        padding: 70px;
-        padding-bottom: 40px;
-        h1{
-            margin-top: -50px;
-            margin-bottom: 50px;
-            text-align: center;
-            font-size: 8.3rem;
-            letter-spacing: 7px;
-            font-weight: lighter;
-            span{
-                color: #8cb8dd;
-            }
-        }
-        .gallery{
-            
-            .photos{
-                display: -webkit-flex;
-                display: -moz-flex;
-                display: -ms-flex;
-                display: -o-flex;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                flex-direction: row;
-                .photo4{
-                    box-sizing: border-box;
-                    width: (100% / 3);
-                    margin-bottom: 80px;
-                    padding: 5px 45px 5px 45px;
-                    a{
-                        outline: none;
-                        .pic{
-                            position: relative;
-                            img{
-                                width: 100%;
-                            }
-                            .caption{
-                                position: absolute;
-                                top: 0;
-                                left: 0;
-                                color: #fff;
-                                background-color: rgba(0,0,0,0.4);
-                                width: 100%;
-                                height: 98%;
-                                -webkit-transition: all 0.5s ease;
-                                transition: all 0.5s ease;
-                                opacity: 0;
-                                padding: 40px;
-                                text-align: left;
-                                box-sizing: border-box;
-                                h2{
-                                    font-size: 5.5rem;
-                                    letter-spacing: 2.5px;
-                                }
-                                h3{
-                                    font-size: 2rem;
-                                    letter-spacing: 2px;
-                                    margin-top: 5px;
-                                }
-                                p{
-                                    font-size: 1.7rem;
-                                    padding-top: 10px;
-                                    line-height: 1.4;
-                                }
-                            }
-                        }
-                        .pic:hover .caption{
-                            opacity: 1;
-                        }
-                    }
-                }
-            }
-        }
-        a{
-            color: black;
-            display: block;
-            text-align: center;
-            font-size: 3.5rem;
-            font-weight: lighter;
-        }
-        a:hover{
-            color: #847b66;
-        }
-    }
-}
-// winter
-
-.about_me{
-    padding-top: 180px;
-    margin-top: -100px;
-    margin-bottom: 40px;
-    .about_me_wrapper{
-        width: 70%;
-        margin: 0 auto;
-        padding-bottom: 40px;
-        h1{
-            margin-top: -50px;
-            margin-bottom: 70px;
-            text-align: center;
-            font-size: 8.3rem;
-            letter-spacing: 7px;
-            font-weight: lighter;
-        }
-        .flex{
+        padding-bottom: 100px;
+        box-sizing: border-box;
+        .photos{
             display: -webkit-flex;
             display: -moz-flex;
             display: -ms-flex;
             display: -o-flex;
             display: flex;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
+            justify-content: space-between;
             flex-direction: row;
-            img{
-                margin-right: 50px;
-                border-radius: 3px;
+            .photo{
+                box-sizing: border-box;
+                width: (100% / 3);
+                margin-bottom: 58px;
+                padding: 0px 43px 5px 43px;
+                a{
+                    outline: none;
+                    .pic{
+                        position: relative;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .caption{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            color: #fff;
+                            background-color: rgba(0,0,0,0.6);
+                            width: 100%;
+                            height: 100%;
+                            -webkit-transition: all 0.5s ease;
+                            transition: all 0.5s ease;
+                            opacity: 0;
+                            padding: 1.3vw;
+                            text-align: left;
+                            box-sizing: border-box;
+                            h2{
+                                font-size: 4.5vw;
+                                letter-spacing: 2.5px;
+                            }
+                            h3{
+                                font-size: 1.8vw;
+                                letter-spacing: 2px;
+                                margin-top: 5px;
+                                span{
+                                    font-size: 1.5vw;
+                                }
+                            }
+                            p{
+                                font-size: 1.2vw;
+                                padding-top: 0.7vw;
+                                line-height: 1.5;
+                            }
+                        }
+                    }
+                    .pic:hover .caption{
+                        opacity: 1;
+                    }
+                }
             }
-            .content{
-                h2{
-                    font-size: 3.5rem;
-                    padding-bottom: 20px;
+        }
+        .show_more{
+            text-align: center;
+            a{
+                color: black;
+                font-size: 3.5rem;
+                font-weight: lighter;
+            }
+            a:hover{
+                color: #847b66;
+            }
+        }
+    }
+}
+//spring
+
+.summer_background{
+    padding-top: 48px;
+    margin-top: -48px;
+    .summer_title{
+        background-image: url(../images/background/summer_background2.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 45vh;
+        background-attachment: fixed;
+        h1{
+            padding-top: 17vh;
+            text-align: center;
+            font-size: 9.3rem;
+            letter-spacing:15px;
+            font-weight: lighter;
+            opacity: 0.9;
+        }
+    }
+}
+
+.summer{
+    .summer-wrapper{
+        padding: 70px;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+        .photos{
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row;
+            .photo2{
+                box-sizing: border-box;
+                width: (100% / 3);
+                margin-bottom: 58px;
+                padding: 0px 43px 5px 43px;
+                a{
+                    outline: none;
+                    .pic{
+                        position: relative;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .caption{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            color: #fff;
+                            background-color: rgba(0,0,0,0.6);
+                            width: 100%;
+                            height: 100%;
+                            -webkit-transition: all 0.5s ease;
+                            transition: all 0.5s ease;
+                            opacity: 0;
+                            padding: 1.3vw;
+                            text-align: left;
+                            box-sizing: border-box;
+                            h2{
+                                font-size: 4.5vw;
+                                letter-spacing: 2.5px;
+                                span{
+                                    font-size: 3.8vw;
+                                }
+                            }
+                            h3{
+                                font-size: 1.8vw;
+                                letter-spacing: 2px;
+                                margin-top: 5px;
+                                span{
+                                    font-size: 1.5vw;
+                                }
+                            }
+                            p{
+                                font-size: 1.2vw;
+                                padding-top: 0.7vw;
+                                line-height: 1.5;
+                            }
+                        }
+                    }
+                    .pic:hover .caption{
+                        opacity: 1;
+                    }
                 }
-                p{
-                    word-wrap: break-word;
-                    font-size: 1.8rem;
-                    line-height: 1.8;
+            }
+        }
+        .show_more{
+            text-align: center;
+            a{
+                color: black;
+                font-size: 3.5rem;
+                font-weight: lighter;
+            }
+            a:hover{
+                color: #847b66;
+            }
+        }
+    }
+}
+//summer
+
+.autumn_background{
+    padding-top: 48px;
+    margin-top: -48px;
+    .autumn_title{
+        background-image: url(../images/background/autumn_background3.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 45vh;
+        background-attachment: fixed;
+        h1{
+            padding-top: 17vh;
+            text-align: center;
+            font-size: 9.3rem;
+            letter-spacing:15px;
+            font-weight: lighter;
+            opacity: 0.9;
+        }
+    }
+}
+
+.autumn{
+    .autumn-wrapper{
+        padding: 70px;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+        .photos{
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row;
+            .photo3{
+                box-sizing: border-box;
+                width: (100% / 3);
+                margin-bottom: 58px;
+                padding: 0px 43px 5px 43px;
+                a{
+                    outline: none;
+                    .pic{
+                        position: relative;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .caption{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            color: #fff;
+                            background-color: rgba(0,0,0,0.6);
+                            width: 100%;
+                            height: 100%;
+                            -webkit-transition: all 0.5s ease;
+                            transition: all 0.5s ease;
+                            opacity: 0;
+                            padding: 1.3vw;
+                            text-align: left;
+                            box-sizing: border-box;
+                            h2{
+                                font-size: 4.5vw;
+                                letter-spacing: 2.5px;
+                                span{
+                                    font-size: 3.8vw;
+                                }
+                            }
+                            h3{
+                                font-size: 1.8vw;
+                                letter-spacing: 2px;
+                                margin-top: 5px;
+                                span{
+                                    font-size: 1.5vw;
+                                }
+                            }
+                            p{
+                                font-size: 1.2vw;
+                                padding-top: 0.7vw;
+                                line-height: 1.5;
+                            }
+                        }
+                    }
+                    .pic:hover .caption{
+                        opacity: 1;
+                    }
                 }
+            }
+        }
+        .show_more{
+            text-align: center;
+            a{
+                color: black;
+                font-size: 3.5rem;
+                font-weight: lighter;
+            }
+            a:hover{
+                color: #847b66;
+            }
+        }
+    }
+}
+// autumn
+
+.winter_background{
+    padding-top: 48px;
+    margin-top: -48px;
+    .winter_title{
+        background-image: url(../images/background/winter_background4.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 45vh;
+        background-attachment: fixed;
+        h1{
+            padding-top: 17vh;
+            text-align: center;
+            font-size: 9.3rem;
+            letter-spacing:15px;
+            font-weight: lighter;
+            opacity: 0.9;
+        }
+    }
+}
+
+.winter{
+    .winter-wrapper{
+        padding: 70px;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+        .photos{
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row;
+            .photo4{
+                box-sizing: border-box;
+                width: (100% / 3);
+                margin-bottom: 58px;
+                padding: 0px 43px 5px 43px;
+                a{
+                    outline: none;
+                    .pic{
+                        position: relative;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .caption{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            color: #fff;
+                            background-color: rgba(0,0,0,0.6);
+                            width: 100%;
+                            height: 100%;
+                            -webkit-transition: all 0.5s ease;
+                            transition: all 0.5s ease;
+                            opacity: 0;
+                            padding: 1.3vw;
+                            text-align: left;
+                            box-sizing: border-box;
+                            h2{
+                                font-size: 4.5vw;
+                                letter-spacing: 2.5px;
+                                span{
+                                    font-size: 3.8vw;
+                                }
+                            }
+                            h3{
+                                font-size: 1.8vw;
+                                letter-spacing: 2px;
+                                margin-top: 5px;
+                                span{
+                                    font-size: 1.5vw;
+                                }
+                            }
+                            p{
+                                font-size: 1.2vw;
+                                padding-top: 0.7vw;
+                                line-height: 1.5;
+                            }
+                        }
+                    }
+                    .pic:hover .caption{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .show_more{
+            text-align: center;
+            a{
+                color: black;
+                font-size: 3.5rem;
+                font-weight: lighter;
+            }
+            a:hover{
+                color: #847b66;
+            }
+        }
+    }
+}
+// winter
+
+.about_me_background{
+    margin-top: -48px;
+    padding-top: 48px;
+    margin-bottom: 30px;
+    .about_me_title{
+        background-image: url(../images/background/about_me_background.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 45vh;
+        background-attachment: fixed;
+        h1{
+            padding-top: 17vh;
+            text-align: center;
+            font-size: 9.3rem;
+            letter-spacing:15px;
+            font-weight: lighter;
+        }
+    }
+}
+
+.about_me{
+    margin-bottom: 40px;
+    .about_me_wrapper{
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+        text-align: center;
+        .content{
+            h2{
+                font-size: 2.7rem;
+                padding-bottom: 20px;
+            }
+            p{
+                word-wrap: break-word;
+                font-size: 1.6rem;
+                line-height: 2;
             }
         }
     }
     .social{
-        margin-top: 20px;
         ul{
             text-align: center;
             li{
@@ -936,7 +985,7 @@ header{
                 a{
                     text-decoration: none;
                     color: black;
-                    font-size: 4rem;
+                    font-size: 3.2rem;
                     display: inline-block;
                 }
                 a:hover {
