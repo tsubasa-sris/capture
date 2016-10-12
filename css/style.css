@@ -483,7 +483,7 @@ header {
 
 .spring .spring-wrapper {
   padding: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
   box-sizing: border-box; }
   .spring .spring-wrapper .photos {
     display: -webkit-flex;
@@ -497,7 +497,7 @@ header {
     .spring .spring-wrapper .photos .photo {
       box-sizing: border-box;
       width: 33.33333%;
-      margin-bottom: 58px;
+      margin-bottom: 80px;
       padding: 0px 43px 5px 43px; }
       .spring .spring-wrapper .photos .photo a {
         outline: none; }
@@ -535,13 +535,13 @@ header {
               line-height: 1.5; }
         .spring .spring-wrapper .photos .photo a .pic:hover .caption {
           opacity: 1; }
-  .spring .spring-wrapper .show_more {
+  .spring .spring-wrapper .show_more_s {
     text-align: center; }
-    .spring .spring-wrapper .show_more a {
+    .spring .spring-wrapper .show_more_s a {
       color: black;
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       font-weight: lighter; }
-    .spring .spring-wrapper .show_more a:hover {
+    .spring .spring-wrapper .show_more_s a:hover {
       color: #847b66; }
 
 .summer_background {
@@ -577,7 +577,7 @@ header {
     .summer .summer-wrapper .photos .photo2 {
       box-sizing: border-box;
       width: 33.33333%;
-      margin-bottom: 58px;
+      margin-bottom: 70px;
       padding: 0px 43px 5px 43px; }
       .summer .summer-wrapper .photos .photo2 a {
         outline: none; }
@@ -617,13 +617,13 @@ header {
               line-height: 1.5; }
         .summer .summer-wrapper .photos .photo2 a .pic:hover .caption {
           opacity: 1; }
-  .summer .summer-wrapper .show_more {
+  .summer .summer-wrapper .show_more_su {
     text-align: center; }
-    .summer .summer-wrapper .show_more a {
+    .summer .summer-wrapper .show_more_su a {
       color: black;
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       font-weight: lighter; }
-    .summer .summer-wrapper .show_more a:hover {
+    .summer .summer-wrapper .show_more_su a:hover {
       color: #847b66; }
 
 .autumn_background {
@@ -659,7 +659,7 @@ header {
     .autumn .autumn-wrapper .photos .photo3 {
       box-sizing: border-box;
       width: 33.33333%;
-      margin-bottom: 58px;
+      margin-bottom: 70px;
       padding: 0px 43px 5px 43px; }
       .autumn .autumn-wrapper .photos .photo3 a {
         outline: none; }
@@ -699,13 +699,13 @@ header {
               line-height: 1.5; }
         .autumn .autumn-wrapper .photos .photo3 a .pic:hover .caption {
           opacity: 1; }
-  .autumn .autumn-wrapper .show_more {
+  .autumn .autumn-wrapper .show_more_a {
     text-align: center; }
-    .autumn .autumn-wrapper .show_more a {
+    .autumn .autumn-wrapper .show_more_a a {
       color: black;
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       font-weight: lighter; }
-    .autumn .autumn-wrapper .show_more a:hover {
+    .autumn .autumn-wrapper .show_more_a a:hover {
       color: #847b66; }
 
 .winter_background {
@@ -741,7 +741,7 @@ header {
     .winter .winter-wrapper .photos .photo4 {
       box-sizing: border-box;
       width: 33.33333%;
-      margin-bottom: 58px;
+      margin-bottom: 70px;
       padding: 0px 43px 5px 43px; }
       .winter .winter-wrapper .photos .photo4 a {
         outline: none; }
@@ -781,13 +781,13 @@ header {
               line-height: 1.5; }
         .winter .winter-wrapper .photos .photo4 a .pic:hover .caption {
           opacity: 1; }
-  .winter .winter-wrapper .show_more {
+  .winter .winter-wrapper .show_more_w {
     text-align: center; }
-    .winter .winter-wrapper .show_more a {
+    .winter .winter-wrapper .show_more_w a {
       color: black;
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       font-weight: lighter; }
-    .winter .winter-wrapper .show_more a:hover {
+    .winter .winter-wrapper .show_more_w a:hover {
       color: #847b66; }
 
 .about_me_background {
@@ -814,10 +814,10 @@ header {
     margin: 0 auto;
     padding-bottom: 30px;
     text-align: center; }
-    .about_me .about_me_wrapper .content h2 {
+    .about_me .about_me_wrapper .contents h2 {
       font-size: 2.7rem;
       padding-bottom: 20px; }
-    .about_me .about_me_wrapper .content p {
+    .about_me .about_me_wrapper .contents p {
       word-wrap: break-word;
       font-size: 1.6rem;
       line-height: 2; }
@@ -849,5 +849,9 @@ footer {
   text-align: center; }
   footer small {
     font-size: 1.3rem; }
+
+#infscr-loading {
+  text-align: center;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

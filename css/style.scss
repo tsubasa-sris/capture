@@ -547,7 +547,7 @@ header{
 .spring{
     .spring-wrapper{
         padding: 70px;
-        padding-bottom: 100px;
+        padding-bottom: 70px;
         box-sizing: border-box;
         .photos{
             display: -webkit-flex;
@@ -561,7 +561,7 @@ header{
             .photo{
                 box-sizing: border-box;
                 width: (100% / 3);
-                margin-bottom: 58px;
+                margin-bottom: 80px;
                 padding: 0px 43px 5px 43px;
                 a{
                     outline: none;
@@ -610,11 +610,11 @@ header{
                 }
             }
         }
-        .show_more{
+        .show_more_s{
             text-align: center;
             a{
                 color: black;
-                font-size: 3.5rem;
+                font-size: 2.5rem;
                 font-weight: lighter;
             }
             a:hover{
@@ -662,7 +662,7 @@ header{
             .photo2{
                 box-sizing: border-box;
                 width: (100% / 3);
-                margin-bottom: 58px;
+                margin-bottom: 70px;
                 padding: 0px 43px 5px 43px;
                 a{
                     outline: none;
@@ -714,11 +714,11 @@ header{
                 }
             }
         }
-        .show_more{
+        .show_more_su{
             text-align: center;
             a{
                 color: black;
-                font-size: 3.5rem;
+                font-size: 2.5rem;
                 font-weight: lighter;
             }
             a:hover{
@@ -766,7 +766,7 @@ header{
             .photo3{
                 box-sizing: border-box;
                 width: (100% / 3);
-                margin-bottom: 58px;
+                margin-bottom: 70px;
                 padding: 0px 43px 5px 43px;
                 a{
                     outline: none;
@@ -818,11 +818,11 @@ header{
                 }
             }
         }
-        .show_more{
+        .show_more_a{
             text-align: center;
             a{
                 color: black;
-                font-size: 3.5rem;
+                font-size: 2.5rem;
                 font-weight: lighter;
             }
             a:hover{
@@ -870,7 +870,7 @@ header{
             .photo4{
                 box-sizing: border-box;
                 width: (100% / 3);
-                margin-bottom: 58px;
+                margin-bottom: 70px;
                 padding: 0px 43px 5px 43px;
                 a{
                     outline: none;
@@ -922,11 +922,11 @@ header{
                 }
             }
         }
-        .show_more{
+        .show_more_w{
             text-align: center;
             a{
                 color: black;
-                font-size: 3.5rem;
+                font-size: 2.5rem;
                 font-weight: lighter;
             }
             a:hover{
@@ -964,7 +964,7 @@ header{
         margin: 0 auto;
         padding-bottom: 30px;
         text-align: center;
-        .content{
+        .contents{
             h2{
                 font-size: 2.7rem;
                 padding-bottom: 20px;
@@ -1019,4 +1019,9 @@ footer{
     small{
         font-size: 1.3rem;
     }
+}
+
+#infscr-loading {
+text-align:center;
+margin:0 auto;
 }
