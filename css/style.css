@@ -20,11 +20,13 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 60vw; }
-    header .title img {
+    header .title img.pc {
       bottom: 0;
       position: absolute;
       width: 60vw; }
-  header a {
+    header .title img.sp {
+      display: none; }
+  header a img.pc {
     display: block;
     position: absolute;
     margin-top: calc(100vh - 100px);
@@ -33,6 +35,48 @@ header {
     -ms-animation: moveY 2s infinite alternate linear;
     -webkit-animation: moveY 2s infinite alternate linear;
     -moz-animation: moveY 2s infinite alternate linear; }
+  header .swipe img.sp {
+    display: none; }
+  @media (max-width: 960px) {
+    header .title {
+      height: 50vh;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80vw; }
+      header .title img.pc {
+        bottom: 0;
+        position: absolute;
+        width: 80vw; }
+      header .title img.sp {
+        display: none; } }
+  @media (max-width: 600px) {
+    header {
+      background-image: url(../images/sp_header.jpg); }
+      header .title {
+        width: 100%;
+        position: relative;
+        position: absolute;
+        top: 17vh; }
+        header .title img.sp {
+          display: block;
+          width: 90%;
+          margin: 0 auto; }
+        header .title img.pc {
+          display: none; }
+      header a img.pc {
+        display: none; }
+      header .swipe img.sp {
+        display: block;
+        position: absolute;
+        left: 5%;
+        right: 0;
+        margin: auto;
+        margin-top: calc(100vh - 130px);
+        animation: moveY 2s infinite alternate linear;
+        -ms-animation: moveY 2s infinite alternate linear;
+        -webkit-animation: moveY 2s infinite alternate linear;
+        -moz-animation: moveY 2s infinite alternate linear; } }
 
 @keyframes moveY {
   0% {
@@ -78,10 +122,14 @@ header {
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 28px; }
+  .introduction .container p.concept_sp {
+    display: none; }
   .introduction .container p.capture {
     font-size: 4rem;
     text-align: center;
     letter-spacing: 4px; }
+  .introduction .container p.capture_sp {
+    display: none; }
   .introduction .container p.tsubasa {
     margin-top: 35px;
     margin-left: calc(50% + 250px); }
@@ -427,13 +475,15 @@ header {
   to {
     stroke-dashoffset: 0; } }
   .introduction .container .menu {
-    z-index: 10;
+    z-index: 9;
     background-color: #fafafa;
     position: absolute;
     top: 87vh;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 15px; }
+    .introduction .container .menu .close {
+      display: none; }
     .introduction .container .menu ul {
       text-align: center; }
       .introduction .container .menu ul li {
@@ -451,6 +501,10 @@ header {
           color: #847b66;
           -webkit-animation: zoom .3s;
           animation: zoom .3s; }
+        @media (max-width: 960px) {
+          .introduction .container .menu ul li a:hover {
+            color: black;
+            animation: none; } }
 @-webkit-keyframes zoom {
   50% {
     -webkit-transform: scale(1.05); } }
@@ -459,8 +513,129 @@ header {
     transform: scale(1.05); } }
       .introduction .container .menu ul li:last-child {
         border-right: none; }
+  .introduction .menu-btn {
+    display: none; }
+  @media (max-width: 960px) {
+    .introduction .container h1 {
+      font-size: 6.8rem;
+      padding: 35px; }
+    .introduction .container p.concept_sp {
+      display: none; }
+    .introduction .container p.concept {
+      padding: 0 10px 0 10px;
+      font-size: 3vh;
+      margin-bottom: 28px; }
+    .introduction .container p.capture_sp {
+      display: none; }
+    .introduction .container p.capture {
+      font-size: 3rem; }
+    .introduction .container p.tsubasa {
+      margin-left: calc(50% + 160px); } }
 
+.sp_menu_wrap {
+  display: none; }
+
+@media (max-width: 600px) {
+  .introduction .container h1 {
+    padding-top: 20vw;
+    font-size: 18vw;
+    padding-bottom: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .introduction .container p.concept_sp {
+    display: block;
+    font-size: 4.7vw;
+    letter-spacing: 0;
+    line-height: 9vw;
+    padding: 0 9vw 4vw 9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .introduction .container p.concept {
+    display: none; }
+  .introduction .container p.capture_sp {
+    display: block;
+    font-size: 5vw;
+    padding-left: 9vw;
+    line-height: 7vw; }
+  .introduction .container p.capture {
+    display: none; }
+  .introduction .container p.tsubasa {
+    margin-top: 5vw;
+    margin-left: 8%; }
+  .introduction .container .menu {
+    display: none; }
+
+  .sp_menu_wrap {
+    display: block; }
+    .sp_menu_wrap .menu-btn {
+      position: fixed;
+      top: 0px;
+      right: 10px;
+      height: 100%;
+      font-size: 12px;
+      text-align: center;
+      z-index: 999 !important; }
+      .sp_menu_wrap .menu-btn span.navi {
+        font-size: 12vw;
+        color: black;
+        background-color: white;
+        padding: 5px 9px;
+        border-radius: 3px;
+        margin-top: 13px; }
+    .sp_menu_wrap .menu_sp {
+      z-index: 999 !important;
+      position: fixed;
+      display: table;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.9);
+      -webkit-transition: all .5s;
+      transition: all .5s;
+      visibility: hidden;
+      opacity: 0; }
+      .sp_menu_wrap .menu_sp .close {
+        display: block;
+        color: white;
+        font-size: 12vw;
+        margin-left: 85vw;
+        margin-top: 12px; }
+      .sp_menu_wrap .menu_sp ul {
+        text-align: left;
+        padding: 0vw 5vw 0 5vw; }
+        .sp_menu_wrap .menu_sp ul li {
+          letter-spacing: 4px;
+          display: block;
+          font-size: 10vw;
+          border-bottom: 1px solid white;
+          border-right: none; }
+          .sp_menu_wrap .menu_sp ul li a {
+            text-decoration: none;
+            color: white;
+            padding-right: 2vw;
+            padding-left: 2vw;
+            display: block;
+            padding-top: 5vw;
+            padding-bottom: 5vw; }
+          .sp_menu_wrap .menu_sp ul li a:hover {
+            color: white;
+            -webkit-animation: none;
+            animation: none; }
+        .sp_menu_wrap .menu_sp ul li:last-child {
+          border-bottom: none; }
+    .sp_menu_wrap .open {
+      -webkit-transition: all .5s;
+      transition: all .5s;
+      visibility: visible;
+      opacity: 1; } }
 .introduction .container .menu.follow {
+  position: fixed;
+  top: 0; }
+
+.introduction .follow {
   position: fixed;
   top: 0; }
 
@@ -480,6 +655,15 @@ header {
       letter-spacing: 15px;
       font-weight: lighter;
       opacity: 0.9; }
+  @media (max-width: 600px) {
+    .spring_background {
+      padding: 0;
+      margin: 0; }
+      .spring_background .spring_title {
+        height: 28vh; }
+        .spring_background .spring_title h1 {
+          padding-top: 8vh;
+          font-size: 7.5rem; } }
 
 .spring .spring-wrapper {
   padding: 70px;
@@ -543,6 +727,45 @@ header {
       font-weight: lighter; }
     .spring .spring-wrapper .show_more_s a:hover {
       color: #847b66; }
+@media (max-width: 600px) {
+  .spring .spring-wrapper {
+    padding: 30px 20px 20px 20px;
+    z-index: 1; }
+    .spring .spring-wrapper .photos {
+      z-index: 1;
+      flex-direction: column; }
+      .spring .spring-wrapper .photos .photo {
+        z-index: 1;
+        width: 50%;
+        margin-bottom: 0px;
+        padding: 0px;
+        margin-bottom: 20px; }
+        .spring .spring-wrapper .photos .photo a .pic .caption {
+          z-index: 1;
+          left: 47vw;
+          color: black;
+          background-color: white;
+          width: 100%;
+          height: 100%;
+          -webkit-transition: none;
+          transition: none;
+          opacity: 1;
+          padding: 1.3vw; }
+          .spring .spring-wrapper .photos .photo a .pic .caption h2 {
+            font-size: 6.3vw;
+            letter-spacing: 2.5px; }
+          .spring .spring-wrapper .photos .photo a .pic .caption h3 {
+            font-size: 3.8vw;
+            letter-spacing: 2px;
+            margin-top: 6px; }
+            .spring .spring-wrapper .photos .photo a .pic .caption h3 span {
+              font-size: 3.5vw; }
+          .spring .spring-wrapper .photos .photo a .pic .caption p {
+            font-size: 3vw;
+            padding-top: 1vw;
+            line-height: 1.5; }
+    .spring .spring-wrapper .show_more_s {
+      margin: 10px; } }
 
 .summer_background {
   padding-top: 48px;
@@ -560,6 +783,15 @@ header {
       letter-spacing: 15px;
       font-weight: lighter;
       opacity: 0.9; }
+  @media (max-width: 600px) {
+    .summer_background {
+      padding: 0;
+      margin: 0; }
+      .summer_background .summer_title {
+        height: 28vh; }
+        .summer_background .summer_title h1 {
+          padding-top: 8vh;
+          font-size: 7.5rem; } }
 
 .summer .summer-wrapper {
   padding: 70px;
@@ -625,6 +857,43 @@ header {
       font-weight: lighter; }
     .summer .summer-wrapper .show_more_su a:hover {
       color: #847b66; }
+@media (max-width: 600px) {
+  .summer .summer-wrapper {
+    padding: 20px; }
+    .summer .summer-wrapper .photos .photo2 {
+      width: 50%;
+      margin-bottom: 27vw;
+      padding: 0px 10px 20px 10px; }
+      .summer .summer-wrapper .photos .photo2 a {
+        padding: 10px; }
+        .summer .summer-wrapper .photos .photo2 a .pic .caption {
+          top: 30vw;
+          left: 0;
+          color: black;
+          background-color: white;
+          width: 100%;
+          height: 0;
+          -webkit-transition: none;
+          transition: none;
+          opacity: 1;
+          padding: 1vw 1vw 0vw 1vw; }
+          .summer .summer-wrapper .photos .photo2 a .pic .caption h2 {
+            font-size: 6.3vw;
+            letter-spacing: 2.5px; }
+            .summer .summer-wrapper .photos .photo2 a .pic .caption h2 span {
+              font-size: 5.8vw; }
+          .summer .summer-wrapper .photos .photo2 a .pic .caption h3 {
+            font-size: 3.8vw;
+            letter-spacing: 2px;
+            margin-top: 6px; }
+            .summer .summer-wrapper .photos .photo2 a .pic .caption h3 span {
+              font-size: 3vw; }
+          .summer .summer-wrapper .photos .photo2 a .pic .caption p {
+            font-size: 3vw;
+            padding-top: 1vw;
+            line-height: 1.5; }
+    .summer .summer-wrapper .show_more_su {
+      margin: 10px; } }
 
 .autumn_background {
   padding-top: 48px;
@@ -642,6 +911,15 @@ header {
       letter-spacing: 15px;
       font-weight: lighter;
       opacity: 0.9; }
+  @media (max-width: 600px) {
+    .autumn_background {
+      padding: 0;
+      margin: 0; }
+      .autumn_background .autumn_title {
+        height: 28vh; }
+        .autumn_background .autumn_title h1 {
+          padding-top: 8vh;
+          font-size: 7.5rem; } }
 
 .autumn .autumn-wrapper {
   padding: 70px;
@@ -707,6 +985,45 @@ header {
       font-weight: lighter; }
     .autumn .autumn-wrapper .show_more_a a:hover {
       color: #847b66; }
+@media (max-width: 600px) {
+  .autumn .autumn-wrapper {
+    padding: 30px 0px 20px 0px; }
+    .autumn .autumn-wrapper .photos {
+      flex-direction: column; }
+      .autumn .autumn-wrapper .photos .photo3 {
+        width: 100%;
+        margin-bottom: 20vw;
+        padding: 0px 40px 30px 40px; }
+        .autumn .autumn-wrapper .photos .photo3 a {
+          padding: 10px; }
+          .autumn .autumn-wrapper .photos .photo3 a .pic .caption {
+            top: 60vw;
+            left: 0;
+            color: black;
+            background-color: white;
+            width: 100%;
+            height: 0;
+            -webkit-transition: none;
+            transition: none;
+            opacity: 1;
+            padding: 1vw 1vw 0vw 1vw; }
+            .autumn .autumn-wrapper .photos .photo3 a .pic .caption h2 {
+              font-size: 6.3vw;
+              letter-spacing: 2.5px; }
+              .autumn .autumn-wrapper .photos .photo3 a .pic .caption h2 span {
+                font-size: 5.8vw; }
+            .autumn .autumn-wrapper .photos .photo3 a .pic .caption h3 {
+              font-size: 3.8vw;
+              letter-spacing: 2px;
+              margin-top: 6px; }
+              .autumn .autumn-wrapper .photos .photo3 a .pic .caption h3 span {
+                font-size: 3vw; }
+            .autumn .autumn-wrapper .photos .photo3 a .pic .caption p {
+              font-size: 3vw;
+              padding-top: 1vw;
+              line-height: 1.5; }
+    .autumn .autumn-wrapper .show_more_a {
+      margin: 20px; } }
 
 .winter_background {
   padding-top: 48px;
@@ -724,6 +1041,15 @@ header {
       letter-spacing: 15px;
       font-weight: lighter;
       opacity: 0.9; }
+  @media (max-width: 600px) {
+    .winter_background {
+      padding: 0;
+      margin: 0; }
+      .winter_background .winter_title {
+        height: 28vh; }
+        .winter_background .winter_title h1 {
+          padding-top: 8vh;
+          font-size: 7.5rem; } }
 
 .winter .winter-wrapper {
   padding: 70px;
@@ -789,6 +1115,14 @@ header {
       font-weight: lighter; }
     .winter .winter-wrapper .show_more_w a:hover {
       color: #847b66; }
+@media (max-width: 600px) {
+  .winter .winter-wrapper {
+    padding: 10px;
+    padding-bottom: 40px; }
+    .winter .winter-wrapper .photos .photo4 {
+      width: 33.33333%;
+      margin-bottom: 0px;
+      padding: 10px 10px 10px 10px; } }
 
 .about_me_background {
   margin-top: -48px;
@@ -806,6 +1140,18 @@ header {
       font-size: 9.3rem;
       letter-spacing: 15px;
       font-weight: lighter; }
+  @media (max-width: 960px) {
+    .about_me_background .about_me_title {
+      background-image: url(../images/about_me.jpg); } }
+  @media (max-width: 600px) {
+    .about_me_background {
+      padding: 0;
+      margin-top: 0; }
+      .about_me_background .about_me_title {
+        height: 28vh; }
+        .about_me_background .about_me_title h1 {
+          padding-top: 8vh;
+          font-size: 7.5rem; } }
 
 .about_me {
   margin-bottom: 40px; }
@@ -821,6 +1167,8 @@ header {
       word-wrap: break-word;
       font-size: 1.6rem;
       line-height: 2; }
+    .about_me .about_me_wrapper .contents p.sp {
+      display: none; }
   .about_me .social ul {
     text-align: center; }
     .about_me .social ul li {
@@ -843,6 +1191,23 @@ header {
     transform: scale(1.05); } }
     .about_me .social ul li:last-child {
       margin-right: 0; }
+  @media (max-width: 960px) {
+    .about_me .about_me_wrapper {
+      width: 80%; }
+      .about_me .about_me_wrapper .contents p.sp {
+        display: block;
+        font-size: 1.6rem;
+        line-height: 2.2; }
+      .about_me .about_me_wrapper .contents p {
+        display: none; } }
+  @media (max-width: 600px) {
+    .about_me .about_me_wrapper {
+      width: 80%; }
+      .about_me .about_me_wrapper .contents p.sp {
+        display: block;
+        font-size: 1.6rem;
+        line-height: 1.9;
+        text-align: left; } }
 
 footer {
   padding: 10px;

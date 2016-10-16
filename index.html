@@ -19,11 +19,15 @@
     <body>
         <header>
             <div class="title" id="to_title">
-                <img src="./images/title_pc/title.png" alt="title">
+                <img src="./images/title_pc/title.png" alt="title" class="pc">
+                <img src="./images/title_sp.png" alt="title" class="sp">
             </div>
             <a href="#to_intro">
-                <img src="./images/title_pc/scroll.png">
+                <img class="pc" src="./images/title_pc/scroll.png">
             </a>
+            <div class="swipe">
+                <img class="sp" src="./images/Swipe_Up.png">
+            </div>
         </header>
         
         <div class="introduction" id="to_intro">
@@ -35,7 +39,15 @@
                 そんな日々の瞬間を、レンズを通して見えた私の世界を、<br>
                 写真の中にある四季を通して皆様に感じていただけたら幸いです。<br>
                 </p>
+                <p class="concept_sp noto">私たちが過ごしているその何気ない瞬間も、カメラによって、一生色褪せない瞬間へと変わる。<br>
+                季節とともに移りゆく景色、人々。<br>
+                変わりゆく時代、変わらない日常。<br>
+                そんな日々の瞬間を、<br>
+                レンズを通して見えた私の世界を、<br>
+                写真の中にある四季を通して皆様に感じていただけたら幸いです。<br>
+                </p>
                 <p class="capture">Capture the moments worth living</p>
+                <p class="capture_sp noto">Capture<br> the moments worth living.</p>
                 <p class="tsubasa">
                     
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -746,6 +758,12 @@
                     このサイトも練習の一環として一から自分で制作しました。<br>
                     写真の撮影と編集を趣味として行っていて、Instagramに投稿し公開しています。<br>
                     サイト自体や写真に関してのご意見やご感想などをいただけると嬉しいです。</p>
+                    <p class="noto sp">1994年生まれ。東京都在住の大学生。<br>
+                    小さい頃からものづくりに関心があり、大学ではメディアについて勉強している傍ら、
+                    webデザインについても現在勉強しています。<br>
+                    このサイトも練習の一環として一から自分で制作しました。<br>
+                    写真の撮影と編集を趣味として行っていて、Instagramに投稿し公開しています。<br>
+                    サイト自体や写真に関してのご意見やご感想などをいただけると嬉しいです。</p>
                 </div>
             </div>
             <div class="social">
@@ -768,7 +786,7 @@
         
             
             $(function(){
-                $('a[href^=#]').click(function(){ 
+                $('#box a[href^=#]').click(function(){ 
                     var speed = 600; //移動完了までの時間(sec)を指定
                     var href= $(this).attr("href"); 
                     var target = $(href == "#" || href == "" ? 'html' : href);
@@ -776,7 +794,6 @@
                     $("html, body").animate({scrollTop:position}, speed, "swing");
                     return false;
                 });
-                
                 
             });
             
@@ -792,9 +809,27 @@
                     $("#box").removeClass('follow'); // classを削除
                 }
             });
+            
+            $(function () {
+                var $body = $('.menu_sp');
+            
+                //開閉用ボタンをクリックでクラスの切替え
+                $('#js_btn').on('click', function () {
+                    $body.toggleClass('open');
+                });
+            
+                //メニュー名以外の部分をクリックで閉じる
+                $('.close').on('click', function () {
+                    $body.removeClass('open');
+                });
+                $('a').on('click', function () {
+                    $body.removeClass('open');
+                });
+            });
+            
         </script>
         
-         <script src="js/wow.min.js"></script>
+         <script src="js/wow.js"></script>
          <script>
             new WOW().init();
          </script>
@@ -969,5 +1004,47 @@
         });
         </script>
         
+        <div class="sp_menu_wrap">
+            <div class="menu-btn" id="js_btn">
+                    <span class="fa fa-bars navi" aria-hidden="true"></span>
+            </div>
+                
+            <div class="menu_sp">
+                
+                <div class="close">
+                        <span class="fa fa-times" aria-hidden="true"></span>
+                </div>
+                
+                <ul>
+                    <li>
+                        <a href="#">TOP</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_intro">INTRODUCTION</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_spring">SPRING</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_summer">SUMMER</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_autumn">AUTUMN</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_winter">WINTER</a>
+                    </li>
+
+                    <li>
+                        <a href="#to_about_me">ABOUT ME</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
