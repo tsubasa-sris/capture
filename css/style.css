@@ -2,7 +2,8 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 html {
   font-size: 62.5%;
-  font-family: 'Pathway Gothic One', sans-serif; }
+  font-family: 'Pathway Gothic One', sans-serif;
+  background-color: white; }
 
 .noto {
   font-family: 'Noto Sans Japanese', serif;
@@ -37,6 +38,14 @@ header {
     -moz-animation: moveY 2s infinite alternate linear; }
   header .swipe img.sp {
     display: none; }
+  @media (max-width: 1024px) {
+    header .title {
+      height: 52vh;
+      width: 80vw; }
+      header .title img.pc {
+        width: 80vw; }
+    header a img.pc {
+      margin-top: calc(100vh - 120px); } }
   @media (max-width: 960px) {
     header .title {
       height: 50vh;
@@ -50,33 +59,46 @@ header {
         width: 80vw; }
       header .title img.sp {
         display: none; } }
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     header {
       background-image: url(../images/sp_header.jpg); }
       header .title {
-        width: 100%;
-        position: relative;
-        position: absolute;
-        top: 17vh; }
-        header .title img.sp {
-          display: block;
-          width: 90%;
-          margin: 0 auto; }
+        width: 90vw; }
         header .title img.pc {
+          bottom: 0;
+          position: absolute;
+          width: 90vw; }
+        header .title img.sp {
           display: none; }
       header a img.pc {
         display: none; }
       header .swipe img.sp {
+        width: 10vw;
         display: block;
         position: absolute;
         left: 5%;
         right: 0;
         margin: auto;
-        margin-top: calc(100vh - 130px);
+        margin-top: calc(100vh - 160px);
         animation: moveY 2s infinite alternate linear;
         -ms-animation: moveY 2s infinite alternate linear;
         -webkit-animation: moveY 2s infinite alternate linear;
         -moz-animation: moveY 2s infinite alternate linear; } }
+  @media (max-width: 600px) {
+    header .title {
+      width: 100%;
+      position: relative;
+      position: absolute;
+      top: 17vh; }
+      header .title img.sp {
+        display: block;
+        width: 90%;
+        margin: 0 auto; }
+      header .title img.pc {
+        display: none; }
+    header .swipe img.sp {
+      width: 12vw;
+      margin-top: calc(100vh - 130px); } }
 
 @keyframes moveY {
   0% {
@@ -112,28 +134,31 @@ header {
   display: block;
   position: relative; }
   .introduction .container h1 {
-    font-size: 6.8rem;
-    padding: 35px;
+    font-size: 6.5vw;
+    padding: 2.5vw;
     text-align: center;
     letter-spacing: 5px; }
   .introduction .container p.concept {
-    font-size: 3.5vh;
-    line-height: 8vh;
-    letter-spacing: 3px;
+    font-size: 1.7vw;
+    line-height: 4vw;
+    letter-spacing: 5px;
     text-align: center;
-    margin-bottom: 28px; }
+    margin-bottom: 2vw; }
+    .introduction .container p.concept br.br-sp {
+      display: none; }
   .introduction .container p.concept_sp {
     display: none; }
   .introduction .container p.capture {
-    font-size: 4rem;
+    font-size: 2.8vw;
     text-align: center;
     letter-spacing: 4px; }
   .introduction .container p.capture_sp {
     display: none; }
   .introduction .container p.tsubasa {
+    width: 17vw;
     margin-top: 35px;
-    margin-left: calc(50% + 250px); }
-    .introduction .container p.tsubasa svg .path1 {
+    margin-left: calc(50% + 220px); }
+    .introduction .container p.tsubasa.on svg .path1 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -143,7 +168,7 @@ header {
       stroke-dashoffset: 200;
       -webkit-animation: dash 1s linear forwards;
       animation: dash 1s linear forwards; }
-    .introduction .container p.tsubasa svg .path2 {
+    .introduction .container p.tsubasa.on svg .path2 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -156,7 +181,7 @@ header {
       animation-delay: 0.2s;
       -webkit-animation-delay: 0.2s;
       -moz-animation-delay: 0.2s; }
-    .introduction .container p.tsubasa svg .path3 {
+    .introduction .container p.tsubasa.on svg .path3 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -169,7 +194,7 @@ header {
       animation-delay: 0.5s;
       -webkit-animation-delay: 0.5s;
       -moz-animation-delay: 0.5s; }
-    .introduction .container p.tsubasa svg .path4 {
+    .introduction .container p.tsubasa.on svg .path4 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -182,7 +207,7 @@ header {
       animation-delay: 0.8s;
       -webkit-animation-delay: 0.8s;
       -moz-animation-delay: 0.8s; }
-    .introduction .container p.tsubasa svg .path5 {
+    .introduction .container p.tsubasa.on svg .path5 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -195,7 +220,7 @@ header {
       animation-delay: 1.2s;
       -webkit-animation-delay: 1.2s;
       -moz-animation-delay: 1.2s; }
-    .introduction .container p.tsubasa svg .path6 {
+    .introduction .container p.tsubasa.on svg .path6 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -208,7 +233,7 @@ header {
       animation-delay: 1.3s;
       -webkit-animation-delay: 1.3s;
       -moz-animation-delay: 1.3s; }
-    .introduction .container p.tsubasa svg .path7 {
+    .introduction .container p.tsubasa.on svg .path7 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -221,7 +246,7 @@ header {
       animation-delay: 1.9s;
       -webkit-animation-delay: 1.9s;
       -moz-animation-delay: 1.9s; }
-    .introduction .container p.tsubasa svg .path8 {
+    .introduction .container p.tsubasa.on svg .path8 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -234,7 +259,7 @@ header {
       animation-delay: 2.2s;
       -webkit-animation-delay: 2.2s;
       -moz-animation-delay: 2.2s; }
-    .introduction .container p.tsubasa svg .path9 {
+    .introduction .container p.tsubasa.on svg .path9 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -247,7 +272,7 @@ header {
       animation-delay: 2.5s;
       -webkit-animation-delay: 2.5s;
       -moz-animation-delay: 2.5s; }
-    .introduction .container p.tsubasa svg .path10 {
+    .introduction .container p.tsubasa.on svg .path10 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -260,7 +285,7 @@ header {
       animation-delay: 2.8s;
       -webkit-animation-delay: 2.8s;
       -moz-animation-delay: 2.8s; }
-    .introduction .container p.tsubasa svg .path11 {
+    .introduction .container p.tsubasa.on svg .path11 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -273,7 +298,7 @@ header {
       animation-delay: 3s;
       -webkit-animation-delay: 3s;
       -moz-animation-delay: 3s; }
-    .introduction .container p.tsubasa svg .path12 {
+    .introduction .container p.tsubasa.on svg .path12 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -286,7 +311,7 @@ header {
       animation-delay: 3.3s;
       -webkit-animation-delay: 3.3s;
       -moz-animation-delay: 3.3s; }
-    .introduction .container p.tsubasa svg .path13 {
+    .introduction .container p.tsubasa.on svg .path13 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -299,7 +324,7 @@ header {
       animation-delay: 3.7s;
       -webkit-animation-delay: 3.7s;
       -moz-animation-delay: 3.7s; }
-    .introduction .container p.tsubasa svg .path14 {
+    .introduction .container p.tsubasa.on svg .path14 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -312,7 +337,7 @@ header {
       animation-delay: 3.9s;
       -webkit-animation-delay: 3.9s;
       -moz-animation-delay: 3.9s; }
-    .introduction .container p.tsubasa svg .path15 {
+    .introduction .container p.tsubasa.on svg .path15 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -325,7 +350,7 @@ header {
       animation-delay: 4s;
       -webkit-animation-delay: 4s;
       -moz-animation-delay: 4s; }
-    .introduction .container p.tsubasa svg .path16 {
+    .introduction .container p.tsubasa.on svg .path16 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -338,7 +363,7 @@ header {
       animation-delay: 4.2s;
       -webkit-animation-delay: 4.2s;
       -moz-animation-delay: 4.2s; }
-    .introduction .container p.tsubasa svg .path17 {
+    .introduction .container p.tsubasa.on svg .path17 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -351,7 +376,7 @@ header {
       animation-delay: 4.5s;
       -webkit-animation-delay: 4.5s;
       -moz-animation-delay: 4.5s; }
-    .introduction .container p.tsubasa svg .path18 {
+    .introduction .container p.tsubasa.on svg .path18 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -364,7 +389,7 @@ header {
       animation-delay: 4.7s;
       -webkit-animation-delay: 4.7s;
       -moz-animation-delay: 4.7s; }
-    .introduction .container p.tsubasa svg .path19 {
+    .introduction .container p.tsubasa.on svg .path19 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -377,7 +402,7 @@ header {
       animation-delay: 5s;
       -webkit-animation-delay: 5s;
       -moz-animation-delay: 5s; }
-    .introduction .container p.tsubasa svg .path20 {
+    .introduction .container p.tsubasa.on svg .path20 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -390,7 +415,7 @@ header {
       animation-delay: 5.3s;
       -webkit-animation-delay: 5.3s;
       -moz-animation-delay: 5.3s; }
-    .introduction .container p.tsubasa svg .path21 {
+    .introduction .container p.tsubasa.on svg .path21 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -403,7 +428,7 @@ header {
       animation-delay: 5.6s;
       -webkit-animation-delay: 5.6s;
       -moz-animation-delay: 5.6s; }
-    .introduction .container p.tsubasa svg .path22 {
+    .introduction .container p.tsubasa.on svg .path22 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -416,7 +441,7 @@ header {
       animation-delay: 5.8s;
       -webkit-animation-delay: 5.8s;
       -moz-animation-delay: 5.8s; }
-    .introduction .container p.tsubasa svg .path23 {
+    .introduction .container p.tsubasa.on svg .path23 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -429,7 +454,7 @@ header {
       animation-delay: 6s;
       -webkit-animation-delay: 6s;
       -moz-animation-delay: 6s; }
-    .introduction .container p.tsubasa svg .path24 {
+    .introduction .container p.tsubasa.on svg .path24 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -442,7 +467,7 @@ header {
       animation-delay: 6.3s;
       -webkit-animation-delay: 6.3s;
       -moz-animation-delay: 6.3s; }
-    .introduction .container p.tsubasa svg .path25 {
+    .introduction .container p.tsubasa.on svg .path25 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -455,7 +480,7 @@ header {
       animation-delay: 6.5s;
       -webkit-animation-delay: 6.5s;
       -moz-animation-delay: 6.5s; }
-    .introduction .container p.tsubasa svg .path26 {
+    .introduction .container p.tsubasa.on svg .path26 {
       stroke: #000;
       fill: none;
       stroke-width: 1;
@@ -501,10 +526,6 @@ header {
           color: #847b66;
           -webkit-animation: zoom .3s;
           animation: zoom .3s; }
-        @media (max-width: 960px) {
-          .introduction .container .menu ul li a:hover {
-            color: black;
-            animation: none; } }
 @-webkit-keyframes zoom {
   50% {
     -webkit-transform: scale(1.05); } }
@@ -515,40 +536,53 @@ header {
         border-right: none; }
   .introduction .menu-btn {
     display: none; }
-  @media (max-width: 960px) {
+  @media (max-width: 1024px) {
     .introduction .container h1 {
-      font-size: 6.8rem;
-      padding: 35px; }
-    .introduction .container p.concept_sp {
-      display: none; }
+      font-size: 10vw;
+      padding: 5vw;
+      padding-bottom: 3vw; }
     .introduction .container p.concept {
-      padding: 0 10px 0 10px;
-      font-size: 3vh;
-      margin-bottom: 28px; }
-    .introduction .container p.capture_sp {
-      display: none; }
-    .introduction .container p.capture {
-      font-size: 3rem; }
+      font-size: 2.3vw;
+      line-height: 4.5vw; }
+      .introduction .container p.concept br.br-sp {
+        display: none; }
     .introduction .container p.tsubasa {
-      margin-left: calc(50% + 160px); } }
+      width: 22vw;
+      margin-top: 2vw;
+      margin-left: calc(50% + 190px); }
+    .introduction .container p.capture {
+      font-size: 4.3vw; }
+    .introduction .container .menu ul li {
+      letter-spacing: 3px;
+      display: inline-block;
+      font-size: 3vw; }
+      .introduction .container .menu ul li a {
+        padding-right: 2vw;
+        padding-left: 2vw; } }
+  @media (max-width: 960px) {
+    .introduction .container .menu ul li {
+      letter-spacing: 3px;
+      display: inline-block;
+      font-size: 2.5vw; } }
 
 .sp_menu_wrap {
   display: none; }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .introduction .container h1 {
-    padding-top: 20vw;
-    font-size: 18vw;
+    padding: 6vw;
+    padding-top: 7vw;
+    font-size: 17vw;
     padding-bottom: 4vw;
     display: flex;
     justify-content: center;
     align-items: center; }
   .introduction .container p.concept_sp {
     display: block;
-    font-size: 4.7vw;
+    font-size: 4.5vw;
     letter-spacing: 0;
-    line-height: 9vw;
-    padding: 0 9vw 4vw 9vw;
+    line-height: 8vw;
+    padding: 0 9vw 3vw 9vw;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -558,10 +592,11 @@ header {
     display: block;
     font-size: 5vw;
     padding-left: 9vw;
-    line-height: 7vw; }
+    line-height: 6vw; }
   .introduction .container p.capture {
     display: none; }
   .introduction .container p.tsubasa {
+    width: 35vw;
     margin-top: 5vw;
     margin-left: 8%; }
   .introduction .container .menu {
@@ -573,15 +608,13 @@ header {
       position: fixed;
       top: 0px;
       right: 10px;
-      height: 100%;
-      font-size: 12px;
       text-align: center;
       z-index: 999 !important; }
       .sp_menu_wrap .menu-btn span.navi {
         font-size: 12vw;
         color: black;
         background-color: white;
-        padding: 5px 9px;
+        padding: 1vw 1.5vw;
         border-radius: 3px;
         margin-top: 13px; }
     .sp_menu_wrap .menu_sp {
@@ -600,26 +633,23 @@ header {
       .sp_menu_wrap .menu_sp .close {
         display: block;
         color: white;
-        font-size: 12vw;
-        margin-left: 85vw;
-        margin-top: 12px; }
+        font-size: 11vw;
+        margin-left: 89vw;
+        margin-top: 1.5vw; }
       .sp_menu_wrap .menu_sp ul {
         text-align: left;
         padding: 0vw 5vw 0 5vw; }
         .sp_menu_wrap .menu_sp ul li {
-          letter-spacing: 4px;
+          letter-spacing: 2vw;
           display: block;
-          font-size: 10vw;
+          font-size: 7.5vw;
           border-bottom: 1px solid white;
           border-right: none; }
           .sp_menu_wrap .menu_sp ul li a {
             text-decoration: none;
             color: white;
-            padding-right: 2vw;
-            padding-left: 2vw;
             display: block;
-            padding-top: 5vw;
-            padding-bottom: 5vw; }
+            padding: 4.5vw 1.5vw; }
           .sp_menu_wrap .menu_sp ul li a:hover {
             color: white;
             -webkit-animation: none;
@@ -631,6 +661,33 @@ header {
       transition: all .5s;
       visibility: visible;
       opacity: 1; } }
+@media (max-width: 600px) {
+  .introduction .container h1 {
+    padding-top: 20vw;
+    font-size: 18vw;
+    padding-bottom: 4vw; }
+  .introduction .container p.concept_sp {
+    font-size: 4.7vw;
+    line-height: 9vw;
+    padding: 0vw 9vw 4vw 9vw; }
+  .introduction .container p.capture_sp {
+    line-height: 7vw; }
+  .introduction .container p.tsubasa {
+    width: 42vw; }
+
+  .sp_menu_wrap .menu-btn {
+    font-size: 12px; }
+    .sp_menu_wrap .menu-btn span.navi {
+      padding: 5px 9px; }
+  .sp_menu_wrap .menu_sp .close {
+    font-size: 12vw;
+    margin-left: 85vw;
+    margin-top: 12px; }
+  .sp_menu_wrap .menu_sp ul li {
+    letter-spacing: 4px;
+    font-size: 8.5vw; }
+    .sp_menu_wrap .menu_sp ul li a {
+      padding: 5vw 2vw 5vw 2vw; } }
 .introduction .container .menu.follow {
   position: fixed;
   top: 0; }
@@ -655,19 +712,30 @@ header {
       letter-spacing: 15px;
       font-weight: lighter;
       opacity: 0.9; }
-  @media (max-width: 600px) {
+  @media (max-width: 1024px) {
+    .spring_background .spring_title {
+      height: 32vh; }
+      .spring_background .spring_title h1 {
+        padding-top: 10vh; } }
+  @media (max-width: 768px) {
     .spring_background {
       padding: 0;
       margin: 0; }
       .spring_background .spring_title {
+        background-attachment: scroll;
         height: 28vh; }
         .spring_background .spring_title h1 {
-          padding-top: 8vh;
-          font-size: 7.5rem; } }
+          padding-top: 7.5vh;
+          font-size: 12rem; } }
+  @media (max-width: 600px) {
+    .spring_background .spring_title {
+      height: 28vh; }
+      .spring_background .spring_title h1 {
+        padding-top: 8vh;
+        font-size: 7.5rem; } }
 
 .spring .spring-wrapper {
   padding: 70px;
-  padding-bottom: 70px;
   box-sizing: border-box; }
   .spring .spring-wrapper .photos {
     display: -webkit-flex;
@@ -682,7 +750,7 @@ header {
       box-sizing: border-box;
       width: 33.33333%;
       margin-bottom: 80px;
-      padding: 0px 43px 5px 43px; }
+      padding: 0px 43px 0px 43px; }
       .spring .spring-wrapper .photos .photo a {
         outline: none; }
         .spring .spring-wrapper .photos .photo a .pic {
@@ -727,9 +795,15 @@ header {
       font-weight: lighter; }
     .spring .spring-wrapper .show_more_s a:hover {
       color: #847b66; }
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .spring .spring-wrapper {
-    padding: 30px 20px 20px 20px;
+    padding: 70px 30px; }
+    .spring .spring-wrapper .photos .photo {
+      margin-bottom: 55px;
+      padding: 0px 29px; } }
+@media (max-width: 768px) {
+  .spring .spring-wrapper {
+    padding: 40px;
     z-index: 1; }
     .spring .spring-wrapper .photos {
       z-index: 1;
@@ -739,7 +813,7 @@ header {
         width: 50%;
         margin-bottom: 0px;
         padding: 0px;
-        margin-bottom: 20px; }
+        margin-bottom: 43px; }
         .spring .spring-wrapper .photos .photo a .pic .caption {
           z-index: 1;
           left: 47vw;
@@ -765,7 +839,14 @@ header {
             padding-top: 1vw;
             line-height: 1.5; }
     .spring .spring-wrapper .show_more_s {
-      margin: 10px; } }
+      margin: 10px; }
+      .spring .spring-wrapper .show_more_s a:hover {
+        color: white; } }
+@media (max-width: 600px) {
+  .spring .spring-wrapper {
+    padding: 30px 20px 20px 20px; }
+    .spring .spring-wrapper .photos .photo {
+      margin-bottom: 20px; } }
 
 .summer_background {
   padding-top: 48px;
@@ -783,6 +864,21 @@ header {
       letter-spacing: 15px;
       font-weight: lighter;
       opacity: 0.9; }
+  @media (max-width: 1024px) {
+    .summer_background .summer_title {
+      height: 32vh; }
+      .summer_background .summer_title h1 {
+        padding-top: 10vh; } }
+  @media (max-width: 768px) {
+    .summer_background {
+      padding: 0;
+      margin: 0; }
+      .summer_background .summer_title {
+        background-attachment: scroll;
+        height: 28vh; }
+        .summer_background .summer_title h1 {
+          padding-top: 7.5vh;
+          font-size: 12rem; } }
   @media (max-width: 600px) {
     .summer_background {
       padding: 0;
@@ -795,7 +891,6 @@ header {
 
 .summer .summer-wrapper {
   padding: 70px;
-  padding-bottom: 100px;
   box-sizing: border-box; }
   .summer .summer-wrapper .photos {
     display: -webkit-flex;
@@ -809,8 +904,8 @@ header {
     .summer .summer-wrapper .photos .photo2 {
       box-sizing: border-box;
       width: 33.33333%;
-      margin-bottom: 70px;
-      padding: 0px 43px 5px 43px; }
+      margin-bottom: 80px;
+      padding: 0px 43px; }
       .summer .summer-wrapper .photos .photo2 a {
         outline: none; }
         .summer .summer-wrapper .photos .photo2 a .pic {
@@ -835,8 +930,6 @@ header {
             .summer .summer-wrapper .photos .photo2 a .pic .caption h2 {
               font-size: 4.5vw;
               letter-spacing: 2.5px; }
-              .summer .summer-wrapper .photos .photo2 a .pic .caption h2 span {
-                font-size: 3.8vw; }
             .summer .summer-wrapper .photos .photo2 a .pic .caption h3 {
               font-size: 1.8vw;
               letter-spacing: 2px;
@@ -857,43 +950,58 @@ header {
       font-weight: lighter; }
     .summer .summer-wrapper .show_more_su a:hover {
       color: #847b66; }
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .summer .summer-wrapper {
-    padding: 20px; }
+    padding: 70px 30px; }
     .summer .summer-wrapper .photos .photo2 {
-      width: 50%;
-      margin-bottom: 27vw;
-      padding: 0px 10px 20px 10px; }
-      .summer .summer-wrapper .photos .photo2 a {
-        padding: 10px; }
+      margin-bottom: 55px;
+      padding: 0px 29px; } }
+@media (max-width: 768px) {
+  .summer .summer-wrapper {
+    padding: 40px;
+    z-index: 1; }
+    .summer .summer-wrapper .photos {
+      z-index: 1;
+      flex-direction: column; }
+      .summer .summer-wrapper .photos .photo2 {
+        z-index: 1;
+        width: 50%;
+        margin-bottom: 0px;
+        padding: 0px;
+        margin-bottom: 43px; }
         .summer .summer-wrapper .photos .photo2 a .pic .caption {
-          top: 30vw;
-          left: 0;
+          z-index: 1;
+          left: 47vw;
           color: black;
           background-color: white;
           width: 100%;
-          height: 0;
+          height: 100%;
           -webkit-transition: none;
           transition: none;
           opacity: 1;
-          padding: 1vw 1vw 0vw 1vw; }
+          padding: 1.3vw; }
           .summer .summer-wrapper .photos .photo2 a .pic .caption h2 {
             font-size: 6.3vw;
             letter-spacing: 2.5px; }
-            .summer .summer-wrapper .photos .photo2 a .pic .caption h2 span {
-              font-size: 5.8vw; }
           .summer .summer-wrapper .photos .photo2 a .pic .caption h3 {
             font-size: 3.8vw;
             letter-spacing: 2px;
             margin-top: 6px; }
             .summer .summer-wrapper .photos .photo2 a .pic .caption h3 span {
-              font-size: 3vw; }
+              font-size: 3.5vw; }
           .summer .summer-wrapper .photos .photo2 a .pic .caption p {
             font-size: 3vw;
             padding-top: 1vw;
             line-height: 1.5; }
     .summer .summer-wrapper .show_more_su {
-      margin: 10px; } }
+      margin: 10px; }
+      .summer .summer-wrapper .show_more_su a:hover {
+        color: white; } }
+@media (max-width: 600px) {
+  .summer .summer-wrapper {
+    padding: 30px 20px 20px 20px; }
+    .summer .summer-wrapper .photos .photo2 {
+      margin-bottom: 20px; } }
 
 .autumn_background {
   padding-top: 48px;
@@ -911,6 +1019,21 @@ header {
       letter-spacing: 15px;
       font-weight: lighter;
       opacity: 0.9; }
+  @media (max-width: 1024px) {
+    .autumn_background .autumn_title {
+      height: 32vh; }
+      .autumn_background .autumn_title h1 {
+        padding-top: 10vh; } }
+  @media (max-width: 768px) {
+    .autumn_background {
+      padding: 0;
+      margin: 0; }
+      .autumn_background .autumn_title {
+        height: 28vh;
+        background-attachment: scroll; }
+        .autumn_background .autumn_title h1 {
+          padding-top: 7.5vh;
+          font-size: 12rem; } }
   @media (max-width: 600px) {
     .autumn_background {
       padding: 0;
@@ -923,7 +1046,6 @@ header {
 
 .autumn .autumn-wrapper {
   padding: 70px;
-  padding-bottom: 100px;
   box-sizing: border-box; }
   .autumn .autumn-wrapper .photos {
     display: -webkit-flex;
@@ -937,8 +1059,8 @@ header {
     .autumn .autumn-wrapper .photos .photo3 {
       box-sizing: border-box;
       width: 33.33333%;
-      margin-bottom: 70px;
-      padding: 0px 43px 5px 43px; }
+      margin-bottom: 80px;
+      padding: 0px 43px; }
       .autumn .autumn-wrapper .photos .photo3 a {
         outline: none; }
         .autumn .autumn-wrapper .photos .photo3 a .pic {
@@ -963,8 +1085,6 @@ header {
             .autumn .autumn-wrapper .photos .photo3 a .pic .caption h2 {
               font-size: 4.5vw;
               letter-spacing: 2.5px; }
-              .autumn .autumn-wrapper .photos .photo3 a .pic .caption h2 span {
-                font-size: 3.8vw; }
             .autumn .autumn-wrapper .photos .photo3 a .pic .caption h3 {
               font-size: 1.8vw;
               letter-spacing: 2px;
@@ -985,45 +1105,58 @@ header {
       font-weight: lighter; }
     .autumn .autumn-wrapper .show_more_a a:hover {
       color: #847b66; }
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .autumn .autumn-wrapper {
-    padding: 30px 0px 20px 0px; }
+    padding: 70px 30px; }
+    .autumn .autumn-wrapper .photos .photo3 {
+      margin-bottom: 55px;
+      padding: 0px 29px; } }
+@media (max-width: 768px) {
+  .autumn .autumn-wrapper {
+    padding: 40px;
+    z-index: 1; }
     .autumn .autumn-wrapper .photos {
+      z-index: 1;
       flex-direction: column; }
       .autumn .autumn-wrapper .photos .photo3 {
-        width: 100%;
-        margin-bottom: 20vw;
-        padding: 0px 40px 30px 40px; }
-        .autumn .autumn-wrapper .photos .photo3 a {
-          padding: 10px; }
-          .autumn .autumn-wrapper .photos .photo3 a .pic .caption {
-            top: 60vw;
-            left: 0;
-            color: black;
-            background-color: white;
-            width: 100%;
-            height: 0;
-            -webkit-transition: none;
-            transition: none;
-            opacity: 1;
-            padding: 1vw 1vw 0vw 1vw; }
-            .autumn .autumn-wrapper .photos .photo3 a .pic .caption h2 {
-              font-size: 6.3vw;
-              letter-spacing: 2.5px; }
-              .autumn .autumn-wrapper .photos .photo3 a .pic .caption h2 span {
-                font-size: 5.8vw; }
-            .autumn .autumn-wrapper .photos .photo3 a .pic .caption h3 {
-              font-size: 3.8vw;
-              letter-spacing: 2px;
-              margin-top: 6px; }
-              .autumn .autumn-wrapper .photos .photo3 a .pic .caption h3 span {
-                font-size: 3vw; }
-            .autumn .autumn-wrapper .photos .photo3 a .pic .caption p {
-              font-size: 3vw;
-              padding-top: 1vw;
-              line-height: 1.5; }
+        z-index: 1;
+        width: 50%;
+        margin-bottom: 0px;
+        padding: 0px;
+        margin-bottom: 43px; }
+        .autumn .autumn-wrapper .photos .photo3 a .pic .caption {
+          z-index: 1;
+          left: 47vw;
+          color: black;
+          background-color: white;
+          width: 100%;
+          height: 100%;
+          -webkit-transition: none;
+          transition: none;
+          opacity: 1;
+          padding: 1.3vw; }
+          .autumn .autumn-wrapper .photos .photo3 a .pic .caption h2 {
+            font-size: 6.3vw;
+            letter-spacing: 2.5px; }
+          .autumn .autumn-wrapper .photos .photo3 a .pic .caption h3 {
+            font-size: 3.8vw;
+            letter-spacing: 2px;
+            margin-top: 6px; }
+            .autumn .autumn-wrapper .photos .photo3 a .pic .caption h3 span {
+              font-size: 3.5vw; }
+          .autumn .autumn-wrapper .photos .photo3 a .pic .caption p {
+            font-size: 3vw;
+            padding-top: 1vw;
+            line-height: 1.5; }
     .autumn .autumn-wrapper .show_more_a {
-      margin: 20px; } }
+      margin: 10px; }
+      .autumn .autumn-wrapper .show_more_a a:hover {
+        color: white; } }
+@media (max-width: 600px) {
+  .autumn .autumn-wrapper {
+    padding: 30px 20px 20px 20px; }
+    .autumn .autumn-wrapper .photos .photo3 {
+      margin-bottom: 20px; } }
 
 .winter_background {
   padding-top: 48px;
@@ -1041,6 +1174,21 @@ header {
       letter-spacing: 15px;
       font-weight: lighter;
       opacity: 0.9; }
+  @media (max-width: 1024px) {
+    .winter_background .winter_title {
+      height: 32vh; }
+      .winter_background .winter_title h1 {
+        padding-top: 10vh; } }
+  @media (max-width: 768px) {
+    .winter_background {
+      padding: 0;
+      margin: 0; }
+      .winter_background .winter_title {
+        height: 28vh;
+        background-attachment: scroll; }
+        .winter_background .winter_title h1 {
+          padding-top: 7.5vh;
+          font-size: 12rem; } }
   @media (max-width: 600px) {
     .winter_background {
       padding: 0;
@@ -1053,7 +1201,6 @@ header {
 
 .winter .winter-wrapper {
   padding: 70px;
-  padding-bottom: 100px;
   box-sizing: border-box; }
   .winter .winter-wrapper .photos {
     display: -webkit-flex;
@@ -1067,8 +1214,8 @@ header {
     .winter .winter-wrapper .photos .photo4 {
       box-sizing: border-box;
       width: 33.33333%;
-      margin-bottom: 70px;
-      padding: 0px 43px 5px 43px; }
+      margin-bottom: 80px;
+      padding: 0px 43px; }
       .winter .winter-wrapper .photos .photo4 a {
         outline: none; }
         .winter .winter-wrapper .photos .photo4 a .pic {
@@ -1093,8 +1240,6 @@ header {
             .winter .winter-wrapper .photos .photo4 a .pic .caption h2 {
               font-size: 4.5vw;
               letter-spacing: 2.5px; }
-              .winter .winter-wrapper .photos .photo4 a .pic .caption h2 span {
-                font-size: 3.8vw; }
             .winter .winter-wrapper .photos .photo4 a .pic .caption h3 {
               font-size: 1.8vw;
               letter-spacing: 2px;
@@ -1115,14 +1260,58 @@ header {
       font-weight: lighter; }
     .winter .winter-wrapper .show_more_w a:hover {
       color: #847b66; }
+@media (max-width: 1024px) {
+  .winter .winter-wrapper {
+    padding: 70px 30px 70px 30px; }
+    .winter .winter-wrapper .photos .photo4 {
+      margin-bottom: 55px;
+      padding: 0px 29px; } }
+@media (max-width: 768px) {
+  .winter .winter-wrapper {
+    padding: 40px;
+    z-index: 1; }
+    .winter .winter-wrapper .photos {
+      z-index: 1;
+      flex-direction: column; }
+      .winter .winter-wrapper .photos .photo4 {
+        z-index: 1;
+        width: 50%;
+        margin-bottom: 0px;
+        padding: 0px;
+        margin-bottom: 43px; }
+        .winter .winter-wrapper .photos .photo4 a .pic .caption {
+          z-index: 1;
+          left: 47vw;
+          color: black;
+          background-color: white;
+          width: 100%;
+          height: 100%;
+          -webkit-transition: none;
+          transition: none;
+          opacity: 1;
+          padding: 1.3vw; }
+          .winter .winter-wrapper .photos .photo4 a .pic .caption h2 {
+            font-size: 6.3vw;
+            letter-spacing: 2.5px; }
+          .winter .winter-wrapper .photos .photo4 a .pic .caption h3 {
+            font-size: 3.8vw;
+            letter-spacing: 2px;
+            margin-top: 6px; }
+            .winter .winter-wrapper .photos .photo4 a .pic .caption h3 span {
+              font-size: 3.5vw; }
+          .winter .winter-wrapper .photos .photo4 a .pic .caption p {
+            font-size: 3vw;
+            padding-top: 1vw;
+            line-height: 1.5; }
+    .winter .winter-wrapper .show_more_w {
+      margin: 10px; }
+      .winter .winter-wrapper .show_more_w a:hover {
+        color: white; } }
 @media (max-width: 600px) {
   .winter .winter-wrapper {
-    padding: 10px;
-    padding-bottom: 40px; }
+    padding: 30px 20px 20px 20px; }
     .winter .winter-wrapper .photos .photo4 {
-      width: 33.33333%;
-      margin-bottom: 0px;
-      padding: 10px 10px 10px 10px; } }
+      margin-bottom: 20px; } }
 
 .about_me_background {
   margin-top: -48px;
@@ -1140,18 +1329,32 @@ header {
       font-size: 9.3rem;
       letter-spacing: 15px;
       font-weight: lighter; }
+  @media (max-width: 1024px) {
+    .about_me_background .about_me_title {
+      height: 32vh; }
+      .about_me_background .about_me_title h1 {
+        padding-top: 10vh; } }
   @media (max-width: 960px) {
     .about_me_background .about_me_title {
-      background-image: url(../images/about_me.jpg); } }
-  @media (max-width: 600px) {
+      background-image: url(../images/about-me2.jpg); } }
+  @media (max-width: 768px) {
     .about_me_background {
       padding: 0;
-      margin-top: 0; }
+      margin: 0; }
       .about_me_background .about_me_title {
-        height: 28vh; }
+        height: 28vh;
+        margin-bottom: 5vw;
+        background-attachment: scroll; }
         .about_me_background .about_me_title h1 {
-          padding-top: 8vh;
-          font-size: 7.5rem; } }
+          padding-top: 7.5vh;
+          font-size: 12rem; } }
+  @media (max-width: 600px) {
+    .about_me_background .about_me_title {
+      height: 28vh; }
+      .about_me_background .about_me_title h1 {
+        padding-top: 8vh;
+        font-size: 7.4rem;
+        letter-spacing: 10px; } }
 
 .about_me {
   margin-bottom: 40px; }
@@ -1200,14 +1403,32 @@ header {
         line-height: 2.2; }
       .about_me .about_me_wrapper .contents p {
         display: none; } }
+  @media (max-width: 768px) {
+    .about_me .about_me_wrapper .contents h2 {
+      text-align: left; }
+    .about_me .about_me_wrapper .contents p.sp {
+      text-align: left; }
+    .about_me .social ul li {
+      margin-right: 70px; }
+      .about_me .social ul li a {
+        font-size: 4rem; }
+      .about_me .social ul li a:hover {
+        color: white;
+        -webkit-animation: none;
+        animation: none; }
+    @-webkit-keyframes zoom {
+      50% {
+        -webkit-transform: none; } }
+    @keyframes zoom {
+      50% {
+        transform: none; } } }
   @media (max-width: 600px) {
-    .about_me .about_me_wrapper {
-      width: 80%; }
-      .about_me .about_me_wrapper .contents p.sp {
-        display: block;
-        font-size: 1.6rem;
-        line-height: 1.9;
-        text-align: left; } }
+    .about_me .about_me_wrapper .contents p.sp {
+      line-height: 1.9; }
+    .about_me .social ul li {
+      margin-right: 50px; }
+      .about_me .social ul li a {
+        font-size: 3.2rem; } }
 
 footer {
   padding: 10px;

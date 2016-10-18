@@ -23,10 +23,10 @@
                 <img src="./images/title_sp.png" alt="title" class="sp">
             </div>
             <a href="#to_intro">
-                <img class="pc" src="./images/title_pc/scroll.png">
+                <img class="pc" src="./images/title_pc/scroll.png" alt="title">
             </a>
             <div class="swipe">
-                <img class="sp" src="./images/Swipe_Up.png">
+                <img class="sp" src="./images/Swipe_Up.png" alt="swipe">
             </div>
         </header>
         
@@ -35,7 +35,7 @@
                 <h1>Introduction</h1>
                 <p class="concept noto">私たちが過ごしているその何気ない瞬間も<br>
                 カメラによって一生色褪せない瞬間となる。<br>
-                季節とともに移りゆく景色、人々。変わりゆく時代、変わらない日常。<br>
+                季節とともに移りゆく景色、人々。<br class="br-sp">変わりゆく時代、変わらない日常。<br>
                 そんな日々の瞬間を、レンズを通して見えた私の世界を、<br>
                 写真の中にある四季を通して皆様に感じていただけたら幸いです。<br>
                 </p>
@@ -51,7 +51,7 @@
                 <p class="tsubasa">
                     
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    	 viewBox="0 0 280 280" style="enable-background:new 0 0 127.6 19.7;" xml:space="preserve">
+                    	 viewBox="0 0 130 20" style="enable-background:new 0 0 127.6 19.7;" xml:space="preserve">
                     <style type="text/css">
                     	.st0{display:none;}
                     	.st1{display:inline;opacity:0.4;}
@@ -759,8 +759,8 @@
                     写真の撮影と編集を趣味として行っていて、Instagramに投稿し公開しています。<br>
                     サイト自体や写真に関してのご意見やご感想などをいただけると嬉しいです。</p>
                     <p class="noto sp">1994年生まれ。東京都在住の大学生。<br>
-                    小さい頃からものづくりに関心があり、大学ではメディアについて勉強している傍ら、
-                    webデザインについても現在勉強しています。<br>
+                    小さい頃からものづくりに関心があり、大学ではメディアについて勉強している傍ら、　
+                    現在はwebデザインについても勉強をしています。<br>
                     このサイトも練習の一環として一から自分で制作しました。<br>
                     写真の撮影と編集を趣味として行っていて、Instagramに投稿し公開しています。<br>
                     サイト自体や写真に関してのご意見やご感想などをいただけると嬉しいです。</p>
@@ -783,10 +783,9 @@
         
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script type="text/javascript">
-        
             
             $(function(){
-                $('#box a[href^=#]').click(function(){ 
+                $('#box a[href^=#], header a[href^=#]').click(function(){ 
                     var speed = 600; //移動完了までの時間(sec)を指定
                     var href= $(this).attr("href"); 
                     var target = $(href == "#" || href == "" ? 'html' : href);
@@ -799,6 +798,7 @@
             
             var bt = $("#box").offset().top; // boxのページ上からの距離を取得
             var ds = 0;
+            var it = $("#to_intro").offset().top;
             
             $(document).scroll(function(){ // スクロール発生時の処理の記述を開始
                 ds = $(this).scrollTop(); // ユーザのスクロールした距離を取得
@@ -807,6 +807,10 @@
                     $("#box").addClass('follow'); // 「follow」というclassを追加する
                 } else if (bt >= ds) { // スクロールがページ上まで戻ったら、
                     $("#box").removeClass('follow'); // classを削除
+                }
+                
+                if (it <= ds){
+                    $(".tsubasa").addClass('on');
                 }
             });
             
@@ -971,37 +975,37 @@
          
          <script src="js/jquery.magnific-popup.min.js"></script> 
          <script>
-        $(function(){
-            $('.photo').magnificPopup({ 
-                delegate: 'a', 
-                type: 'image',
-                gallery: {
-                    enabled:true
-                  }
+            $(function(){
+                $('.photo').magnificPopup({ 
+                    delegate: 'a', 
+                    type: 'image',
+                    gallery: {
+                        enabled:true
+                      }
+                });
+                
+                $('.photo2').magnificPopup({ 
+                    delegate: 'a', 
+                    type: 'image',
+                    gallery: {
+                        enabled:true
+                      },
+                });
+                $('.photo3').magnificPopup({ 
+                    delegate: 'a', 
+                    type: 'image',
+                    gallery: {
+                        enabled:true
+                      },
+                });
+                $('.photo4').magnificPopup({ 
+                    delegate: 'a', 
+                    type: 'image',
+                    gallery: {
+                        enabled:true
+                      },
+                });
             });
-            
-            $('.photo2').magnificPopup({ 
-                delegate: 'a', 
-                type: 'image',
-                gallery: {
-                    enabled:true
-                  },
-            });
-            $('.photo3').magnificPopup({ 
-                delegate: 'a', 
-                type: 'image',
-                gallery: {
-                    enabled:true
-                  },
-            });
-            $('.photo4').magnificPopup({ 
-                delegate: 'a', 
-                type: 'image',
-                gallery: {
-                    enabled:true
-                  },
-            });
-        });
         </script>
         
         <div class="sp_menu_wrap">
