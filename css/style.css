@@ -710,8 +710,7 @@ header {
       text-align: center;
       font-size: 9.3rem;
       letter-spacing: 15px;
-      font-weight: lighter;
-      opacity: 0.9; }
+      font-weight: lighter; }
   @media (max-width: 1024px) {
     .spring_background .spring_title {
       height: 32vh; }
@@ -862,8 +861,7 @@ header {
       text-align: center;
       font-size: 9.3rem;
       letter-spacing: 15px;
-      font-weight: lighter;
-      opacity: 0.9; }
+      font-weight: lighter; }
   @media (max-width: 1024px) {
     .summer_background .summer_title {
       height: 32vh; }
@@ -1017,8 +1015,7 @@ header {
       text-align: center;
       font-size: 9.3rem;
       letter-spacing: 15px;
-      font-weight: lighter;
-      opacity: 0.9; }
+      font-weight: lighter; }
   @media (max-width: 1024px) {
     .autumn_background .autumn_title {
       height: 32vh; }
@@ -1172,8 +1169,7 @@ header {
       text-align: center;
       font-size: 9.3rem;
       letter-spacing: 15px;
-      font-weight: lighter;
-      opacity: 0.9; }
+      font-weight: lighter; }
   @media (max-width: 1024px) {
     .winter_background .winter_title {
       height: 32vh; }

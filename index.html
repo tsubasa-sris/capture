@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
         <meta charset="utf-8">
         <title>CAPTURE</title>
         <meta name="description" content="四季を通して見える様々な場面を写真に収め展示しています。">
         <meta name="author" content="">
         <meta name="kewwords" content="picture, photgraphy, seasons, capture, 写真, 四季, 季節">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta property="og:title" content="CAPTURE" />
+        <meta property="og:description" content="四季を通して見える様々な場面を写真に収め展示しています。" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://tbs-sris.sakura.ne.jp/" />
+        <meta property="og:image" content="http://tbs-sris.sakura.ne.jp/images/share.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="css/magnific-popup.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/animate.css">
         
-        <link rel="icon" type="image/png" href="images/capture_logo.png">
+        <link rel="icon" type="image/png" href="images/icon/favicon.ico">
+        <link rel="shortcut icon" href="icon/favicon.ico" type="image/vnd.microsoft.icon">
+        <link rel="icon" href="icon/favicon.ico" type="image/vnd.microsoft.icon">
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
         
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        
         <header>
             <div class="title" id="to_title">
                 <img src="./images/title_pc/title.png" alt="title" class="pc">
@@ -31,7 +52,7 @@
         </header>
         
         <div class="introduction" id="to_intro">
-            <div class="container wow fadeIn" data-wow-offset="500" data-wow-duration="1.8s">
+            <div class="container wow fadeIn" data-wow-offset="250" data-wow-duration="1.8s">
                 <h1>Introduction</h1>
                 <p class="concept noto">私たちが過ごしているその何気ない瞬間も<br>
                 カメラによって一生色褪せない瞬間となる。<br>
@@ -769,8 +790,9 @@
             <div class="social">
                 <ul>
                     <li><a href="https://www.instagram.com/tbs_sris/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="http://twitter.com/share?text=四季を通して見える様々な場面を写真に収め展示しています。&url=http://tbs-sris.sakura.ne.jp/" onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="http://www.facebook.com/share.php?u=http://tbs-sris.sakura.ne.jp/" onclick="window.open(encodeURI(decodeURI(this.href)), 'FBwindow', 'width=554, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    
                 </ul>
             </div>
         </div>
