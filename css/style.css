@@ -61,7 +61,7 @@ header {
         display: none; } }
   @media (max-width: 768px) {
     header {
-      background-image: url(../images/sp_header.jpg); }
+      background-image: url(../images/sp_top/sp_header-min.jpg); }
       header .title {
         width: 90vw; }
         header .title img.pc {
@@ -700,7 +700,7 @@ header {
   padding-top: 56px;
   margin-top: -56px; }
   .spring_background .spring_title {
-    background-image: url(../images/background/spring_background1.jpg);
+    background-image: url(../images/background/spring_background1-min.jpg);
     background-size: cover;
     background-position: center center;
     height: 45vh;
@@ -852,7 +852,7 @@ header {
   padding-top: 48px;
   margin-top: -48px; }
   .summer_background .summer_title {
-    background-image: url(../images/background/summer_background2.jpg);
+    background-image: url(../images/background/summer_background2-min.jpg);
     background-size: cover;
     background-position: center center;
     height: 45vh;
@@ -1007,7 +1007,7 @@ header {
   padding-top: 48px;
   margin-top: -48px; }
   .autumn_background .autumn_title {
-    background-image: url(../images/background/autumn_background3.jpg);
+    background-image: url(../images/background/autumn_background3-min.jpg);
     background-size: cover;
     background-position: center center;
     height: 45vh;
@@ -1162,7 +1162,7 @@ header {
   padding-top: 48px;
   margin-top: -48px; }
   .winter_background .winter_title {
-    background-image: url(../images/background/winter_background4.jpg);
+    background-image: url(../images/background/winter_background4-min.jpg);
     background-size: cover;
     background-position: center center;
     height: 45vh;
