@@ -171,498 +171,513 @@ header{
     height: 100vh;
     position: relative;
     .container{
-        h1{
-            font-size: 6.5vw;
-            padding: 2.5vw;
-            text-align: center;
-            letter-spacing: 5px;
-        }
-        p.concept{
-            font-size: 1.7vw;
-            line-height: 4vw;
-            letter-spacing: 5px;
-            text-align: center;
-            margin-bottom: 2vw;
-            br.br-sp{
-                display: none;
-            }
-        }
-        p.concept_sp{
-            display: none;
-        }
-        p.capture{
-            font-size: 2.8vw;
-            text-align: center;
-            letter-spacing: 4px;
-        }
-        p.capture_sp{
-            display: none;
-        }
-        
-        p.tsubasa{
-            width: 17vw;
-            margin-top: 35px;
-            margin-left: calc(50% + 220px);
-            &.on{
-                svg{
-                    .path1{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 1s linear forwards;
-                          animation: dash 1s linear forwards;
-                    }
-                    .path2{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 0.2s;
-                    	-webkit-animation-delay: 0.2s;
-                    	-moz-animation-delay: 0.2s;
-                    }
-                    .path3{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 0.5s;
-                    	-webkit-animation-delay: 0.5s;
-                    	-moz-animation-delay: 0.5s;
-                    }
-                    .path4{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 0.8s;
-                    	-webkit-animation-delay: 0.8s;
-                    	-moz-animation-delay: 0.8s;
-                    }
-                    .path5{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 1.2s;
-                    	-webkit-animation-delay: 1.2s;
-                    	-moz-animation-delay: 1.2s;
-                    }
-                    .path6{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 1.3s;
-                    	-webkit-animation-delay: 1.3s;
-                    	-moz-animation-delay: 1.3s;
-                    }
-                    .path7{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 1.9s;
-                    	-webkit-animation-delay: 1.9s;
-                    	-moz-animation-delay: 1.9s;
-                    }
-                    .path8{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 2.2s;
-                    	-webkit-animation-delay: 2.2s;
-                    	-moz-animation-delay: 2.2s;
-                    }
-                    .path9{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 2.5s;
-                    	-webkit-animation-delay: 2.5s;
-                    	-moz-animation-delay: 2.5s;
-                    }
-                    .path10{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 2.8s;
-                    	-webkit-animation-delay: 2.8s;
-                    	-moz-animation-delay: 2.8s;
-                    	
-                    }
-                    .path11{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 3s;
-                    	-webkit-animation-delay: 3s;
-                    	-moz-animation-delay: 3s;
-                    }
-                    .path12{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 5s linear forwards;
-                          animation: dash 5s linear forwards;
-                          animation-delay: 3.3s;
-                    	-webkit-animation-delay: 3.3s;
-                    	-moz-animation-delay: 3.3s;
-                    }
-                    .path13{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 3.7s;
-                    	-webkit-animation-delay: 3.7s;
-                    	-moz-animation-delay: 3.7s;
-                    }
-                    .path14{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 3.9s;
-                    	-webkit-animation-delay: 3.9s;
-                    	-moz-animation-delay: 3.9s;
-                    }
-                    .path15{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 4s;
-                    	-webkit-animation-delay: 4s;
-                    	-moz-animation-delay: 4s;
-                    }
-                    .path16{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 4.2s;
-                    	-webkit-animation-delay: 4.2s;
-                    	-moz-animation-delay: 4.2s;
-                    }
-                    .path17{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 4.5s;
-                    	-webkit-animation-delay: 4.5s;
-                    	-moz-animation-delay: 4.5s;
-                    }
-                    .path18{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 5s linear forwards;
-                          animation: dash 5s linear forwards;
-                          animation-delay: 4.7s;
-                    	-webkit-animation-delay: 4.7s;
-                    	-moz-animation-delay: 4.7s;
-                    }
-                    .path19{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 5s;
-                    	-webkit-animation-delay: 5s;
-                    	-moz-animation-delay: 5s;
-                    }
-                    .path20{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 5.3s;
-                    	-webkit-animation-delay: 5.3s;
-                    	-moz-animation-delay: 5.3s;
-                    }
-                    .path21{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 5.6s;
-                    	-webkit-animation-delay: 5.6s;
-                    	-moz-animation-delay: 5.6s;
-                    }
-                    .path22{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 5.8s;
-                    	-webkit-animation-delay: 5.8s;
-                    	-moz-animation-delay: 5.8s;
-                    }.path23{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 6s;
-                    	-webkit-animation-delay: 6s;
-                    	-moz-animation-delay: 6s;
-                    }
-                    .path24{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 6.3s;
-                    	-webkit-animation-delay: 6.3s;
-                    	-moz-animation-delay: 6.3s;
-                    }
-                    .path25{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 6.5s;
-                    	-webkit-animation-delay: 6.5s;
-                    	-moz-animation-delay: 6.5s;
-                    }
-                    .path26{
-                    	stroke: #000;
-                    	fill: none;
-                    	stroke-width: 1;
-                    	stroke-linecap: round;
-                        stroke-linejoin: round;
-                    	stroke-dasharray: 200;
-                          stroke-dashoffset: 200;
-                          -webkit-animation: dash 7s linear forwards;
-                          animation: dash 7s linear forwards;
-                          animation-delay: 6.8s;
-                    	-webkit-animation-delay: 6.8s;
-                    	-moz-animation-delay: 6.8s;
-                    }
-                        @-webkit-keyframes dash {
-                          to {
-                            stroke-dashoffset: 0;
-                          }
-                        }
-                        @keyframes dash {
-                          to {
-                            stroke-dashoffset: 0;
-                          }
-                        }
-                }
-            }
-        }
-        .menu{
-            z-index: 9;
-            background-color: #fafafa;
-            position: absolute;
-            top: 87vh;
-            width: 100%;
-            padding-top: 10px;
-            padding-bottom: 15px;
-            .close{
-                display: none;
-            }
-            ul{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 100vh;
+        .flex{
+            margin-top: -85px;
+            h1{
+                font-size: 6.3vw;
+                padding-bottom: 4vh;
                 text-align: center;
-                li{
-                    letter-spacing: 4px;
-                    display: inline-block;
-                    font-size: 2.3vw;
-                    border-right: 1px solid black;
-                    a{
-                        text-decoration: none;
-                        color: black;
-                        padding-right: 2vw;
-                        padding-left: 2vw;
-                        
-                        display: inline-block;
-                    }
-                    a:hover {
-                        color: #847b66;
-                        -webkit-animation: zoom .3s;
-                        animation: zoom .3s;
-                    }
-                    @-webkit-keyframes zoom {
-                        50% {
-                            -webkit-transform: scale(1.05);
-                        }
-                    }
-                    @keyframes zoom {
-                        50% {
-                            transform: scale(1.05);
-                        }
-                    }
+                letter-spacing: 6px;
+            }
+            p.concept{
+                font-size: 1.7vw;
+                line-height: 3.3vw;
+                letter-spacing: 5px;
+                text-align: center;
+                margin-bottom: 2vw;
+                br.br-sp{
+                    display: none;
                 }
-                li:last-child{
-                    border-right: none;
+            }
+            p.concept_sp{
+                display: none;
+            }
+            p.capture{
+                font-size: 2.7vw;
+                text-align: center;
+                letter-spacing: 4px;
+            }
+            p.capture_sp{
+                display: none;
+            }
+            
+            p.tsubasa{
+                width: 16.5vw;
+                margin-top: 28px;
+                margin-left: calc(50% + 220px);
+                &.on{
+                    svg{
+                        .path1{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 1s linear forwards;
+                              animation: dash 1s linear forwards;
+                        }
+                        .path2{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 0.2s;
+                        	-webkit-animation-delay: 0.2s;
+                        	-moz-animation-delay: 0.2s;
+                        }
+                        .path3{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 0.5s;
+                        	-webkit-animation-delay: 0.5s;
+                        	-moz-animation-delay: 0.5s;
+                        }
+                        .path4{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 0.8s;
+                        	-webkit-animation-delay: 0.8s;
+                        	-moz-animation-delay: 0.8s;
+                        }
+                        .path5{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 1.2s;
+                        	-webkit-animation-delay: 1.2s;
+                        	-moz-animation-delay: 1.2s;
+                        }
+                        .path6{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 1.3s;
+                        	-webkit-animation-delay: 1.3s;
+                        	-moz-animation-delay: 1.3s;
+                        }
+                        .path7{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 1.9s;
+                        	-webkit-animation-delay: 1.9s;
+                        	-moz-animation-delay: 1.9s;
+                        }
+                        .path8{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 2.2s;
+                        	-webkit-animation-delay: 2.2s;
+                        	-moz-animation-delay: 2.2s;
+                        }
+                        .path9{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 2.5s;
+                        	-webkit-animation-delay: 2.5s;
+                        	-moz-animation-delay: 2.5s;
+                        }
+                        .path10{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 2.8s;
+                        	-webkit-animation-delay: 2.8s;
+                        	-moz-animation-delay: 2.8s;
+                        	
+                        }
+                        .path11{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 3s;
+                        	-webkit-animation-delay: 3s;
+                        	-moz-animation-delay: 3s;
+                        }
+                        .path12{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 5s linear forwards;
+                              animation: dash 5s linear forwards;
+                              animation-delay: 3.3s;
+                        	-webkit-animation-delay: 3.3s;
+                        	-moz-animation-delay: 3.3s;
+                        }
+                        .path13{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 3.7s;
+                        	-webkit-animation-delay: 3.7s;
+                        	-moz-animation-delay: 3.7s;
+                        }
+                        .path14{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 3.9s;
+                        	-webkit-animation-delay: 3.9s;
+                        	-moz-animation-delay: 3.9s;
+                        }
+                        .path15{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 4s;
+                        	-webkit-animation-delay: 4s;
+                        	-moz-animation-delay: 4s;
+                        }
+                        .path16{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 4.2s;
+                        	-webkit-animation-delay: 4.2s;
+                        	-moz-animation-delay: 4.2s;
+                        }
+                        .path17{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 4.5s;
+                        	-webkit-animation-delay: 4.5s;
+                        	-moz-animation-delay: 4.5s;
+                        }
+                        .path18{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 5s linear forwards;
+                              animation: dash 5s linear forwards;
+                              animation-delay: 4.7s;
+                        	-webkit-animation-delay: 4.7s;
+                        	-moz-animation-delay: 4.7s;
+                        }
+                        .path19{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 5s;
+                        	-webkit-animation-delay: 5s;
+                        	-moz-animation-delay: 5s;
+                        }
+                        .path20{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 5.3s;
+                        	-webkit-animation-delay: 5.3s;
+                        	-moz-animation-delay: 5.3s;
+                        }
+                        .path21{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 5.6s;
+                        	-webkit-animation-delay: 5.6s;
+                        	-moz-animation-delay: 5.6s;
+                        }
+                        .path22{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 5.8s;
+                        	-webkit-animation-delay: 5.8s;
+                        	-moz-animation-delay: 5.8s;
+                        }.path23{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 6s;
+                        	-webkit-animation-delay: 6s;
+                        	-moz-animation-delay: 6s;
+                        }
+                        .path24{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 6.3s;
+                        	-webkit-animation-delay: 6.3s;
+                        	-moz-animation-delay: 6.3s;
+                        }
+                        .path25{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 6.5s;
+                        	-webkit-animation-delay: 6.5s;
+                        	-moz-animation-delay: 6.5s;
+                        }
+                        .path26{
+                        	stroke: #000;
+                        	fill: none;
+                        	stroke-width: 1;
+                        	stroke-linecap: round;
+                            stroke-linejoin: round;
+                        	stroke-dasharray: 200;
+                              stroke-dashoffset: 200;
+                              -webkit-animation: dash 7s linear forwards;
+                              animation: dash 7s linear forwards;
+                              animation-delay: 6.8s;
+                        	-webkit-animation-delay: 6.8s;
+                        	-moz-animation-delay: 6.8s;
+                        }
+                            @-webkit-keyframes dash {
+                              to {
+                                stroke-dashoffset: 0;
+                              }
+                            }
+                            @keyframes dash {
+                              to {
+                                stroke-dashoffset: 0;
+                              }
+                            }
+                    }
                 }
             }
         }
     }
+    .menu{
+        background-color: #fafafa;
+        position: absolute;
+        top: 87vh;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        z-index:999 !important;
+        .close{
+            display: none;
+        }
+        ul{
+            text-align: center;
+            li{
+                letter-spacing: 4px;
+                display: inline-block;
+                font-size: 2.3vw;
+                border-right: 1px solid black;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    padding-right: 2vw;
+                    padding-left: 2vw;
+                    
+                    display: inline-block;
+                }
+                a:hover {
+                    color: #847b66;
+                    -webkit-animation: zoom .3s;
+                    animation: zoom .3s;
+                }
+                @-webkit-keyframes zoom {
+                    50% {
+                        -webkit-transform: scale(1.05);
+                    }
+                }
+                @keyframes zoom {
+                    50% {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+            li:last-child{
+                border-right: none;
+            }
+        }
+    }
+    
     .menu-btn{
                 display: none;
     }
     
     @media(max-width: 1024px){
         .container{
-            h1{
-                font-size: 10vw;
-                padding: 5vw;
-                padding-bottom: 3vw;
-            }
-            p.concept{
-                font-size: 2.3vw;
-                line-height: 4.5vw;
-                br.br-sp{
-                    display: none;
+            .flex{
+                h1{
+                    font-size: 10vw;
+                    padding: 5vw;
+                    padding-bottom: 3vw;
+                }
+                p.concept{
+                    font-size: 2.3vw;
+                    line-height: 4.5vw;
+                    br.br-sp{
+                        display: none;
+                    }
+                }
+                p.tsubasa{
+                    width: 22vw;
+                    margin-top: 2vw;
+                    margin-left: calc(50% + 190px);
+                }
+                p.capture{
+                    font-size:4.3vw;
                 }
             }
-            p.tsubasa{
-                width: 22vw;
-                margin-top: 2vw;
-                margin-left: calc(50% + 190px);
-            }
-            p.capture{
-                font-size:4.3vw;
-            }
-            .menu{
-                ul{
-                    li{
-                        letter-spacing: 3px;
-                        display: inline-block;
-                        font-size: 3vw;
-                        a{
-                            padding-right: 2vw;
-                            padding-left: 2vw;
-                        }
+        }
+        .menu{
+            ul{
+                li{
+                    letter-spacing: 3px;
+                    display: inline-block;
+                    font-size: 3vw;
+                    a{
+                        padding-right: 2vw;
+                        padding-left: 2vw;
                     }
                 }
             }
@@ -670,14 +685,12 @@ header{
     }
     
     @media(max-width: 960px){
-        .container{
-            .menu{
-                ul{
-                    li{
-                        letter-spacing: 3px;
-                        display: inline-block;
-                        font-size: 2.5vw;
-                    }
+        .menu{
+            ul{
+                li{
+                    letter-spacing: 3px;
+                    display: inline-block;
+                    font-size: 2.5vw;
                 }
             }
         }
@@ -690,45 +703,44 @@ header{
 @media(max-width: 768px){
     .introduction{
         .container{
-            h1{
-                padding: 6vw;
-                padding-top: 7vw;
-                font-size: 17vw;
-                padding-bottom: 4vw;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            padding: 1.5vw;
+            display: block;
+            .flex{
+                margin-top: 0;
+                h1{
+                    padding: 6vw;
+                    padding-top: 7.5vw;
+                    font-size: 15.5vw;
+                    padding-bottom: 4vw;
+                }
+                p.concept_sp{
+                    display: block;
+                    font-size: 4.5vw;
+                    letter-spacing: 0px;
+                    line-height: 8vw;
+                    padding: 0 9vw 3vw 9vw;
+                }
+                p.concept{
+                    display: none;
+                }
+                p.capture_sp{
+                    display: block;
+                    font-size: 5vw;
+                    padding-left: 9vw;
+                    line-height: 6vw;
+                }
+                p.capture{
+                    display: none;
+                }
+                p.tsubasa{
+                    width: 35vw;
+                    margin-top: 5vw;
+                    margin-left: 8%;
+                }
             }
-            p.concept_sp{
-                display: block;
-                font-size: 4.5vw;
-                letter-spacing: 0;
-                line-height: 8vw;
-                padding: 0 9vw 3vw 9vw;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            p.concept{
-                display: none;
-            }
-            p.capture_sp{
-                display: block;
-                font-size: 5vw;
-                padding-left: 9vw;
-                line-height: 6vw;
-            }
-            p.capture{
-                display: none;
-            }
-            p.tsubasa{
-                width: 35vw;
-                margin-top: 5vw;
-                margin-left: 8%;
-            }
-            .menu{
-                display: none;
-            }
+        }
+        .menu{
+            display: none;
         }
     }
     .sp_menu_wrap{
@@ -809,22 +821,23 @@ header{
 @media(max-width: 600px){
     .introduction{
         .container{
-            height: 90vh;
-            h1{
-                padding-top: 16vw;
-                font-size: 18vw;
-                padding-bottom: 4vw;
-            }
-            p.concept_sp{
-                font-size: 4.7vw;
-                line-height: 9vw;
-                padding: 0vw 9vw 4vw 9vw;
-            }
-            p.capture_sp{
-                line-height: 7vw;
-            }
-            p.tsubasa{
-                width: 42vw;
+            .flex{
+                h1{
+                    padding-top: 17.5vw;
+                    font-size: 16vw;
+                    padding-bottom: 4vw;
+                }
+                p.concept_sp{
+                    font-size: 4.7vw;
+                    line-height: 9vw;
+                    padding: 0vw 9vw 4vw 9vw;
+                }
+                p.capture_sp{
+                    line-height: 7vw;
+                }
+                p.tsubasa{
+                    width: 42vw;
+                }
             }
         }
     }
