@@ -169,7 +169,6 @@ header{
 .introduction{
     background-color: #fafafa;
     height: 100vh;
-    display: block;
     position: relative;
     .container{
         h1{
@@ -740,13 +739,13 @@ header{
             right: 10px;
             text-align: center;
             z-index:999 !important;
-            span.navi{
-                font-size: 12vw;
-                color: black;
-                background-color: white;
-                padding: 1vw 1.5vw;
-                border-radius: 3px;
-                margin-top: 13px;
+            span{
+                img{
+                    display: block;
+                    padding: 1vw 1.5vw;
+                    border-radius: 8px;
+                    margin-top: 13px;
+                }
                 
             }
         }
@@ -764,11 +763,13 @@ header{
             visibility: hidden;
             opacity: 0;
             .close{
-                display: block;
-                color: white;
-                font-size: 11vw;
-                margin-left: 89vw;
-                margin-top: 1.5vw;
+                span{
+                    img{
+                        display: black;
+                        margin-left: 83vw;
+                        margin-top: 4vw;
+                    }
+                }
             }
             ul{
                 text-align: left;
@@ -808,8 +809,9 @@ header{
 @media(max-width: 600px){
     .introduction{
         .container{
+            height: 90vh;
             h1{
-                padding-top: 20vw;
+                padding-top: 16vw;
                 font-size: 18vw;
                 padding-bottom: 4vw;
             }
@@ -834,11 +836,6 @@ header{
             }
         }
         .menu_sp{
-            .close{
-                font-size: 12vw;
-                margin-left: 85vw;
-                margin-top: 12px;
-            }
             ul{
                 li{
                     letter-spacing: 4px;

@@ -131,7 +131,6 @@ header {
 .introduction {
   background-color: #fafafa;
   height: 100vh;
-  display: block;
   position: relative; }
   .introduction .container h1 {
     font-size: 6.5vw;
@@ -610,12 +609,10 @@ header {
       right: 10px;
       text-align: center;
       z-index: 999 !important; }
-      .sp_menu_wrap .menu-btn span.navi {
-        font-size: 12vw;
-        color: black;
-        background-color: white;
+      .sp_menu_wrap .menu-btn span img {
+        display: block;
         padding: 1vw 1.5vw;
-        border-radius: 3px;
+        border-radius: 8px;
         margin-top: 13px; }
     .sp_menu_wrap .menu_sp {
       z-index: 999 !important;
@@ -630,12 +627,10 @@ header {
       transition: all .5s;
       visibility: hidden;
       opacity: 0; }
-      .sp_menu_wrap .menu_sp .close {
-        display: block;
-        color: white;
-        font-size: 11vw;
-        margin-left: 89vw;
-        margin-top: 1.5vw; }
+      .sp_menu_wrap .menu_sp .close span img {
+        display: black;
+        margin-left: 83vw;
+        margin-top: 4vw; }
       .sp_menu_wrap .menu_sp ul {
         text-align: left;
         padding: 0vw 5vw 0 5vw; }
@@ -662,27 +657,25 @@ header {
       visibility: visible;
       opacity: 1; } }
 @media (max-width: 600px) {
-  .introduction .container h1 {
-    padding-top: 20vw;
-    font-size: 18vw;
-    padding-bottom: 4vw; }
-  .introduction .container p.concept_sp {
-    font-size: 4.7vw;
-    line-height: 9vw;
-    padding: 0vw 9vw 4vw 9vw; }
-  .introduction .container p.capture_sp {
-    line-height: 7vw; }
-  .introduction .container p.tsubasa {
-    width: 42vw; }
+  .introduction .container {
+    height: 90vh; }
+    .introduction .container h1 {
+      padding-top: 16vw;
+      font-size: 18vw;
+      padding-bottom: 4vw; }
+    .introduction .container p.concept_sp {
+      font-size: 4.7vw;
+      line-height: 9vw;
+      padding: 0vw 9vw 4vw 9vw; }
+    .introduction .container p.capture_sp {
+      line-height: 7vw; }
+    .introduction .container p.tsubasa {
+      width: 42vw; }
 
   .sp_menu_wrap .menu-btn {
     font-size: 12px; }
     .sp_menu_wrap .menu-btn span.navi {
       padding: 5px 9px; }
-  .sp_menu_wrap .menu_sp .close {
-    font-size: 12vw;
-    margin-left: 85vw;
-    margin-top: 12px; }
   .sp_menu_wrap .menu_sp ul li {
     letter-spacing: 4px;
     font-size: 8.5vw; }
